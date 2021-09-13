@@ -16,34 +16,906 @@ $EndDescr
 $Comp
 L Custom_Sensor_Touch:IS31SE5100 U?
 U 1 1 613ABADF
-P 3800 1800
-F 0 "U?" H 3800 1815 50  0000 C CNN
-F 1 "IS31SE5100" H 3800 1724 50  0000 C CNN
-F 2 "" H 3800 1800 50  0001 C CNN
-F 3 "" H 3800 1800 50  0001 C CNN
-	1    3800 1800
+P 1300 1550
+F 0 "U?" H 1300 1565 50  0000 C CNN
+F 1 "IS31SE5100" H 1300 1474 50  0000 C CNN
+F 2 "" H 1300 1550 50  0001 C CNN
+F 3 "" H 1300 1550 50  0001 C CNN
+	1    1300 1550
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR?
 U 1 1 613AC3B6
-P 3000 1650
-F 0 "#PWR?" H 3000 1500 50  0001 C CNN
-F 1 "+3.3V" H 3015 1823 50  0000 C CNN
-F 2 "" H 3000 1650 50  0001 C CNN
-F 3 "" H 3000 1650 50  0001 C CNN
-	1    3000 1650
+P 700 1700
+F 0 "#PWR?" H 700 1550 50  0001 C CNN
+F 1 "+3.3V" H 715 1873 50  0000 C CNN
+F 2 "" H 700 1700 50  0001 C CNN
+F 3 "" H 700 1700 50  0001 C CNN
+	1    700  1700
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 613AC829
-P 2400 1650
-F 0 "#PWR?" H 2400 1400 50  0001 C CNN
-F 1 "GND" H 2405 1477 50  0000 C CNN
-F 2 "" H 2400 1650 50  0001 C CNN
-F 3 "" H 2400 1650 50  0001 C CNN
-	1    2400 1650
+P 1900 3800
+F 0 "#PWR?" H 1900 3550 50  0001 C CNN
+F 1 "GND" H 1905 3627 50  0000 C CNN
+F 2 "" H 1900 3800 50  0001 C CNN
+F 3 "" H 1900 3800 50  0001 C CNN
+	1    1900 3800
 	1    0    0    -1  
 $EndComp
+$Comp
+L Custom_Interface_Expansion:MAX7301 U?
+U 1 1 613C1F0D
+P 6200 1550
+F 0 "U?" H 6200 1615 50  0000 C CNN
+F 1 "MAX7301" H 6200 1524 50  0000 C CNN
+F 2 "" H 6200 1550 50  0001 C CNN
+F 3 "" H 6200 1550 50  0001 C CNN
+	1    6200 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 613C9E86
+P 5300 2350
+F 0 "#PWR?" H 5300 2100 50  0001 C CNN
+F 1 "GND" H 5305 2177 50  0000 C CNN
+F 2 "" H 5300 2350 50  0001 C CNN
+F 3 "" H 5300 2350 50  0001 C CNN
+	1    5300 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 613CF946
+P 5550 2350
+F 0 "R?" V 5354 2350 50  0000 C CNN
+F 1 "39k" V 5445 2350 50  0000 C CNN
+F 2 "" H 5550 2350 50  0001 C CNN
+F 3 "~" H 5550 2350 50  0001 C CNN
+	1    5550 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5800 2350 5650 2350
+Wire Wire Line
+	5450 2350 5300 2350
+Wire Wire Line
+	5800 1900 5800 2050
+$Comp
+L power:GND #PWR?
+U 1 1 613D8BB8
+P 5700 1900
+F 0 "#PWR?" H 5700 1650 50  0001 C CNN
+F 1 "GND" H 5705 1727 50  0000 C CNN
+F 2 "" H 5700 1900 50  0001 C CNN
+F 3 "" H 5700 1900 50  0001 C CNN
+	1    5700 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 1900 5700 1900
+Connection ~ 5800 1900
+$Comp
+L power:+3.3V #PWR?
+U 1 1 613D9C34
+P 5700 1650
+F 0 "#PWR?" H 5700 1500 50  0001 C CNN
+F 1 "+3.3V" H 5715 1823 50  0000 C CNN
+F 2 "" H 5700 1650 50  0001 C CNN
+F 3 "" H 5700 1650 50  0001 C CNN
+	1    5700 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 1750 5700 1750
+Wire Wire Line
+	5700 1750 5700 1650
+Text GLabel 6600 1750 2    50   Input ~ 0
+BUTTON1
+Text GLabel 5800 2650 0    50   Input ~ 0
+~CS
+Text GLabel 5800 2800 0    50   Input ~ 0
+SCKL
+Text GLabel 6600 1900 2    50   Input ~ 0
+BUTTON2
+Text GLabel 6600 2050 2    50   Input ~ 0
+BUTTON3
+Text GLabel 6600 2200 2    50   Input ~ 0
+BUTTON4
+Text GLabel 6600 2350 2    50   Input ~ 0
+BUTTON5
+Text GLabel 6600 2500 2    50   Input ~ 0
+BUTTON6
+Text GLabel 6600 2650 2    50   Input ~ 0
+BUTTON7
+Text GLabel 6600 2800 2    50   Input ~ 0
+BUTTON8
+Text GLabel 6600 2950 2    50   Input ~ 0
+BUTTON9
+Text GLabel 6600 3100 2    50   Input ~ 0
+BUTTON10
+Text GLabel 6600 3250 2    50   Input ~ 0
+BUTTON11
+Text GLabel 6600 3400 2    50   Input ~ 0
+BUTTON12
+Text GLabel 6600 3550 2    50   Input ~ 0
+BUTTON13
+Text GLabel 6600 3700 2    50   Input ~ 0
+BUTTON14
+Text GLabel 6600 3850 2    50   Input ~ 0
+BUTTON15
+Text GLabel 6600 4000 2    50   Input ~ 0
+BUTTON16
+Text GLabel 6600 4150 2    50   Input ~ 0
+BUTTON17
+Text GLabel 6600 4300 2    50   Input ~ 0
+BUTTON18
+Text GLabel 6600 4450 2    50   Input ~ 0
+BUTTON19
+Text GLabel 6600 4600 2    50   Input ~ 0
+BUTTON20
+Text GLabel 5800 4600 0    50   Input ~ 0
+BUTTON21
+Text GLabel 5800 4450 0    50   Input ~ 0
+BUTTON22
+Text GLabel 5800 4300 0    50   Input ~ 0
+BUTTON23
+Text GLabel 5800 4150 0    50   Input ~ 0
+BUTTON24
+NoConn ~ 5800 3550
+NoConn ~ 5800 3700
+NoConn ~ 5800 3850
+NoConn ~ 5800 4000
+$Comp
+L Custom_Interface_Expansion:MAX7301 U?
+U 1 1 613F99EC
+P 8500 1550
+F 0 "U?" H 8500 1615 50  0000 C CNN
+F 1 "MAX7301" H 8500 1524 50  0000 C CNN
+F 2 "" H 8500 1550 50  0001 C CNN
+F 3 "" H 8500 1550 50  0001 C CNN
+	1    8500 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 613F99F2
+P 7600 2350
+F 0 "#PWR?" H 7600 2100 50  0001 C CNN
+F 1 "GND" H 7605 2177 50  0000 C CNN
+F 2 "" H 7600 2350 50  0001 C CNN
+F 3 "" H 7600 2350 50  0001 C CNN
+	1    7600 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 613F99F8
+P 7850 2350
+F 0 "R?" V 7654 2350 50  0000 C CNN
+F 1 "39k" V 7745 2350 50  0000 C CNN
+F 2 "" H 7850 2350 50  0001 C CNN
+F 3 "~" H 7850 2350 50  0001 C CNN
+	1    7850 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8100 2350 7950 2350
+Wire Wire Line
+	7750 2350 7600 2350
+Wire Wire Line
+	8100 1900 8100 2050
+$Comp
+L power:GND #PWR?
+U 1 1 613F9A01
+P 8000 1900
+F 0 "#PWR?" H 8000 1650 50  0001 C CNN
+F 1 "GND" H 8005 1727 50  0000 C CNN
+F 2 "" H 8000 1900 50  0001 C CNN
+F 3 "" H 8000 1900 50  0001 C CNN
+	1    8000 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 1900 8000 1900
+Connection ~ 8100 1900
+$Comp
+L power:+3.3V #PWR?
+U 1 1 613F9A09
+P 8000 1650
+F 0 "#PWR?" H 8000 1500 50  0001 C CNN
+F 1 "+3.3V" H 8015 1823 50  0000 C CNN
+F 2 "" H 8000 1650 50  0001 C CNN
+F 3 "" H 8000 1650 50  0001 C CNN
+	1    8000 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 1750 8000 1750
+Wire Wire Line
+	8000 1750 8000 1650
+Text GLabel 8900 1750 2    50   Input ~ 0
+BUTTON25
+Text GLabel 8100 2650 0    50   Input ~ 0
+~CS
+Text GLabel 8100 2800 0    50   Input ~ 0
+SCKL
+Text GLabel 8900 1900 2    50   Input ~ 0
+BUTTON26
+Text GLabel 8900 2050 2    50   Input ~ 0
+BUTTON27
+Text GLabel 8900 2200 2    50   Input ~ 0
+BUTTON28
+Text GLabel 8900 2350 2    50   Input ~ 0
+BUTTON29
+Text GLabel 8900 2500 2    50   Input ~ 0
+BUTTON30
+Text GLabel 8900 2650 2    50   Input ~ 0
+BUTTON31
+Text GLabel 8900 2800 2    50   Input ~ 0
+BUTTON32
+Text GLabel 8900 2950 2    50   Input ~ 0
+BUTTON33
+Text GLabel 8900 3100 2    50   Input ~ 0
+BUTTON34
+Text GLabel 8900 3250 2    50   Input ~ 0
+BUTTON35
+Text GLabel 8900 3400 2    50   Input ~ 0
+BUTTON36
+Text GLabel 8900 3550 2    50   Input ~ 0
+BUTTON37
+Text GLabel 8900 3700 2    50   Input ~ 0
+BUTTON38
+Text GLabel 8900 3850 2    50   Input ~ 0
+BUTTON39
+Text GLabel 8900 4000 2    50   Input ~ 0
+BUTTON40
+Text GLabel 8900 4150 2    50   Input ~ 0
+BUTTON41
+Text GLabel 8900 4300 2    50   Input ~ 0
+BUTTON42
+Text GLabel 8900 4450 2    50   Input ~ 0
+BUTTON43
+Text GLabel 8900 4600 2    50   Input ~ 0
+BUTTON44
+Text GLabel 8100 4600 0    50   Input ~ 0
+BUTTON45
+Text GLabel 8100 4450 0    50   Input ~ 0
+BUTTON46
+Text GLabel 8100 4300 0    50   Input ~ 0
+BUTTON47
+Text GLabel 8100 4150 0    50   Input ~ 0
+BUTTON48
+NoConn ~ 8100 3550
+NoConn ~ 8100 3700
+NoConn ~ 8100 3850
+NoConn ~ 8100 4000
+$Comp
+L Custom_Interface_Expansion:MAX7301 U?
+U 1 1 6140B35F
+P 10800 1550
+F 0 "U?" H 10800 1615 50  0000 C CNN
+F 1 "MAX7301" H 10800 1524 50  0000 C CNN
+F 2 "" H 10800 1550 50  0001 C CNN
+F 3 "" H 10800 1550 50  0001 C CNN
+	1    10800 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6140B365
+P 9900 2350
+F 0 "#PWR?" H 9900 2100 50  0001 C CNN
+F 1 "GND" H 9905 2177 50  0000 C CNN
+F 2 "" H 9900 2350 50  0001 C CNN
+F 3 "" H 9900 2350 50  0001 C CNN
+	1    9900 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6140B36B
+P 10150 2350
+F 0 "R?" V 9954 2350 50  0000 C CNN
+F 1 "39k" V 10045 2350 50  0000 C CNN
+F 2 "" H 10150 2350 50  0001 C CNN
+F 3 "~" H 10150 2350 50  0001 C CNN
+	1    10150 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10400 2350 10250 2350
+Wire Wire Line
+	10050 2350 9900 2350
+Wire Wire Line
+	10400 1900 10400 2050
+$Comp
+L power:GND #PWR?
+U 1 1 6140B374
+P 10300 1900
+F 0 "#PWR?" H 10300 1650 50  0001 C CNN
+F 1 "GND" H 10305 1727 50  0000 C CNN
+F 2 "" H 10300 1900 50  0001 C CNN
+F 3 "" H 10300 1900 50  0001 C CNN
+	1    10300 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10400 1900 10300 1900
+Connection ~ 10400 1900
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6140B37C
+P 10300 1650
+F 0 "#PWR?" H 10300 1500 50  0001 C CNN
+F 1 "+3.3V" H 10315 1823 50  0000 C CNN
+F 2 "" H 10300 1650 50  0001 C CNN
+F 3 "" H 10300 1650 50  0001 C CNN
+	1    10300 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10400 1750 10300 1750
+Wire Wire Line
+	10300 1750 10300 1650
+Text GLabel 11200 1750 2    50   Input ~ 0
+BUTTON49
+Text GLabel 10400 2650 0    50   Input ~ 0
+~CS
+Text GLabel 10400 2800 0    50   Input ~ 0
+SCKL
+Text GLabel 11200 1900 2    50   Input ~ 0
+BUTTON50
+Text GLabel 11200 2050 2    50   Input ~ 0
+BUTTON51
+Text GLabel 11200 2200 2    50   Input ~ 0
+BUTTON52
+Text GLabel 11200 2350 2    50   Input ~ 0
+BUTTON53
+Text GLabel 11200 2500 2    50   Input ~ 0
+BUTTON54
+Text GLabel 11200 2650 2    50   Input ~ 0
+BUTTON55
+Text GLabel 11200 2800 2    50   Input ~ 0
+BUTTON56
+Text GLabel 11200 2950 2    50   Input ~ 0
+BUTTON57
+Text GLabel 11200 3100 2    50   Input ~ 0
+BUTTON58
+Text GLabel 11200 3250 2    50   Input ~ 0
+BUTTON59
+Text GLabel 11200 3400 2    50   Input ~ 0
+BUTTON60
+Text GLabel 11200 3550 2    50   Input ~ 0
+BUTTON61
+Text GLabel 11200 3700 2    50   Input ~ 0
+BUTTON62
+Text GLabel 11200 3850 2    50   Input ~ 0
+BUTTON63
+Text GLabel 11200 4000 2    50   Input ~ 0
+BUTTON64
+Text GLabel 11200 4150 2    50   Input ~ 0
+BUTTON65
+Text GLabel 11200 4300 2    50   Input ~ 0
+BUTTON66
+Text GLabel 11200 4450 2    50   Input ~ 0
+BUTTON67
+Text GLabel 11200 4600 2    50   Input ~ 0
+BUTTON68
+Text GLabel 10400 4600 0    50   Input ~ 0
+BUTTON69
+Text GLabel 10400 4450 0    50   Input ~ 0
+BUTTON70
+Text GLabel 10400 4300 0    50   Input ~ 0
+BUTTON71
+Text GLabel 10400 4150 0    50   Input ~ 0
+BUTTON72
+NoConn ~ 10400 3550
+NoConn ~ 10400 3700
+NoConn ~ 10400 3850
+NoConn ~ 10400 4000
+$Comp
+L Custom_Interface_Expansion:MAX7301 U?
+U 1 1 6140B3A2
+P 13100 1550
+F 0 "U?" H 13100 1615 50  0000 C CNN
+F 1 "MAX7301" H 13100 1524 50  0000 C CNN
+F 2 "" H 13100 1550 50  0001 C CNN
+F 3 "" H 13100 1550 50  0001 C CNN
+	1    13100 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6140B3A8
+P 12200 2350
+F 0 "#PWR?" H 12200 2100 50  0001 C CNN
+F 1 "GND" H 12205 2177 50  0000 C CNN
+F 2 "" H 12200 2350 50  0001 C CNN
+F 3 "" H 12200 2350 50  0001 C CNN
+	1    12200 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6140B3AE
+P 12450 2350
+F 0 "R?" V 12254 2350 50  0000 C CNN
+F 1 "39k" V 12345 2350 50  0000 C CNN
+F 2 "" H 12450 2350 50  0001 C CNN
+F 3 "~" H 12450 2350 50  0001 C CNN
+	1    12450 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12700 2350 12550 2350
+Wire Wire Line
+	12350 2350 12200 2350
+Wire Wire Line
+	12700 1900 12700 2050
+$Comp
+L power:GND #PWR?
+U 1 1 6140B3B7
+P 12600 1900
+F 0 "#PWR?" H 12600 1650 50  0001 C CNN
+F 1 "GND" H 12605 1727 50  0000 C CNN
+F 2 "" H 12600 1900 50  0001 C CNN
+F 3 "" H 12600 1900 50  0001 C CNN
+	1    12600 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12700 1900 12600 1900
+Connection ~ 12700 1900
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6140B3BF
+P 12600 1650
+F 0 "#PWR?" H 12600 1500 50  0001 C CNN
+F 1 "+3.3V" H 12615 1823 50  0000 C CNN
+F 2 "" H 12600 1650 50  0001 C CNN
+F 3 "" H 12600 1650 50  0001 C CNN
+	1    12600 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12700 1750 12600 1750
+Wire Wire Line
+	12600 1750 12600 1650
+Text GLabel 13500 1750 2    50   Input ~ 0
+BUTTON73
+Text GLabel 12700 2650 0    50   Input ~ 0
+~CS
+Text GLabel 12700 2800 0    50   Input ~ 0
+SCKL
+Text GLabel 13500 1900 2    50   Input ~ 0
+BUTTON74
+Text GLabel 13500 2050 2    50   Input ~ 0
+BUTTON75
+Text GLabel 13500 2200 2    50   Input ~ 0
+BUTTON76
+Text GLabel 13500 2350 2    50   Input ~ 0
+BUTTON77
+Text GLabel 13500 2500 2    50   Input ~ 0
+BUTTON78
+Text GLabel 13500 2650 2    50   Input ~ 0
+BUTTON79
+Text GLabel 13500 2800 2    50   Input ~ 0
+BUTTON80
+Text GLabel 13500 2950 2    50   Input ~ 0
+BUTTON81
+Text GLabel 13500 3100 2    50   Input ~ 0
+BUTTON82
+Text GLabel 13500 3250 2    50   Input ~ 0
+BUTTON83
+Text GLabel 13500 3400 2    50   Input ~ 0
+BUTTON84
+Text GLabel 13500 3550 2    50   Input ~ 0
+BUTTON85
+Text GLabel 13500 3700 2    50   Input ~ 0
+BUTTON86
+Text GLabel 13500 3850 2    50   Input ~ 0
+BUTTON87
+Text GLabel 13500 4000 2    50   Input ~ 0
+BUTTON88
+Text GLabel 13500 4150 2    50   Input ~ 0
+BUTTON89
+Text GLabel 13500 4300 2    50   Input ~ 0
+BUTTON90
+Text GLabel 13500 4450 2    50   Input ~ 0
+BUTTON91
+Text GLabel 13500 4600 2    50   Input ~ 0
+BUTTON92
+Text GLabel 12700 4600 0    50   Input ~ 0
+BUTTON93
+Text GLabel 12700 4450 0    50   Input ~ 0
+BUTTON94
+Text GLabel 12700 4300 0    50   Input ~ 0
+BUTTON95
+Text GLabel 12700 4150 0    50   Input ~ 0
+BUTTON96
+NoConn ~ 12700 3550
+NoConn ~ 12700 3700
+NoConn ~ 12700 3850
+NoConn ~ 12700 4000
+$Comp
+L Custom_Interface_Expansion:MAX7301 U?
+U 1 1 61419071
+P 15350 1550
+F 0 "U?" H 15350 1615 50  0000 C CNN
+F 1 "MAX7301" H 15350 1524 50  0000 C CNN
+F 2 "" H 15350 1550 50  0001 C CNN
+F 3 "" H 15350 1550 50  0001 C CNN
+	1    15350 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61419077
+P 14450 2350
+F 0 "#PWR?" H 14450 2100 50  0001 C CNN
+F 1 "GND" H 14455 2177 50  0000 C CNN
+F 2 "" H 14450 2350 50  0001 C CNN
+F 3 "" H 14450 2350 50  0001 C CNN
+	1    14450 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6141907D
+P 14700 2350
+F 0 "R?" V 14504 2350 50  0000 C CNN
+F 1 "39k" V 14595 2350 50  0000 C CNN
+F 2 "" H 14700 2350 50  0001 C CNN
+F 3 "~" H 14700 2350 50  0001 C CNN
+	1    14700 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14950 2350 14800 2350
+Wire Wire Line
+	14600 2350 14450 2350
+Wire Wire Line
+	14950 1900 14950 2050
+$Comp
+L power:GND #PWR?
+U 1 1 61419086
+P 14850 1900
+F 0 "#PWR?" H 14850 1650 50  0001 C CNN
+F 1 "GND" H 14855 1727 50  0000 C CNN
+F 2 "" H 14850 1900 50  0001 C CNN
+F 3 "" H 14850 1900 50  0001 C CNN
+	1    14850 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14950 1900 14850 1900
+Connection ~ 14950 1900
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6141908E
+P 14850 1650
+F 0 "#PWR?" H 14850 1500 50  0001 C CNN
+F 1 "+3.3V" H 14865 1823 50  0000 C CNN
+F 2 "" H 14850 1650 50  0001 C CNN
+F 3 "" H 14850 1650 50  0001 C CNN
+	1    14850 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14950 1750 14850 1750
+Wire Wire Line
+	14850 1750 14850 1650
+Text GLabel 15750 1750 2    50   Input ~ 0
+BUTTON97
+Text GLabel 14950 2650 0    50   Input ~ 0
+~CS
+Text GLabel 14950 2800 0    50   Input ~ 0
+SCKL
+Text GLabel 15750 1900 2    50   Input ~ 0
+BUTTON98
+Text GLabel 15750 2050 2    50   Input ~ 0
+BUTTON99
+Text GLabel 15750 2200 2    50   Input ~ 0
+BUTTON100
+Text GLabel 15750 2350 2    50   Input ~ 0
+BUTTON101
+Text GLabel 15750 2500 2    50   Input ~ 0
+BUTTON102
+Text GLabel 15750 2650 2    50   Input ~ 0
+BUTTON103
+Text GLabel 15750 2800 2    50   Input ~ 0
+BUTTON104
+Text GLabel 15750 2950 2    50   Input ~ 0
+BUTTON105
+Text GLabel 15750 3100 2    50   Input ~ 0
+BUTTON106
+Text GLabel 15750 3250 2    50   Input ~ 0
+BUTTON107
+Text GLabel 15750 3400 2    50   Input ~ 0
+BUTTON108
+Text GLabel 15750 3550 2    50   Input ~ 0
+BUTTON109
+Text GLabel 15750 3700 2    50   Input ~ 0
+BUTTON110
+Text GLabel 15750 3850 2    50   Input ~ 0
+BUTTON111
+Text GLabel 15750 4000 2    50   Input ~ 0
+BUTTON112
+Text GLabel 15750 4150 2    50   Input ~ 0
+BUTTON113
+Text GLabel 15750 4300 2    50   Input ~ 0
+BUTTON114
+Text GLabel 15750 4450 2    50   Input ~ 0
+BUTTON115
+Text GLabel 15750 4600 2    50   Input ~ 0
+BUTTON116
+Text GLabel 14950 4600 0    50   Input ~ 0
+BUTTON117
+Text GLabel 14950 4450 0    50   Input ~ 0
+BUTTON118
+Text GLabel 14950 4300 0    50   Input ~ 0
+BUTTON119
+Text GLabel 14950 4150 0    50   Input ~ 0
+BUTTON120
+NoConn ~ 14950 3550
+NoConn ~ 14950 3700
+NoConn ~ 14950 3850
+NoConn ~ 14950 4000
+$Comp
+L Custom_Interface_Expansion:MAX7301 U?
+U 1 1 614190B4
+P 17650 1550
+F 0 "U?" H 17650 1615 50  0000 C CNN
+F 1 "MAX7301" H 17650 1524 50  0000 C CNN
+F 2 "" H 17650 1550 50  0001 C CNN
+F 3 "" H 17650 1550 50  0001 C CNN
+	1    17650 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 614190BA
+P 16750 2350
+F 0 "#PWR?" H 16750 2100 50  0001 C CNN
+F 1 "GND" H 16755 2177 50  0000 C CNN
+F 2 "" H 16750 2350 50  0001 C CNN
+F 3 "" H 16750 2350 50  0001 C CNN
+	1    16750 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 614190C0
+P 17000 2350
+F 0 "R?" V 16804 2350 50  0000 C CNN
+F 1 "39k" V 16895 2350 50  0000 C CNN
+F 2 "" H 17000 2350 50  0001 C CNN
+F 3 "~" H 17000 2350 50  0001 C CNN
+	1    17000 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	17250 2350 17100 2350
+Wire Wire Line
+	16900 2350 16750 2350
+Wire Wire Line
+	17250 1900 17250 2050
+$Comp
+L power:GND #PWR?
+U 1 1 614190C9
+P 17150 1900
+F 0 "#PWR?" H 17150 1650 50  0001 C CNN
+F 1 "GND" H 17155 1727 50  0000 C CNN
+F 2 "" H 17150 1900 50  0001 C CNN
+F 3 "" H 17150 1900 50  0001 C CNN
+	1    17150 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17250 1900 17150 1900
+Connection ~ 17250 1900
+$Comp
+L power:+3.3V #PWR?
+U 1 1 614190D1
+P 17150 1650
+F 0 "#PWR?" H 17150 1500 50  0001 C CNN
+F 1 "+3.3V" H 17165 1823 50  0000 C CNN
+F 2 "" H 17150 1650 50  0001 C CNN
+F 3 "" H 17150 1650 50  0001 C CNN
+	1    17150 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17250 1750 17150 1750
+Wire Wire Line
+	17150 1750 17150 1650
+Text GLabel 18050 1750 2    50   Input ~ 0
+BUTTON121
+Text GLabel 17250 2650 0    50   Input ~ 0
+~CS
+Text GLabel 17250 2800 0    50   Input ~ 0
+SCKL
+Text GLabel 18050 1900 2    50   Input ~ 0
+BUTTON122
+Text GLabel 18050 2050 2    50   Input ~ 0
+BUTTON123
+Text GLabel 18050 2200 2    50   Input ~ 0
+BUTTON124
+Text GLabel 18050 2350 2    50   Input ~ 0
+BUTTON125
+Text GLabel 18050 2500 2    50   Input ~ 0
+BUTTON126
+Text GLabel 18050 2650 2    50   Input ~ 0
+BUTTON127
+Text GLabel 18050 2800 2    50   Input ~ 0
+BUTTON128
+Text GLabel 18050 2950 2    50   Input ~ 0
+BUTTON129
+Text GLabel 18050 3100 2    50   Input ~ 0
+BUTTON130
+Text GLabel 18050 3250 2    50   Input ~ 0
+BUTTON131
+Text GLabel 18050 3400 2    50   Input ~ 0
+BUTTON132
+Text GLabel 18050 3550 2    50   Input ~ 0
+BUTTON133
+Text GLabel 18050 3700 2    50   Input ~ 0
+BUTTON134
+Text GLabel 18050 3850 2    50   Input ~ 0
+BUTTON135
+Text GLabel 18050 4000 2    50   Input ~ 0
+BUTTON136
+Text GLabel 18050 4150 2    50   Input ~ 0
+BUTTON137
+Text GLabel 18050 4300 2    50   Input ~ 0
+BUTTON138
+Text GLabel 18050 4450 2    50   Input ~ 0
+BUTTON139
+Text GLabel 18050 4600 2    50   Input ~ 0
+BUTTON140
+Text GLabel 17250 4600 0    50   Input ~ 0
+BUTTON141
+Text GLabel 17250 4450 0    50   Input ~ 0
+BUTTON142
+Text GLabel 17250 4300 0    50   Input ~ 0
+BUTTON143
+Text GLabel 17250 4150 0    50   Input ~ 0
+BUTTON144
+NoConn ~ 17250 3550
+NoConn ~ 17250 3700
+NoConn ~ 17250 3850
+NoConn ~ 17250 4000
+$Comp
+L power:+3.3V #PWR?
+U 1 1 613CA466
+P 10850 450
+F 0 "#PWR?" H 10850 300 50  0001 C CNN
+F 1 "+3.3V" H 10865 623 50  0000 C CNN
+F 2 "" H 10850 450 50  0001 C CNN
+F 3 "" H 10850 450 50  0001 C CNN
+	1    10850 450 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 613CA749
+P 10850 650
+F 0 "C?" H 10942 696 50  0000 L CNN
+F 1 "47nF" H 10942 605 50  0000 L CNN
+F 2 "" H 10850 650 50  0001 C CNN
+F 3 "~" H 10850 650 50  0001 C CNN
+	1    10850 650 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 613DBA71
+P 12850 850
+F 0 "#PWR?" H 12850 600 50  0001 C CNN
+F 1 "GND" H 12855 677 50  0000 C CNN
+F 2 "" H 12850 850 50  0001 C CNN
+F 3 "" H 12850 850 50  0001 C CNN
+	1    12850 850 
+	1    0    0    -1  
+$EndComp
+Text Notes 10550 0    0    50   ~ 0
+1 decoupling capactor 47nF per MAX7301
+$Comp
+L Device:C_Small C?
+U 1 1 61437C50
+P 11250 650
+F 0 "C?" H 11342 696 50  0000 L CNN
+F 1 "47nF" H 11342 605 50  0000 L CNN
+F 2 "" H 11250 650 50  0001 C CNN
+F 3 "~" H 11250 650 50  0001 C CNN
+	1    11250 650 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61438091
+P 11650 650
+F 0 "C?" H 11742 696 50  0000 L CNN
+F 1 "47nF" H 11742 605 50  0000 L CNN
+F 2 "" H 11650 650 50  0001 C CNN
+F 3 "~" H 11650 650 50  0001 C CNN
+	1    11650 650 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61439C3C
+P 12050 650
+F 0 "C?" H 12142 696 50  0000 L CNN
+F 1 "47nF" H 12142 605 50  0000 L CNN
+F 2 "" H 12050 650 50  0001 C CNN
+F 3 "~" H 12050 650 50  0001 C CNN
+	1    12050 650 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6143A694
+P 12450 650
+F 0 "C?" H 12542 696 50  0000 L CNN
+F 1 "47nF" H 12542 605 50  0000 L CNN
+F 2 "" H 12450 650 50  0001 C CNN
+F 3 "~" H 12450 650 50  0001 C CNN
+	1    12450 650 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6143A959
+P 12850 650
+F 0 "C?" H 12942 696 50  0000 L CNN
+F 1 "47nF" H 12942 605 50  0000 L CNN
+F 2 "" H 12850 650 50  0001 C CNN
+F 3 "~" H 12850 650 50  0001 C CNN
+	1    12850 650 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10850 550  11250 550 
+Connection ~ 11250 550 
+Wire Wire Line
+	11250 550  11650 550 
+Connection ~ 11650 550 
+Wire Wire Line
+	11650 550  12050 550 
+Connection ~ 12050 550 
+Wire Wire Line
+	12050 550  12450 550 
+Connection ~ 12450 550 
+Wire Wire Line
+	12450 550  12850 550 
+Wire Wire Line
+	10850 750  11250 750 
+Connection ~ 11250 750 
+Wire Wire Line
+	11250 750  11650 750 
+Connection ~ 11650 750 
+Wire Wire Line
+	11650 750  12050 750 
+Connection ~ 12050 750 
+Wire Wire Line
+	12050 750  12450 750 
+Connection ~ 12450 750 
+Wire Wire Line
+	12450 750  12850 750 
+Wire Wire Line
+	10850 450  10850 550 
+Connection ~ 10850 550 
+Wire Wire Line
+	12850 750  12850 850 
+Connection ~ 12850 750 
+Text Notes 10550 -200 0    50   ~ 0
+1 bulk decoupling capacitor\n
+Text Notes 10550 -400 0    50   ~ 0
+can leave disconnected output pins on the max7301 because of internal pull-ups\n
 $EndSCHEMATC
