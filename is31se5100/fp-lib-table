@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Touch_Capacitive_Electrode)(type KiCad)(uri ${KIPRJMOD}/Touch_Capacitive_Electrode.pretty)(options "")(descr ""))
+)
