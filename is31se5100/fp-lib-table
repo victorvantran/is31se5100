@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name Touch_Capacitive_Electrode)(type KiCad)(uri ${KIPRJMOD}/Touch_Capacitive_Electrode.pretty)(options "")(descr ""))
   (lib (name Custom_Electrode)(type KiCad)(uri ${KIPRJMOD}/Custom_Electrode.pretty)(options "")(descr ""))
+  (lib (name Custom)(type KiCad)(uri ${KIPRJMOD}/Custom.pretty)(options "")(descr ""))
 )

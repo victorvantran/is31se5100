@@ -1,4 +1,4 @@
-19268312834056840
+19269945457874338
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -48768,6 +48768,13 @@ THT ceramic resonator filter DSS6
 0
 3
 3
+Custom
+MAX7301AAX
+
+
+0
+36
+36
 Custom_Electrode
 Circle_5mm
 
@@ -48815,8 +48822,8 @@ Rect_1.1684x9.663mm
 
 
 0
-0
-0
+1
+1
 Custom_Electrode
 Rect_1.1684x12.174mm
 
