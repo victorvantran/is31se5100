@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 68898 19685
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -526,511 +526,6 @@ Text GLabel 8450 9450 0    50   Output ~ 0
 INTB1
 Text Notes 2100 9550 0    50   ~ 0
 INTB is an interrupt line that is open drain\n (I beileve it is open drain)
-Connection ~ 32350 7900
-Wire Wire Line
-	32350 7900 32350 8000
-Wire Wire Line
-	32350 7900 32800 7900
-Connection ~ 32350 7700
-Wire Wire Line
-	32350 7700 32800 7700
-Wire Wire Line
-	32350 7600 32350 7700
-$Comp
-L Device:C_Small C71
-U 1 1 6171DF8D
-P 32350 7800
-F 0 "C71" H 32442 7846 50  0000 L CNN
-F 1 "10uF" H 32442 7755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 32350 7800 50  0001 C CNN
-F 3 "~" H 32350 7800 50  0001 C CNN
-	1    32350 7800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C72
-U 1 1 6171DF93
-P 32800 7800
-F 0 "C72" H 32892 7846 50  0000 L CNN
-F 1 "0.1uF" H 32892 7755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 32800 7800 50  0001 C CNN
-F 3 "~" H 32800 7800 50  0001 C CNN
-	1    32800 7800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	32800 7700 33300 7700
-Connection ~ 32800 7700
-Wire Wire Line
-	34300 9600 34400 9600
-Wire Wire Line
-	34400 9600 34400 9700
-Wire Wire Line
-	34300 9450 34400 9450
-Wire Wire Line
-	34400 9450 34400 9600
-Connection ~ 34400 9600
-Wire Wire Line
-	34300 9300 34400 9300
-Wire Wire Line
-	34400 9300 34400 9450
-Connection ~ 34400 9450
-$Comp
-L Custom_Sensor_Touch:IS31SE5100-SALS2 U117
-U 1 1 6171DFAA
-P 33800 7400
-F 0 "U117" H 33800 7365 50  0000 C CNN
-F 1 "IS31SE5100-SALS2" H 33800 7274 50  0000 C CNN
-F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 33800 7400 50  0001 C CNN
-F 3 "" H 33800 7400 50  0001 C CNN
-	1    33800 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R86
-U 1 1 6171DFBD
-P 32900 8700
-F 0 "R86" V 32704 8700 50  0000 C CNN
-F 1 "510" V 32795 8700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 32900 8700 50  0001 C CNN
-F 3 "~" H 32900 8700 50  0001 C CNN
-	1    32900 8700
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R88
-U 1 1 6171DFC3
-P 33100 8550
-F 0 "R88" V 32904 8550 50  0000 C CNN
-F 1 "510" V 32995 8550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 33100 8550 50  0001 C CNN
-F 3 "~" H 33100 8550 50  0001 C CNN
-	1    33100 8550
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R83
-U 1 1 6171DFC9
-P 32700 8850
-F 0 "R83" V 32504 8850 50  0000 C CNN
-F 1 "510" V 32595 8850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 32700 8850 50  0001 C CNN
-F 3 "~" H 32700 8850 50  0001 C CNN
-	1    32700 8850
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R81
-U 1 1 6171DFCF
-P 32500 9000
-F 0 "R81" V 32304 9000 50  0000 C CNN
-F 1 "510" V 32395 9000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 32500 9000 50  0001 C CNN
-F 3 "~" H 32500 9000 50  0001 C CNN
-	1    32500 9000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R89
-U 1 1 6171DFD5
-P 33100 9150
-F 0 "R89" V 32904 9150 50  0000 C CNN
-F 1 "510" V 32995 9150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 33100 9150 50  0001 C CNN
-F 3 "~" H 33100 9150 50  0001 C CNN
-	1    33100 9150
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R87
-U 1 1 6171DFDB
-P 32900 9300
-F 0 "R87" V 32704 9300 50  0000 C CNN
-F 1 "510" V 32795 9300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 32900 9300 50  0001 C CNN
-F 3 "~" H 32900 9300 50  0001 C CNN
-	1    32900 9300
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R84
-U 1 1 6171DFE1
-P 32700 9450
-F 0 "R84" V 32504 9450 50  0000 C CNN
-F 1 "510" V 32595 9450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 32700 9450 50  0001 C CNN
-F 3 "~" H 32700 9450 50  0001 C CNN
-	1    32700 9450
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R82
-U 1 1 6171DFE7
-P 32500 9600
-F 0 "R82" V 32304 9600 50  0000 C CNN
-F 1 "510" V 32395 9600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 32500 9600 50  0001 C CNN
-F 3 "~" H 32500 9600 50  0001 C CNN
-	1    32500 9600
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	33300 9600 32600 9600
-Wire Wire Line
-	33300 9450 32800 9450
-Wire Wire Line
-	33300 9300 33000 9300
-Wire Wire Line
-	33300 9150 33200 9150
-Wire Wire Line
-	33300 9000 32600 9000
-Wire Wire Line
-	33300 8850 32800 8850
-Wire Wire Line
-	33300 8700 33000 8700
-Wire Wire Line
-	33300 8550 33200 8550
-Wire Wire Line
-	33000 8550 30200 8550
-Wire Wire Line
-	30100 8700 30500 8700
-Wire Wire Line
-	32600 8850 30800 8850
-Wire Wire Line
-	30100 9000 31100 9000
-Wire Wire Line
-	33000 9150 31400 9150
-Wire Wire Line
-	30100 9300 31700 9300
-Wire Wire Line
-	32600 9450 32000 9450
-Wire Wire Line
-	30100 9600 32300 9600
-Wire Wire Line
-	30200 9700 30200 8550
-Connection ~ 30200 8550
-Wire Wire Line
-	30200 8550 30100 8550
-Wire Wire Line
-	30500 9700 30500 8700
-Connection ~ 30500 8700
-Wire Wire Line
-	30500 8700 32800 8700
-Wire Wire Line
-	30800 9700 30800 8850
-Connection ~ 30800 8850
-Wire Wire Line
-	30800 8850 30100 8850
-Wire Wire Line
-	31100 9700 31100 9000
-Connection ~ 31100 9000
-Wire Wire Line
-	31100 9000 32400 9000
-Wire Wire Line
-	31400 9700 31400 9150
-Connection ~ 31400 9150
-Wire Wire Line
-	31400 9150 30100 9150
-Wire Wire Line
-	31700 9700 31700 9300
-Connection ~ 31700 9300
-Wire Wire Line
-	31700 9300 32800 9300
-Wire Wire Line
-	32000 9700 32000 9450
-Connection ~ 32000 9450
-Wire Wire Line
-	32000 9450 30100 9450
-Wire Wire Line
-	32300 9700 32300 9600
-Connection ~ 32300 9600
-Wire Wire Line
-	32300 9600 32400 9600
-Text GLabel 33300 7900 0    50   Input ~ 0
-SCL_CTRL
-Text GLabel 33300 8050 0    50   Input ~ 0
-SDA_CTRL
-Text GLabel 33300 8200 0    50   Output ~ 0
-INTB_CTRL
-$Comp
-L Device:LED_Small D4
-U 1 1 617E28F1
-P 34450 7100
-F 0 "D4" V 34496 7030 50  0000 R CNN
-F 1 "Y" V 34405 7030 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 34450 7100 50  0001 C CNN
-F 3 "~" V 34450 7100 50  0001 C CNN
-	1    34450 7100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small R90
-U 1 1 617FD618
-P 34450 7400
-F 0 "R90" H 34509 7446 50  0000 L CNN
-F 1 "1k" H 34509 7355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 34450 7400 50  0001 C CNN
-F 3 "~" H 34450 7400 50  0001 C CNN
-	1    34450 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R91
-U 1 1 6180C6B8
-P 34750 7400
-F 0 "R91" H 34809 7446 50  0000 L CNN
-F 1 "1k" H 34809 7355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 34750 7400 50  0001 C CNN
-F 3 "~" H 34750 7400 50  0001 C CNN
-	1    34750 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R92
-U 1 1 6180DC19
-P 35050 7400
-F 0 "R92" H 35109 7446 50  0000 L CNN
-F 1 "1k" H 35109 7355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 35050 7400 50  0001 C CNN
-F 3 "~" H 35050 7400 50  0001 C CNN
-	1    35050 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R93
-U 1 1 6181BFF9
-P 35350 7400
-F 0 "R93" H 35409 7446 50  0000 L CNN
-F 1 "1k" H 35409 7355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 35350 7400 50  0001 C CNN
-F 3 "~" H 35350 7400 50  0001 C CNN
-	1    35350 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R94
-U 1 1 6181E559
-P 35650 7400
-F 0 "R94" H 35709 7446 50  0000 L CNN
-F 1 "1k" H 35709 7355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 35650 7400 50  0001 C CNN
-F 3 "~" H 35650 7400 50  0001 C CNN
-	1    35650 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED_Small D5
-U 1 1 6184782F
-P 34750 7100
-F 0 "D5" V 34796 7030 50  0000 R CNN
-F 1 "Y" V 34705 7030 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 34750 7100 50  0001 C CNN
-F 3 "~" V 34750 7100 50  0001 C CNN
-	1    34750 7100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:LED_Small D6
-U 1 1 61849275
-P 35050 7100
-F 0 "D6" V 35096 7030 50  0000 R CNN
-F 1 "Y" V 35005 7030 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 35050 7100 50  0001 C CNN
-F 3 "~" V 35050 7100 50  0001 C CNN
-	1    35050 7100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:LED_Small D7
-U 1 1 6184927B
-P 35350 7100
-F 0 "D7" V 35396 7030 50  0000 R CNN
-F 1 "Y" V 35305 7030 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 35350 7100 50  0001 C CNN
-F 3 "~" V 35350 7100 50  0001 C CNN
-	1    35350 7100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:LED_Small D9
-U 1 1 61858D8F
-P 35650 7100
-F 0 "D9" V 35696 7030 50  0000 R CNN
-F 1 "Y" V 35605 7030 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 35650 7100 50  0001 C CNN
-F 3 "~" V 35650 7100 50  0001 C CNN
-	1    35650 7100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:LED_Small D10
-U 1 1 61858D95
-P 35950 7100
-F 0 "D10" V 35996 7030 50  0000 R CNN
-F 1 "Y" V 35905 7030 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 35950 7100 50  0001 C CNN
-F 3 "~" V 35950 7100 50  0001 C CNN
-	1    35950 7100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:LED_Small D11
-U 1 1 61858D9B
-P 36250 7100
-F 0 "D11" V 36296 7030 50  0000 R CNN
-F 1 "Y" V 36205 7030 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 36250 7100 50  0001 C CNN
-F 3 "~" V 36250 7100 50  0001 C CNN
-	1    36250 7100
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	34450 6900 34450 7000
-Wire Wire Line
-	34450 7000 34750 7000
-Connection ~ 34450 7000
-Connection ~ 34750 7000
-Wire Wire Line
-	34750 7000 35050 7000
-Connection ~ 35050 7000
-Wire Wire Line
-	35050 7000 35350 7000
-Connection ~ 35350 7000
-Wire Wire Line
-	35350 7000 35650 7000
-Connection ~ 35650 7000
-Wire Wire Line
-	35650 7000 35950 7000
-Connection ~ 35950 7000
-Wire Wire Line
-	35950 7000 36250 7000
-Wire Wire Line
-	34450 7200 34450 7300
-Wire Wire Line
-	34750 7200 34750 7300
-Wire Wire Line
-	35050 7200 35050 7300
-Wire Wire Line
-	35350 7200 35350 7300
-Wire Wire Line
-	35650 7200 35650 7300
-Wire Wire Line
-	35950 7200 35950 7300
-Wire Wire Line
-	36250 7200 36250 7300
-$Comp
-L Device:R_Small R98
-U 1 1 619D8C60
-P 37900 7650
-F 0 "R98" V 37704 7650 50  0000 C CNN
-F 1 "39k" V 37795 7650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 37900 7650 50  0001 C CNN
-F 3 "~" H 37900 7650 50  0001 C CNN
-	1    37900 7650
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	38150 7650 38000 7650
-Wire Wire Line
-	37800 7650 37650 7650
-Wire Wire Line
-	38150 7200 38150 7350
-Text GLabel 38150 7950 0    50   Input ~ 0
-~CS_CTRL
-Text GLabel 38150 8100 0    50   Input ~ 0
-SCKL_CTRL
-NoConn ~ 38150 8850
-NoConn ~ 38150 9000
-NoConn ~ 38150 9150
-NoConn ~ 38150 9300
-NoConn ~ 38150 9450
-NoConn ~ 38150 9600
-NoConn ~ 38150 9750
-NoConn ~ 38150 9900
-NoConn ~ 38950 9900
-NoConn ~ 38950 9750
-NoConn ~ 38950 9600
-NoConn ~ 38950 9450
-NoConn ~ 38950 9300
-NoConn ~ 38950 9150
-NoConn ~ 38950 9000
-NoConn ~ 38950 8850
-NoConn ~ 38950 8700
-NoConn ~ 38950 8550
-NoConn ~ 38950 8400
-NoConn ~ 38950 8250
-$Comp
-L Device:C_Small C73
-U 1 1 61DBFB8E
-P 37650 7150
-F 0 "C73" H 37742 7196 50  0000 L CNN
-F 1 "47nF" H 37742 7105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 37650 7150 50  0001 C CNN
-F 3 "~" H 37650 7150 50  0001 C CNN
-	1    37650 7150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	37650 7250 37650 7350
-Wire Wire Line
-	37650 7350 38150 7350
-Wire Wire Line
-	37650 7350 37650 7650
-Connection ~ 37650 7350
-Wire Wire Line
-	37650 7050 38150 7050
-Text Notes 33050 6400 0    50   ~ 0
-Control that tests one IS31SE5100 and one MAX7301 with jumpers\n
-Wire Wire Line
-	36550 7200 36550 7300
-Connection ~ 36250 7000
-Wire Wire Line
-	36250 7000 36550 7000
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JP24
-U 1 1 620FFDCF
-P 36550 8750
-F 0 "JP24" V 36504 8818 50  0000 L CNN
-F 1 "SolderJumper_3_Bridged12" V 36595 8818 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 36550 8750 50  0001 C CNN
-F 3 "~" H 36550 8750 50  0001 C CNN
-	1    36550 8750
-	0    1    1    0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JP23
-U 1 1 6217EFC7
-P 36250 8600
-F 0 "JP23" V 36204 8668 50  0000 L CNN
-F 1 "SolderJumper_3_Bridged12" V 36295 8668 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 36250 8600 50  0001 C CNN
-F 3 "~" H 36250 8600 50  0001 C CNN
-	1    36250 8600
-	0    1    1    0   
-$EndComp
-Text GLabel 38150 8250 0    50   Input ~ 0
-DIN_CTRL
-Text GLabel 38150 8400 0    50   Output ~ 0
-DOUT_CTRL
-$Comp
-L Connector_Generic:Conn_01x04 J27
-U 1 1 62264DFF
-P 37450 8000
-F 0 "J27" H 37368 7575 50  0000 C CNN
-F 1 "Conn_01x04" H 37368 7666 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 37450 8000 50  0001 C CNN
-F 3 "~" H 37450 8000 50  0001 C CNN
-	1    37450 8000
-	1    0    0    -1  
-$EndComp
-Text GLabel 37250 7900 0    50   Input ~ 0
-~CS_CTRL
-Text GLabel 37250 8000 0    50   Input ~ 0
-SCKL_CTRL
-Text GLabel 37250 8100 0    50   Input ~ 0
-DIN_CTRL
-Text GLabel 37250 8200 0    50   Output ~ 0
-DOUT_CTRL
 $Comp
 L power:GND #PWR066
 U 1 1 6245AAEF
@@ -3210,34 +2705,6 @@ Wire Wire Line
 	13800 16450 13800 16350
 Wire Wire Line
 	13900 16450 13800 16450
-$Comp
-L Device:R_Small R85
-U 1 1 6424E82E
-P 32800 8350
-F 0 "R85" V 32604 8350 50  0000 C CNN
-F 1 "10k" V 32695 8350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 32800 8350 50  0001 C CNN
-F 3 "~" H 32800 8350 50  0001 C CNN
-	1    32800 8350
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+3.3V #PWR081
-U 1 1 6424E834
-P 32600 8250
-F 0 "#PWR081" H 32600 8100 50  0001 C CNN
-F 1 "+3.3V" H 32615 8423 50  0000 C CNN
-F 2 "" H 32600 8250 50  0001 C CNN
-F 3 "" H 32600 8250 50  0001 C CNN
-	1    32600 8250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	33300 8350 32900 8350
-Wire Wire Line
-	32600 8350 32600 8250
-Wire Wire Line
-	32700 8350 32600 8350
 Wire Wire Line
 	13050 6400 13150 6400
 Wire Wire Line
@@ -3705,248 +3172,8 @@ Wire Wire Line
 Connection ~ 3250 10450
 Text Notes 18450 5800 0    50   ~ 0
 1 bulk decoupling capacitor?\n
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JP8
-U 1 1 616A81CF
-P 27850 6750
-F 0 "JP8" H 27850 6863 50  0000 C CNN
-F 1 "SolderJumper_3_Bridged12" H 27850 6954 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 27850 6750 50  0001 C CNN
-F 3 "~" H 27850 6750 50  0001 C CNN
-	1    27850 6750
-	-1   0    0    1   
-$EndComp
-Text GLabel 30100 8550 0    50   Input ~ 0
-ELECTRODE1
-Text GLabel 30100 8700 0    50   Input ~ 0
-ELECTRODE2
-Text GLabel 30100 8850 0    50   Input ~ 0
-ELECTRODE3
-Text GLabel 30100 9000 0    50   Input ~ 0
-ELECTRODE4
-Text GLabel 30100 9150 0    50   Input ~ 0
-ELECTRODE5
-Text GLabel 30100 9300 0    50   Input ~ 0
-ELECTRODE6
-Text GLabel 30100 9450 0    50   Input ~ 0
-ELECTRODE7
-Text GLabel 30100 9600 0    50   Input ~ 0
-ELECTRODE8
-Text GLabel 28050 6750 2    50   Input ~ 0
-ELECTRODE1
-Text GLabel 27650 6750 0    50   Input ~ 0
-ALT1
 Text Notes 8150 8350 0    50   ~ 0
 IS31SE5100 does not source from its output; only sinks. that makes sense because the outputs are either pull down (sink) or floating (disconnect/no source).
-Connection ~ 37650 7050
-Wire Wire Line
-	37650 7050 37650 6950
-$Comp
-L Device:LED_Small D12
-U 1 1 61858DA1
-P 36550 7100
-F 0 "D12" V 36596 7030 50  0000 R CNN
-F 1 "Y" V 36505 7030 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 36550 7100 50  0001 C CNN
-F 3 "~" V 36550 7100 50  0001 C CNN
-	1    36550 7100
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	30200 9900 30200 10000
-$Comp
-L Custom_Sensor_Touch:Electrode U60
-U 1 1 63EBCC4D
-P 27700 6500
-F 0 "U60" V 27738 6272 50  0000 R CNN
-F 1 "Electrode" V 27647 6272 50  0000 R CNN
-F 2 "" H 27700 6500 50  0001 C CNN
-F 3 "" H 27700 6500 50  0001 C CNN
-	1    27700 6500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JP9
-U 1 1 641E2004
-P 27850 7450
-F 0 "JP9" H 27850 7563 50  0000 C CNN
-F 1 "SolderJumper_3_Bridged12" H 27850 7654 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 27850 7450 50  0001 C CNN
-F 3 "~" H 27850 7450 50  0001 C CNN
-	1    27850 7450
-	-1   0    0    1   
-$EndComp
-Text GLabel 28050 7450 2    50   Input ~ 0
-ELECTRODE2
-Text GLabel 27650 7450 0    50   Input ~ 0
-ALT2
-$Comp
-L Custom_Sensor_Touch:Electrode U61
-U 1 1 641E200C
-P 27700 7200
-F 0 "U61" V 27738 6972 50  0000 R CNN
-F 1 "Electrode" V 27647 6972 50  0000 R CNN
-F 2 "" H 27700 7200 50  0001 C CNN
-F 3 "" H 27700 7200 50  0001 C CNN
-	1    27700 7200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JP10
-U 1 1 642AF1D6
-P 27850 8150
-F 0 "JP10" H 27850 8263 50  0000 C CNN
-F 1 "SolderJumper_3_Bridged12" H 27850 8354 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 27850 8150 50  0001 C CNN
-F 3 "~" H 27850 8150 50  0001 C CNN
-	1    27850 8150
-	-1   0    0    1   
-$EndComp
-Text GLabel 28050 8150 2    50   Input ~ 0
-ELECTRODE3
-Text GLabel 27650 8150 0    50   Input ~ 0
-ALT3
-$Comp
-L Custom_Sensor_Touch:Electrode U62
-U 1 1 642AF1DE
-P 27700 7900
-F 0 "U62" V 27738 7672 50  0000 R CNN
-F 1 "Electrode" V 27647 7672 50  0000 R CNN
-F 2 "" H 27700 7900 50  0001 C CNN
-F 3 "" H 27700 7900 50  0001 C CNN
-	1    27700 7900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JP11
-U 1 1 642AF1E4
-P 27850 8850
-F 0 "JP11" H 27850 8963 50  0000 C CNN
-F 1 "SolderJumper_3_Bridged12" H 27850 9054 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 27850 8850 50  0001 C CNN
-F 3 "~" H 27850 8850 50  0001 C CNN
-	1    27850 8850
-	-1   0    0    1   
-$EndComp
-Text GLabel 28050 8850 2    50   Input ~ 0
-ELECTRODE4
-Text GLabel 27650 8850 0    50   Input ~ 0
-ALT4
-$Comp
-L Custom_Sensor_Touch:Electrode U63
-U 1 1 642AF1EC
-P 27700 8600
-F 0 "U63" V 27738 8372 50  0000 R CNN
-F 1 "Electrode" V 27647 8372 50  0000 R CNN
-F 2 "" H 27700 8600 50  0001 C CNN
-F 3 "" H 27700 8600 50  0001 C CNN
-	1    27700 8600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JP12
-U 1 1 6444B064
-P 27850 9550
-F 0 "JP12" H 27850 9663 50  0000 C CNN
-F 1 "SolderJumper_3_Bridged12" H 27850 9754 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 27850 9550 50  0001 C CNN
-F 3 "~" H 27850 9550 50  0001 C CNN
-	1    27850 9550
-	-1   0    0    1   
-$EndComp
-Text GLabel 28050 9550 2    50   Input ~ 0
-ELECTRODE5
-Text GLabel 27650 9550 0    50   Input ~ 0
-ALT5
-$Comp
-L Custom_Sensor_Touch:Electrode U64
-U 1 1 6444B06C
-P 27700 9300
-F 0 "U64" V 27738 9072 50  0000 R CNN
-F 1 "Electrode" V 27647 9072 50  0000 R CNN
-F 2 "" H 27700 9300 50  0001 C CNN
-F 3 "" H 27700 9300 50  0001 C CNN
-	1    27700 9300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JP13
-U 1 1 6444B072
-P 27850 10250
-F 0 "JP13" H 27850 10363 50  0000 C CNN
-F 1 "SolderJumper_3_Bridged12" H 27850 10454 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 27850 10250 50  0001 C CNN
-F 3 "~" H 27850 10250 50  0001 C CNN
-	1    27850 10250
-	-1   0    0    1   
-$EndComp
-Text GLabel 28050 10250 2    50   Input ~ 0
-ELECTRODE6
-Text GLabel 27650 10250 0    50   Input ~ 0
-ALT6
-$Comp
-L Custom_Sensor_Touch:Electrode U65
-U 1 1 6444B07A
-P 27700 10000
-F 0 "U65" V 27738 9772 50  0000 R CNN
-F 1 "Electrode" V 27647 9772 50  0000 R CNN
-F 2 "" H 27700 10000 50  0001 C CNN
-F 3 "" H 27700 10000 50  0001 C CNN
-	1    27700 10000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JP14
-U 1 1 6444B080
-P 27850 10950
-F 0 "JP14" H 27850 11063 50  0000 C CNN
-F 1 "SolderJumper_3_Bridged12" H 27850 11154 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 27850 10950 50  0001 C CNN
-F 3 "~" H 27850 10950 50  0001 C CNN
-	1    27850 10950
-	-1   0    0    1   
-$EndComp
-Text GLabel 28050 10950 2    50   Input ~ 0
-ELECTRODE7
-Text GLabel 27650 10950 0    50   Input ~ 0
-ALT7
-$Comp
-L Custom_Sensor_Touch:Electrode U66
-U 1 1 6444B088
-P 27700 10700
-F 0 "U66" V 27738 10472 50  0000 R CNN
-F 1 "Electrode" V 27647 10472 50  0000 R CNN
-F 2 "" H 27700 10700 50  0001 C CNN
-F 3 "" H 27700 10700 50  0001 C CNN
-	1    27700 10700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JP15
-U 1 1 6444B08E
-P 27850 11650
-F 0 "JP15" H 27850 11763 50  0000 C CNN
-F 1 "SolderJumper_3_Bridged12" H 27850 11854 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 27850 11650 50  0001 C CNN
-F 3 "~" H 27850 11650 50  0001 C CNN
-	1    27850 11650
-	-1   0    0    1   
-$EndComp
-Text GLabel 28050 11650 2    50   Input ~ 0
-ELECTRODE8
-Text GLabel 27650 11650 0    50   Input ~ 0
-ALT8
-$Comp
-L Custom_Sensor_Touch:Electrode U67
-U 1 1 6444B096
-P 27700 11400
-F 0 "U67" V 27738 11172 50  0000 R CNN
-F 1 "Electrode" V 27647 11172 50  0000 R CNN
-F 2 "" H 27700 11400 50  0001 C CNN
-F 3 "" H 27700 11400 50  0001 C CNN
-	1    27700 11400
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Device:R_Small R5
 U 1 1 652B68A2
@@ -4124,88 +3351,6 @@ F 3 "~" H 15200 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Power:3.3V_CTRL #PWR93
-U 1 1 6B44C7E4
-P 37650 6750
-F 0 "#PWR93" H 37635 6816 50  0001 C CNN
-F 1 "3.3V_CTRL" H 37635 6725 50  0000 C CNN
-F 2 "" H 37650 6800 50  0001 C CNN
-F 3 "" H 37650 6800 50  0001 C CNN
-	1    37650 6750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R95
-U 1 1 6BC8AF69
-P 35950 7400
-F 0 "R95" H 36009 7446 50  0000 L CNN
-F 1 "1k" H 36009 7355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 35950 7400 50  0001 C CNN
-F 3 "~" H 35950 7400 50  0001 C CNN
-	1    35950 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R96
-U 1 1 6BC8B2AF
-P 36250 7400
-F 0 "R96" H 36309 7446 50  0000 L CNN
-F 1 "1k" H 36309 7355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 36250 7400 50  0001 C CNN
-F 3 "~" H 36250 7400 50  0001 C CNN
-	1    36250 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R97
-U 1 1 6BC8B46A
-P 36550 7400
-F 0 "R97" H 36609 7446 50  0000 L CNN
-F 1 "1k" H 36609 7355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 36550 7400 50  0001 C CNN
-F 3 "~" H 36550 7400 50  0001 C CNN
-	1    36550 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Power:3.3V_CTRL #PWR79
-U 1 1 6BC8C4CC
-P 32350 7400
-F 0 "#PWR79" H 32335 7466 50  0001 C CNN
-F 1 "3.3V_CTRL" H 32335 7375 50  0000 C CNN
-F 2 "" H 32350 7450 50  0001 C CNN
-F 3 "" H 32350 7450 50  0001 C CNN
-	1    32350 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x08 J11
-U 1 1 6CB09154
-P 26550 9300
-F 0 "J11" H 26630 9292 50  0000 L CNN
-F 1 "Conn_01x08" H 26630 9201 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 26550 9300 50  0001 C CNN
-F 3 "~" H 26550 9300 50  0001 C CNN
-	1    26550 9300
-	1    0    0    -1  
-$EndComp
-Text GLabel 26350 9000 0    50   Input ~ 0
-ALT1
-Text GLabel 26350 9100 0    50   Input ~ 0
-ALT2
-Text GLabel 26350 9200 0    50   Input ~ 0
-ALT3
-Text GLabel 26350 9300 0    50   Input ~ 0
-ALT4
-Text GLabel 26350 9400 0    50   Input ~ 0
-ALT5
-Text GLabel 26350 9500 0    50   Input ~ 0
-ALT6
-Text GLabel 26350 9600 0    50   Input ~ 0
-ALT7
-Text GLabel 26350 9700 0    50   Input ~ 0
-ALT8
-$Comp
 L Device:C_Small CX25
 U 1 1 6E1F63DB
 P 44650 3950
@@ -4218,115 +3363,6 @@ F 3 "~" H 44650 3950 50  0001 C CNN
 $EndComp
 NoConn ~ 44650 3850
 NoConn ~ 44650 4050
-Connection ~ 30200 9900
-Connection ~ 32000 9900
-Wire Wire Line
-	31700 9900 31400 9900
-Connection ~ 31700 9900
-Connection ~ 31400 9900
-Wire Wire Line
-	31400 9900 31100 9900
-Wire Wire Line
-	31100 9900 30800 9900
-Connection ~ 31100 9900
-Connection ~ 30800 9900
-Wire Wire Line
-	30800 9900 30500 9900
-Wire Wire Line
-	30500 9900 30200 9900
-Connection ~ 30500 9900
-Wire Wire Line
-	32000 9900 31700 9900
-Wire Wire Line
-	32300 9900 32000 9900
-$Comp
-L Device:C_Small C63
-U 1 1 6171E019
-P 30200 9800
-F 0 "C63" H 30292 9846 50  0000 L CNN
-F 1 "6pF" H 30292 9755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 30200 9800 50  0001 C CNN
-F 3 "~" H 30200 9800 50  0001 C CNN
-	1    30200 9800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C64
-U 1 1 6171E013
-P 30500 9800
-F 0 "C64" H 30592 9846 50  0000 L CNN
-F 1 "6pF" H 30592 9755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 30500 9800 50  0001 C CNN
-F 3 "~" H 30500 9800 50  0001 C CNN
-	1    30500 9800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C65
-U 1 1 6171E00D
-P 30800 9800
-F 0 "C65" H 30892 9846 50  0000 L CNN
-F 1 "6pF" H 30892 9755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 30800 9800 50  0001 C CNN
-F 3 "~" H 30800 9800 50  0001 C CNN
-	1    30800 9800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C66
-U 1 1 6171E007
-P 31100 9800
-F 0 "C66" H 31192 9846 50  0000 L CNN
-F 1 "6pF" H 31192 9755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 31100 9800 50  0001 C CNN
-F 3 "~" H 31100 9800 50  0001 C CNN
-	1    31100 9800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C67
-U 1 1 6171E001
-P 31400 9800
-F 0 "C67" H 31492 9846 50  0000 L CNN
-F 1 "6pF" H 31492 9755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 31400 9800 50  0001 C CNN
-F 3 "~" H 31400 9800 50  0001 C CNN
-	1    31400 9800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C68
-U 1 1 6171DFFB
-P 31700 9800
-F 0 "C68" H 31792 9846 50  0000 L CNN
-F 1 "6pF" H 31792 9755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 31700 9800 50  0001 C CNN
-F 3 "~" H 31700 9800 50  0001 C CNN
-	1    31700 9800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C69
-U 1 1 6171DFED
-P 32000 9800
-F 0 "C69" H 32092 9846 50  0000 L CNN
-F 1 "6pF" H 32092 9755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 32000 9800 50  0001 C CNN
-F 3 "~" H 32000 9800 50  0001 C CNN
-	1    32000 9800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C70
-U 1 1 6171DFB7
-P 32300 9800
-F 0 "C70" H 32392 9846 50  0000 L CNN
-F 1 "6pF" H 32392 9755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 32300 9800 50  0001 C CNN
-F 3 "~" H 32300 9800 50  0001 C CNN
-	1    32300 9800
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C_Small C3
 U 1 1 71DE25CE
@@ -5771,1995 +4807,14 @@ Wire Wire Line
 Connection ~ 13250 11250
 Wire Wire Line
 	13250 11250 13550 11250
-Text Notes 32750 12950 0    50   ~ 0
-Alternative electrodes to test based on sizes
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JP18
-U 1 1 78767733
-P 34750 7850
-F 0 "JP18" V 34704 7918 50  0000 L CNN
-F 1 "SolderJumper_3_Bridged12" V 34795 7918 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 34750 7850 50  0001 C CNN
-F 3 "~" H 34750 7850 50  0001 C CNN
-	1    34750 7850
-	0    1    1    0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JP19
-U 1 1 7876824A
-P 35050 8000
-F 0 "JP19" V 35004 8068 50  0000 L CNN
-F 1 "SolderJumper_3_Bridged12" V 35095 8068 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 35050 8000 50  0001 C CNN
-F 3 "~" H 35050 8000 50  0001 C CNN
-	1    35050 8000
-	0    1    1    0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JP20
-U 1 1 78768B99
-P 35350 8150
-F 0 "JP20" V 35304 8218 50  0000 L CNN
-F 1 "SolderJumper_3_Bridged12" V 35395 8218 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 35350 8150 50  0001 C CNN
-F 3 "~" H 35350 8150 50  0001 C CNN
-	1    35350 8150
-	0    1    1    0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JP21
-U 1 1 78769F36
-P 35650 8300
-F 0 "JP21" V 35604 8368 50  0000 L CNN
-F 1 "SolderJumper_3_Bridged12" V 35695 8368 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 35650 8300 50  0001 C CNN
-F 3 "~" H 35650 8300 50  0001 C CNN
-	1    35650 8300
-	0    1    1    0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JP22
-U 1 1 78A1B190
-P 35950 8450
-F 0 "JP22" V 35904 8518 50  0000 L CNN
-F 1 "SolderJumper_3_Bridged12" V 35995 8518 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 35950 8450 50  0001 C CNN
-F 3 "~" H 35950 8450 50  0001 C CNN
-	1    35950 8450
-	0    1    1    0   
-$EndComp
-Connection ~ 38150 7350
-$Comp
-L Custom_Interface_Expansion:MAX7301 U190
-U 1 1 619D8C54
-P 38550 6850
-F 0 "U190" H 38550 6915 50  0000 C CNN
-F 1 "MAX7301" H 38550 6824 50  0000 C CNN
-F 2 "Custom:MAX7301AAX" H 38550 6850 50  0001 C CNN
-F 3 "" H 38550 6850 50  0001 C CNN
-	1    38550 6850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	34300 7850 34600 7850
-Wire Wire Line
-	34750 7650 34750 7500
-Wire Wire Line
-	35050 7800 35050 7500
-Wire Wire Line
-	34300 8150 35200 8150
-Wire Wire Line
-	35350 7950 35350 7500
-Wire Wire Line
-	34300 8300 35500 8300
-Wire Wire Line
-	35650 8100 35650 7500
-Wire Wire Line
-	34300 8450 35800 8450
-Wire Wire Line
-	35950 8250 35950 7500
-Wire Wire Line
-	34300 8600 36100 8600
-Wire Wire Line
-	36250 8400 36250 7500
-Wire Wire Line
-	34300 8750 36400 8750
-Wire Wire Line
-	36550 8550 36550 7500
-Wire Wire Line
-	36550 8950 36550 10100
-Wire Wire Line
-	36550 10100 39050 10100
-Wire Wire Line
-	39050 10100 39050 8100
-Wire Wire Line
-	39050 8100 38950 8100
-Wire Wire Line
-	36250 8800 36250 10200
-Wire Wire Line
-	36250 10200 39150 10200
-Wire Wire Line
-	39150 10200 39150 7950
-Wire Wire Line
-	39150 7950 38950 7950
-Wire Wire Line
-	35950 8650 35950 10300
-Wire Wire Line
-	35950 10300 39250 10300
-Wire Wire Line
-	39250 10300 39250 7800
-Wire Wire Line
-	39250 7800 38950 7800
-Wire Wire Line
-	35650 8500 35650 10400
-Wire Wire Line
-	35650 10400 39350 10400
-Wire Wire Line
-	39350 10400 39350 7650
-Wire Wire Line
-	39350 7650 38950 7650
-Wire Wire Line
-	35350 8350 35350 10500
-Wire Wire Line
-	35350 10500 39450 10500
-Wire Wire Line
-	39450 10500 39450 7500
-Wire Wire Line
-	39450 7500 38950 7500
-Wire Wire Line
-	35050 8200 35050 10600
-Wire Wire Line
-	35050 10600 39550 10600
-Wire Wire Line
-	39550 10600 39550 7350
-Wire Wire Line
-	39550 7350 38950 7350
-Wire Wire Line
-	34750 10700 39650 10700
-Wire Wire Line
-	39650 10700 39650 7200
-Wire Wire Line
-	39650 7200 38950 7200
-Wire Wire Line
-	34750 8050 34750 10700
-Wire Wire Line
-	34300 8000 34900 8000
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JP17
-U 1 1 7866F195
-P 34450 7700
-F 0 "JP17" V 34404 7768 50  0000 L CNN
-F 1 "SolderJumper_3_Bridged12" V 34495 7768 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 34450 7700 50  0001 C CNN
-F 3 "~" H 34450 7700 50  0001 C CNN
-	1    34450 7700
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	34450 7900 34450 10800
-Wire Wire Line
-	34450 10800 39750 10800
-Wire Wire Line
-	39750 10800 39750 7050
-Wire Wire Line
-	39750 7050 38950 7050
 Text GLabel 21200 8100 0    50   Input ~ 0
 DOUT
-$Comp
-L Custom_Sensor_Touch:Electrode U115
-U 1 1 775043F4
-P 32200 16350
-F 0 "U115" H 32500 16150 50  0000 C CNN
-F 1 "Electrode" H 32500 16200 50  0000 C CNN
-F 2 "" H 32200 16350 50  0001 C CNN
-F 3 "" H 32200 16350 50  0001 C CNN
-	1    32200 16350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U114
-U 1 1 775043EE
-P 32200 16250
-F 0 "U114" H 32500 16050 50  0000 C CNN
-F 1 "Electrode" H 32500 16100 50  0000 C CNN
-F 2 "" H 32200 16250 50  0001 C CNN
-F 3 "" H 32200 16250 50  0001 C CNN
-	1    32200 16250
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U113
-U 1 1 775043E8
-P 32200 16150
-F 0 "U113" H 32500 15950 50  0000 C CNN
-F 1 "Electrode" H 32500 16000 50  0000 C CNN
-F 2 "" H 32200 16150 50  0001 C CNN
-F 3 "" H 32200 16150 50  0001 C CNN
-	1    32200 16150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U112
-U 1 1 775043E2
-P 32200 16050
-F 0 "U112" H 32500 15850 50  0000 C CNN
-F 1 "Electrode" H 32500 15900 50  0000 C CNN
-F 2 "" H 32200 16050 50  0001 C CNN
-F 3 "" H 32200 16050 50  0001 C CNN
-	1    32200 16050
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U111
-U 1 1 775043DC
-P 32200 15950
-F 0 "U111" H 32500 15750 50  0000 C CNN
-F 1 "Electrode" H 32500 15800 50  0000 C CNN
-F 2 "" H 32200 15950 50  0001 C CNN
-F 3 "" H 32200 15950 50  0001 C CNN
-	1    32200 15950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U110
-U 1 1 775043D6
-P 32200 15850
-F 0 "U110" H 32500 15650 50  0000 C CNN
-F 1 "Electrode" H 32500 15700 50  0000 C CNN
-F 2 "" H 32200 15850 50  0001 C CNN
-F 3 "" H 32200 15850 50  0001 C CNN
-	1    32200 15850
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U109
-U 1 1 775043D0
-P 32200 15750
-F 0 "U109" H 32500 15550 50  0000 C CNN
-F 1 "Electrode" H 32500 15600 50  0000 C CNN
-F 2 "" H 32200 15750 50  0001 C CNN
-F 3 "" H 32200 15750 50  0001 C CNN
-	1    32200 15750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x08 J20
-U 1 1 775043CA
-P 32500 15800
-F 0 "J20" H 32580 15792 50  0000 L CNN
-F 1 "Conn_01x08" H 32580 15701 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 32500 15800 50  0001 C CNN
-F 3 "~" H 32500 15800 50  0001 C CNN
-	1    32500 15800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U108
-U 1 1 775043C4
-P 32200 15650
-F 0 "U108" H 32500 15450 50  0000 C CNN
-F 1 "Electrode" H 32500 15500 50  0000 C CNN
-F 2 "" H 32200 15650 50  0001 C CNN
-F 3 "" H 32200 15650 50  0001 C CNN
-	1    32200 15650
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U107
-U 1 1 775043BE
-P 32200 15350
-F 0 "U107" H 32500 15150 50  0000 C CNN
-F 1 "Electrode" H 32500 15200 50  0000 C CNN
-F 2 "" H 32200 15350 50  0001 C CNN
-F 3 "" H 32200 15350 50  0001 C CNN
-	1    32200 15350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U106
-U 1 1 775043B8
-P 32200 15250
-F 0 "U106" H 32500 15050 50  0000 C CNN
-F 1 "Electrode" H 32500 15100 50  0000 C CNN
-F 2 "" H 32200 15250 50  0001 C CNN
-F 3 "" H 32200 15250 50  0001 C CNN
-	1    32200 15250
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U105
-U 1 1 775043B2
-P 32200 15150
-F 0 "U105" H 32500 14950 50  0000 C CNN
-F 1 "Electrode" H 32500 15000 50  0000 C CNN
-F 2 "" H 32200 15150 50  0001 C CNN
-F 3 "" H 32200 15150 50  0001 C CNN
-	1    32200 15150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U104
-U 1 1 775043AC
-P 32200 15050
-F 0 "U104" H 32500 14850 50  0000 C CNN
-F 1 "Electrode" H 32500 14900 50  0000 C CNN
-F 2 "" H 32200 15050 50  0001 C CNN
-F 3 "" H 32200 15050 50  0001 C CNN
-	1    32200 15050
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U103
-U 1 1 775043A6
-P 32200 14950
-F 0 "U103" H 32500 14750 50  0000 C CNN
-F 1 "Electrode" H 32500 14800 50  0000 C CNN
-F 2 "" H 32200 14950 50  0001 C CNN
-F 3 "" H 32200 14950 50  0001 C CNN
-	1    32200 14950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U102
-U 1 1 775043A0
-P 32200 14850
-F 0 "U102" H 32500 14650 50  0000 C CNN
-F 1 "Electrode" H 32500 14700 50  0000 C CNN
-F 2 "" H 32200 14850 50  0001 C CNN
-F 3 "" H 32200 14850 50  0001 C CNN
-	1    32200 14850
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U101
-U 1 1 7750439A
-P 32200 14750
-F 0 "U101" H 32500 14550 50  0000 C CNN
-F 1 "Electrode" H 32500 14600 50  0000 C CNN
-F 2 "" H 32200 14750 50  0001 C CNN
-F 3 "" H 32200 14750 50  0001 C CNN
-	1    32200 14750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x08 J19
-U 1 1 77504394
-P 32500 14800
-F 0 "J19" H 32580 14792 50  0000 L CNN
-F 1 "Conn_01x08" H 32580 14701 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 32500 14800 50  0001 C CNN
-F 3 "~" H 32500 14800 50  0001 C CNN
-	1    32500 14800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U100
-U 1 1 7750438E
-P 32200 14650
-F 0 "U100" H 32500 14450 50  0000 C CNN
-F 1 "Electrode" H 32500 14500 50  0000 C CNN
-F 2 "" H 32200 14650 50  0001 C CNN
-F 3 "" H 32200 14650 50  0001 C CNN
-	1    32200 14650
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U99
-U 1 1 77504388
-P 32200 14350
-F 0 "U99" H 32500 14150 50  0000 C CNN
-F 1 "Electrode" H 32500 14200 50  0000 C CNN
-F 2 "" H 32200 14350 50  0001 C CNN
-F 3 "" H 32200 14350 50  0001 C CNN
-	1    32200 14350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U98
-U 1 1 77504382
-P 32200 14250
-F 0 "U98" H 32500 14050 50  0000 C CNN
-F 1 "Electrode" H 32500 14100 50  0000 C CNN
-F 2 "" H 32200 14250 50  0001 C CNN
-F 3 "" H 32200 14250 50  0001 C CNN
-	1    32200 14250
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U97
-U 1 1 7750437C
-P 32200 14150
-F 0 "U97" H 32500 13950 50  0000 C CNN
-F 1 "Electrode" H 32500 14000 50  0000 C CNN
-F 2 "" H 32200 14150 50  0001 C CNN
-F 3 "" H 32200 14150 50  0001 C CNN
-	1    32200 14150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U96
-U 1 1 77504376
-P 32200 14050
-F 0 "U96" H 32500 13850 50  0000 C CNN
-F 1 "Electrode" H 32500 13900 50  0000 C CNN
-F 2 "" H 32200 14050 50  0001 C CNN
-F 3 "" H 32200 14050 50  0001 C CNN
-	1    32200 14050
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U95
-U 1 1 77504370
-P 32200 13950
-F 0 "U95" H 32500 13750 50  0000 C CNN
-F 1 "Electrode" H 32500 13800 50  0000 C CNN
-F 2 "" H 32200 13950 50  0001 C CNN
-F 3 "" H 32200 13950 50  0001 C CNN
-	1    32200 13950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U94
-U 1 1 7750436A
-P 32200 13850
-F 0 "U94" H 32500 13650 50  0000 C CNN
-F 1 "Electrode" H 32500 13700 50  0000 C CNN
-F 2 "" H 32200 13850 50  0001 C CNN
-F 3 "" H 32200 13850 50  0001 C CNN
-	1    32200 13850
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U93
-U 1 1 77504364
-P 32200 13750
-F 0 "U93" H 32500 13550 50  0000 C CNN
-F 1 "Electrode" H 32500 13600 50  0000 C CNN
-F 2 "" H 32200 13750 50  0001 C CNN
-F 3 "" H 32200 13750 50  0001 C CNN
-	1    32200 13750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x08 J18
-U 1 1 7750435E
-P 32500 13800
-F 0 "J18" H 32580 13792 50  0000 L CNN
-F 1 "Conn_01x08" H 32580 13701 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 32500 13800 50  0001 C CNN
-F 3 "~" H 32500 13800 50  0001 C CNN
-	1    32500 13800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U92
-U 1 1 77504358
-P 32200 13650
-F 0 "U92" H 32500 13450 50  0000 C CNN
-F 1 "Electrode" H 32500 13500 50  0000 C CNN
-F 2 "" H 32200 13650 50  0001 C CNN
-F 3 "" H 32200 13650 50  0001 C CNN
-	1    32200 13650
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U91
-U 1 1 77504352
-P 30650 16350
-F 0 "U91" H 30950 16150 50  0000 C CNN
-F 1 "Electrode" H 30950 16200 50  0000 C CNN
-F 2 "" H 30650 16350 50  0001 C CNN
-F 3 "" H 30650 16350 50  0001 C CNN
-	1    30650 16350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U90
-U 1 1 7750434C
-P 30650 16250
-F 0 "U90" H 30950 16050 50  0000 C CNN
-F 1 "Electrode" H 30950 16100 50  0000 C CNN
-F 2 "" H 30650 16250 50  0001 C CNN
-F 3 "" H 30650 16250 50  0001 C CNN
-	1    30650 16250
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U89
-U 1 1 77504346
-P 30650 16150
-F 0 "U89" H 30950 15950 50  0000 C CNN
-F 1 "Electrode" H 30950 16000 50  0000 C CNN
-F 2 "" H 30650 16150 50  0001 C CNN
-F 3 "" H 30650 16150 50  0001 C CNN
-	1    30650 16150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U88
-U 1 1 77504340
-P 30650 16050
-F 0 "U88" H 30950 15850 50  0000 C CNN
-F 1 "Electrode" H 30950 15900 50  0000 C CNN
-F 2 "" H 30650 16050 50  0001 C CNN
-F 3 "" H 30650 16050 50  0001 C CNN
-	1    30650 16050
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U87
-U 1 1 7750433A
-P 30650 15950
-F 0 "U87" H 30950 15750 50  0000 C CNN
-F 1 "Electrode" H 30950 15800 50  0000 C CNN
-F 2 "" H 30650 15950 50  0001 C CNN
-F 3 "" H 30650 15950 50  0001 C CNN
-	1    30650 15950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U86
-U 1 1 77504334
-P 30650 15850
-F 0 "U86" H 30950 15650 50  0000 C CNN
-F 1 "Electrode" H 30950 15700 50  0000 C CNN
-F 2 "" H 30650 15850 50  0001 C CNN
-F 3 "" H 30650 15850 50  0001 C CNN
-	1    30650 15850
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U85
-U 1 1 7750432E
-P 30650 15750
-F 0 "U85" H 30950 15550 50  0000 C CNN
-F 1 "Electrode" H 30950 15600 50  0000 C CNN
-F 2 "" H 30650 15750 50  0001 C CNN
-F 3 "" H 30650 15750 50  0001 C CNN
-	1    30650 15750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x08 J15
-U 1 1 77504328
-P 30950 15800
-F 0 "J15" H 31030 15792 50  0000 L CNN
-F 1 "Conn_01x08" H 31030 15701 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 30950 15800 50  0001 C CNN
-F 3 "~" H 30950 15800 50  0001 C CNN
-	1    30950 15800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U84
-U 1 1 77504322
-P 30650 15650
-F 0 "U84" H 30950 15450 50  0000 C CNN
-F 1 "Electrode" H 30950 15500 50  0000 C CNN
-F 2 "" H 30650 15650 50  0001 C CNN
-F 3 "" H 30650 15650 50  0001 C CNN
-	1    30650 15650
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U83
-U 1 1 7750431C
-P 30650 15350
-F 0 "U83" H 30950 15150 50  0000 C CNN
-F 1 "Electrode" H 30950 15200 50  0000 C CNN
-F 2 "" H 30650 15350 50  0001 C CNN
-F 3 "" H 30650 15350 50  0001 C CNN
-	1    30650 15350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U82
-U 1 1 77504316
-P 30650 15250
-F 0 "U82" H 30950 15050 50  0000 C CNN
-F 1 "Electrode" H 30950 15100 50  0000 C CNN
-F 2 "" H 30650 15250 50  0001 C CNN
-F 3 "" H 30650 15250 50  0001 C CNN
-	1    30650 15250
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U81
-U 1 1 77504310
-P 30650 15150
-F 0 "U81" H 30950 14950 50  0000 C CNN
-F 1 "Electrode" H 30950 15000 50  0000 C CNN
-F 2 "" H 30650 15150 50  0001 C CNN
-F 3 "" H 30650 15150 50  0001 C CNN
-	1    30650 15150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U80
-U 1 1 7750430A
-P 30650 15050
-F 0 "U80" H 30950 14850 50  0000 C CNN
-F 1 "Electrode" H 30950 14900 50  0000 C CNN
-F 2 "" H 30650 15050 50  0001 C CNN
-F 3 "" H 30650 15050 50  0001 C CNN
-	1    30650 15050
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U79
-U 1 1 77504304
-P 30650 14950
-F 0 "U79" H 30950 14750 50  0000 C CNN
-F 1 "Electrode" H 30950 14800 50  0000 C CNN
-F 2 "" H 30650 14950 50  0001 C CNN
-F 3 "" H 30650 14950 50  0001 C CNN
-	1    30650 14950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U78
-U 1 1 775042FE
-P 30650 14850
-F 0 "U78" H 30950 14650 50  0000 C CNN
-F 1 "Electrode" H 30950 14700 50  0000 C CNN
-F 2 "" H 30650 14850 50  0001 C CNN
-F 3 "" H 30650 14850 50  0001 C CNN
-	1    30650 14850
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U77
-U 1 1 775042F8
-P 30650 14750
-F 0 "U77" H 30950 14550 50  0000 C CNN
-F 1 "Electrode" H 30950 14600 50  0000 C CNN
-F 2 "" H 30650 14750 50  0001 C CNN
-F 3 "" H 30650 14750 50  0001 C CNN
-	1    30650 14750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x08 J14
-U 1 1 775042F2
-P 30950 14800
-F 0 "J14" H 31030 14792 50  0000 L CNN
-F 1 "Conn_01x08" H 31030 14701 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 30950 14800 50  0001 C CNN
-F 3 "~" H 30950 14800 50  0001 C CNN
-	1    30950 14800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U76
-U 1 1 775042EC
-P 30650 14650
-F 0 "U76" H 30950 14450 50  0000 C CNN
-F 1 "Electrode" H 30950 14500 50  0000 C CNN
-F 2 "" H 30650 14650 50  0001 C CNN
-F 3 "" H 30650 14650 50  0001 C CNN
-	1    30650 14650
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U75
-U 1 1 775042E6
-P 30650 14350
-F 0 "U75" H 30950 14150 50  0000 C CNN
-F 1 "Electrode" H 30950 14200 50  0000 C CNN
-F 2 "" H 30650 14350 50  0001 C CNN
-F 3 "" H 30650 14350 50  0001 C CNN
-	1    30650 14350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U74
-U 1 1 775042E0
-P 30650 14250
-F 0 "U74" H 30950 14050 50  0000 C CNN
-F 1 "Electrode" H 30950 14100 50  0000 C CNN
-F 2 "" H 30650 14250 50  0001 C CNN
-F 3 "" H 30650 14250 50  0001 C CNN
-	1    30650 14250
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U73
-U 1 1 775042DA
-P 30650 14150
-F 0 "U73" H 30950 13950 50  0000 C CNN
-F 1 "Electrode" H 30950 14000 50  0000 C CNN
-F 2 "" H 30650 14150 50  0001 C CNN
-F 3 "" H 30650 14150 50  0001 C CNN
-	1    30650 14150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U72
-U 1 1 775042D4
-P 30650 14050
-F 0 "U72" H 30950 13850 50  0000 C CNN
-F 1 "Electrode" H 30950 13900 50  0000 C CNN
-F 2 "" H 30650 14050 50  0001 C CNN
-F 3 "" H 30650 14050 50  0001 C CNN
-	1    30650 14050
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U71
-U 1 1 775042CE
-P 30650 13950
-F 0 "U71" H 30950 13750 50  0000 C CNN
-F 1 "Electrode" H 30950 13800 50  0000 C CNN
-F 2 "" H 30650 13950 50  0001 C CNN
-F 3 "" H 30650 13950 50  0001 C CNN
-	1    30650 13950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U70
-U 1 1 775042C8
-P 30650 13850
-F 0 "U70" H 30950 13650 50  0000 C CNN
-F 1 "Electrode" H 30950 13700 50  0000 C CNN
-F 2 "" H 30650 13850 50  0001 C CNN
-F 3 "" H 30650 13850 50  0001 C CNN
-	1    30650 13850
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U69
-U 1 1 775042C2
-P 30650 13750
-F 0 "U69" H 30950 13550 50  0000 C CNN
-F 1 "Electrode" H 30950 13600 50  0000 C CNN
-F 2 "" H 30650 13750 50  0001 C CNN
-F 3 "" H 30650 13750 50  0001 C CNN
-	1    30650 13750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x08 J13
-U 1 1 775042BC
-P 30950 13800
-F 0 "J13" H 31030 13792 50  0000 L CNN
-F 1 "Conn_01x08" H 31030 13701 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 30950 13800 50  0001 C CNN
-F 3 "~" H 30950 13800 50  0001 C CNN
-	1    30950 13800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U68
-U 1 1 775042B6
-P 30650 13650
-F 0 "U68" H 30950 13450 50  0000 C CNN
-F 1 "Electrode" H 30950 13500 50  0000 C CNN
-F 2 "" H 30650 13650 50  0001 C CNN
-F 3 "" H 30650 13650 50  0001 C CNN
-	1    30650 13650
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U189
-U 1 1 772102A8
-P 37350 16350
-F 0 "U189" H 37650 16150 50  0000 C CNN
-F 1 "Electrode" H 37650 16200 50  0000 C CNN
-F 2 "" H 37350 16350 50  0001 C CNN
-F 3 "" H 37350 16350 50  0001 C CNN
-	1    37350 16350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U188
-U 1 1 772102A2
-P 37350 16250
-F 0 "U188" H 37650 16050 50  0000 C CNN
-F 1 "Electrode" H 37650 16100 50  0000 C CNN
-F 2 "" H 37350 16250 50  0001 C CNN
-F 3 "" H 37350 16250 50  0001 C CNN
-	1    37350 16250
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U187
-U 1 1 7721029C
-P 37350 16150
-F 0 "U187" H 37650 15950 50  0000 C CNN
-F 1 "Electrode" H 37650 16000 50  0000 C CNN
-F 2 "" H 37350 16150 50  0001 C CNN
-F 3 "" H 37350 16150 50  0001 C CNN
-	1    37350 16150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U186
-U 1 1 77210296
-P 37350 16050
-F 0 "U186" H 37650 15850 50  0000 C CNN
-F 1 "Electrode" H 37650 15900 50  0000 C CNN
-F 2 "" H 37350 16050 50  0001 C CNN
-F 3 "" H 37350 16050 50  0001 C CNN
-	1    37350 16050
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U185
-U 1 1 77210290
-P 37350 15950
-F 0 "U185" H 37650 15750 50  0000 C CNN
-F 1 "Electrode" H 37650 15800 50  0000 C CNN
-F 2 "" H 37350 15950 50  0001 C CNN
-F 3 "" H 37350 15950 50  0001 C CNN
-	1    37350 15950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U184
-U 1 1 7721028A
-P 37350 15850
-F 0 "U184" H 37650 15650 50  0000 C CNN
-F 1 "Electrode" H 37650 15700 50  0000 C CNN
-F 2 "" H 37350 15850 50  0001 C CNN
-F 3 "" H 37350 15850 50  0001 C CNN
-	1    37350 15850
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U183
-U 1 1 77210284
-P 37350 15750
-F 0 "U183" H 37650 15550 50  0000 C CNN
-F 1 "Electrode" H 37650 15600 50  0000 C CNN
-F 2 "" H 37350 15750 50  0001 C CNN
-F 3 "" H 37350 15750 50  0001 C CNN
-	1    37350 15750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x08 J30
-U 1 1 7721027E
-P 37650 15800
-F 0 "J30" H 37730 15792 50  0000 L CNN
-F 1 "Conn_01x08" H 37730 15701 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 37650 15800 50  0001 C CNN
-F 3 "~" H 37650 15800 50  0001 C CNN
-	1    37650 15800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U182
-U 1 1 77210278
-P 37350 15650
-F 0 "U182" H 37650 15450 50  0000 C CNN
-F 1 "Electrode" H 37650 15500 50  0000 C CNN
-F 2 "" H 37350 15650 50  0001 C CNN
-F 3 "" H 37350 15650 50  0001 C CNN
-	1    37350 15650
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U181
-U 1 1 77210272
-P 37350 15350
-F 0 "U181" H 37650 15150 50  0000 C CNN
-F 1 "Electrode" H 37650 15200 50  0000 C CNN
-F 2 "" H 37350 15350 50  0001 C CNN
-F 3 "" H 37350 15350 50  0001 C CNN
-	1    37350 15350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U180
-U 1 1 7721026C
-P 37350 15250
-F 0 "U180" H 37650 15050 50  0000 C CNN
-F 1 "Electrode" H 37650 15100 50  0000 C CNN
-F 2 "" H 37350 15250 50  0001 C CNN
-F 3 "" H 37350 15250 50  0001 C CNN
-	1    37350 15250
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U179
-U 1 1 77210266
-P 37350 15150
-F 0 "U179" H 37650 14950 50  0000 C CNN
-F 1 "Electrode" H 37650 15000 50  0000 C CNN
-F 2 "" H 37350 15150 50  0001 C CNN
-F 3 "" H 37350 15150 50  0001 C CNN
-	1    37350 15150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U178
-U 1 1 77210260
-P 37350 15050
-F 0 "U178" H 37650 14850 50  0000 C CNN
-F 1 "Electrode" H 37650 14900 50  0000 C CNN
-F 2 "" H 37350 15050 50  0001 C CNN
-F 3 "" H 37350 15050 50  0001 C CNN
-	1    37350 15050
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U177
-U 1 1 7721025A
-P 37350 14950
-F 0 "U177" H 37650 14750 50  0000 C CNN
-F 1 "Electrode" H 37650 14800 50  0000 C CNN
-F 2 "" H 37350 14950 50  0001 C CNN
-F 3 "" H 37350 14950 50  0001 C CNN
-	1    37350 14950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U176
-U 1 1 77210254
-P 37350 14850
-F 0 "U176" H 37650 14650 50  0000 C CNN
-F 1 "Electrode" H 37650 14700 50  0000 C CNN
-F 2 "" H 37350 14850 50  0001 C CNN
-F 3 "" H 37350 14850 50  0001 C CNN
-	1    37350 14850
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U175
-U 1 1 7721024E
-P 37350 14750
-F 0 "U175" H 37650 14550 50  0000 C CNN
-F 1 "Electrode" H 37650 14600 50  0000 C CNN
-F 2 "" H 37350 14750 50  0001 C CNN
-F 3 "" H 37350 14750 50  0001 C CNN
-	1    37350 14750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x08 J29
-U 1 1 77210248
-P 37650 14800
-F 0 "J29" H 37730 14792 50  0000 L CNN
-F 1 "Conn_01x08" H 37730 14701 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 37650 14800 50  0001 C CNN
-F 3 "~" H 37650 14800 50  0001 C CNN
-	1    37650 14800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U174
-U 1 1 77210242
-P 37350 14650
-F 0 "U174" H 37650 14450 50  0000 C CNN
-F 1 "Electrode" H 37650 14500 50  0000 C CNN
-F 2 "" H 37350 14650 50  0001 C CNN
-F 3 "" H 37350 14650 50  0001 C CNN
-	1    37350 14650
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U173
-U 1 1 7721023C
-P 37350 14350
-F 0 "U173" H 37650 14150 50  0000 C CNN
-F 1 "Electrode" H 37650 14200 50  0000 C CNN
-F 2 "" H 37350 14350 50  0001 C CNN
-F 3 "" H 37350 14350 50  0001 C CNN
-	1    37350 14350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U172
-U 1 1 77210236
-P 37350 14250
-F 0 "U172" H 37650 14050 50  0000 C CNN
-F 1 "Electrode" H 37650 14100 50  0000 C CNN
-F 2 "" H 37350 14250 50  0001 C CNN
-F 3 "" H 37350 14250 50  0001 C CNN
-	1    37350 14250
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U171
-U 1 1 77210230
-P 37350 14150
-F 0 "U171" H 37650 13950 50  0000 C CNN
-F 1 "Electrode" H 37650 14000 50  0000 C CNN
-F 2 "" H 37350 14150 50  0001 C CNN
-F 3 "" H 37350 14150 50  0001 C CNN
-	1    37350 14150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U170
-U 1 1 7721022A
-P 37350 14050
-F 0 "U170" H 37650 13850 50  0000 C CNN
-F 1 "Electrode" H 37650 13900 50  0000 C CNN
-F 2 "" H 37350 14050 50  0001 C CNN
-F 3 "" H 37350 14050 50  0001 C CNN
-	1    37350 14050
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U169
-U 1 1 77210224
-P 37350 13950
-F 0 "U169" H 37650 13750 50  0000 C CNN
-F 1 "Electrode" H 37650 13800 50  0000 C CNN
-F 2 "" H 37350 13950 50  0001 C CNN
-F 3 "" H 37350 13950 50  0001 C CNN
-	1    37350 13950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U168
-U 1 1 7721021E
-P 37350 13850
-F 0 "U168" H 37650 13650 50  0000 C CNN
-F 1 "Electrode" H 37650 13700 50  0000 C CNN
-F 2 "" H 37350 13850 50  0001 C CNN
-F 3 "" H 37350 13850 50  0001 C CNN
-	1    37350 13850
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U167
-U 1 1 77210218
-P 37350 13750
-F 0 "U167" H 37650 13550 50  0000 C CNN
-F 1 "Electrode" H 37650 13600 50  0000 C CNN
-F 2 "" H 37350 13750 50  0001 C CNN
-F 3 "" H 37350 13750 50  0001 C CNN
-	1    37350 13750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x08 J28
-U 1 1 77210212
-P 37650 13800
-F 0 "J28" H 37730 13792 50  0000 L CNN
-F 1 "Conn_01x08" H 37730 13701 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 37650 13800 50  0001 C CNN
-F 3 "~" H 37650 13800 50  0001 C CNN
-	1    37650 13800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U166
-U 1 1 7721020C
-P 37350 13650
-F 0 "U166" H 37650 13450 50  0000 C CNN
-F 1 "Electrode" H 37650 13500 50  0000 C CNN
-F 2 "" H 37350 13650 50  0001 C CNN
-F 3 "" H 37350 13650 50  0001 C CNN
-	1    37350 13650
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U141
-U 1 1 76E339AB
-P 34450 16400
-F 0 "U141" H 34750 16200 50  0000 C CNN
-F 1 "Electrode" H 34750 16250 50  0000 C CNN
-F 2 "" H 34450 16400 50  0001 C CNN
-F 3 "" H 34450 16400 50  0001 C CNN
-	1    34450 16400
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U140
-U 1 1 76E339A5
-P 34450 16300
-F 0 "U140" H 34750 16100 50  0000 C CNN
-F 1 "Electrode" H 34750 16150 50  0000 C CNN
-F 2 "" H 34450 16300 50  0001 C CNN
-F 3 "" H 34450 16300 50  0001 C CNN
-	1    34450 16300
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U139
-U 1 1 76E3399F
-P 34450 16200
-F 0 "U139" H 34750 16000 50  0000 C CNN
-F 1 "Electrode" H 34750 16050 50  0000 C CNN
-F 2 "" H 34450 16200 50  0001 C CNN
-F 3 "" H 34450 16200 50  0001 C CNN
-	1    34450 16200
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U138
-U 1 1 76E33999
-P 34450 16100
-F 0 "U138" H 34750 15900 50  0000 C CNN
-F 1 "Electrode" H 34750 15950 50  0000 C CNN
-F 2 "" H 34450 16100 50  0001 C CNN
-F 3 "" H 34450 16100 50  0001 C CNN
-	1    34450 16100
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U137
-U 1 1 76E33993
-P 34450 16000
-F 0 "U137" H 34750 15800 50  0000 C CNN
-F 1 "Electrode" H 34750 15850 50  0000 C CNN
-F 2 "" H 34450 16000 50  0001 C CNN
-F 3 "" H 34450 16000 50  0001 C CNN
-	1    34450 16000
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U136
-U 1 1 76E3398D
-P 34450 15900
-F 0 "U136" H 34750 15700 50  0000 C CNN
-F 1 "Electrode" H 34750 15750 50  0000 C CNN
-F 2 "" H 34450 15900 50  0001 C CNN
-F 3 "" H 34450 15900 50  0001 C CNN
-	1    34450 15900
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U135
-U 1 1 76E33987
-P 34450 15800
-F 0 "U135" H 34750 15600 50  0000 C CNN
-F 1 "Electrode" H 34750 15650 50  0000 C CNN
-F 2 "" H 34450 15800 50  0001 C CNN
-F 3 "" H 34450 15800 50  0001 C CNN
-	1    34450 15800
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x08 J23
-U 1 1 76E33981
-P 34750 15850
-F 0 "J23" H 34830 15842 50  0000 L CNN
-F 1 "Conn_01x08" H 34830 15751 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 34750 15850 50  0001 C CNN
-F 3 "~" H 34750 15850 50  0001 C CNN
-	1    34750 15850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U134
-U 1 1 76E3397B
-P 34450 15700
-F 0 "U134" H 34750 15500 50  0000 C CNN
-F 1 "Electrode" H 34750 15550 50  0000 C CNN
-F 2 "" H 34450 15700 50  0001 C CNN
-F 3 "" H 34450 15700 50  0001 C CNN
-	1    34450 15700
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U133
-U 1 1 76D43F9E
-P 34450 15350
-F 0 "U133" H 34750 15150 50  0000 C CNN
-F 1 "Electrode" H 34750 15200 50  0000 C CNN
-F 2 "" H 34450 15350 50  0001 C CNN
-F 3 "" H 34450 15350 50  0001 C CNN
-	1    34450 15350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U132
-U 1 1 76D43F98
-P 34450 15250
-F 0 "U132" H 34750 15050 50  0000 C CNN
-F 1 "Electrode" H 34750 15100 50  0000 C CNN
-F 2 "" H 34450 15250 50  0001 C CNN
-F 3 "" H 34450 15250 50  0001 C CNN
-	1    34450 15250
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U131
-U 1 1 76D43F92
-P 34450 15150
-F 0 "U131" H 34750 14950 50  0000 C CNN
-F 1 "Electrode" H 34750 15000 50  0000 C CNN
-F 2 "" H 34450 15150 50  0001 C CNN
-F 3 "" H 34450 15150 50  0001 C CNN
-	1    34450 15150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U130
-U 1 1 76D43F8C
-P 34450 15050
-F 0 "U130" H 34750 14850 50  0000 C CNN
-F 1 "Electrode" H 34750 14900 50  0000 C CNN
-F 2 "" H 34450 15050 50  0001 C CNN
-F 3 "" H 34450 15050 50  0001 C CNN
-	1    34450 15050
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U129
-U 1 1 76D43F86
-P 34450 14950
-F 0 "U129" H 34750 14750 50  0000 C CNN
-F 1 "Electrode" H 34750 14800 50  0000 C CNN
-F 2 "" H 34450 14950 50  0001 C CNN
-F 3 "" H 34450 14950 50  0001 C CNN
-	1    34450 14950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U128
-U 1 1 76D43F80
-P 34450 14850
-F 0 "U128" H 34750 14650 50  0000 C CNN
-F 1 "Electrode" H 34750 14700 50  0000 C CNN
-F 2 "" H 34450 14850 50  0001 C CNN
-F 3 "" H 34450 14850 50  0001 C CNN
-	1    34450 14850
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U127
-U 1 1 76D43F7A
-P 34450 14750
-F 0 "U127" H 34750 14550 50  0000 C CNN
-F 1 "Electrode" H 34750 14600 50  0000 C CNN
-F 2 "" H 34450 14750 50  0001 C CNN
-F 3 "" H 34450 14750 50  0001 C CNN
-	1    34450 14750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x08 J22
-U 1 1 76D43F74
-P 34750 14800
-F 0 "J22" H 34830 14792 50  0000 L CNN
-F 1 "Conn_01x08" H 34830 14701 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 34750 14800 50  0001 C CNN
-F 3 "~" H 34750 14800 50  0001 C CNN
-	1    34750 14800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U126
-U 1 1 76D43F6E
-P 34450 14650
-F 0 "U126" H 34750 14450 50  0000 C CNN
-F 1 "Electrode" H 34750 14500 50  0000 C CNN
-F 2 "" H 34450 14650 50  0001 C CNN
-F 3 "" H 34450 14650 50  0001 C CNN
-	1    34450 14650
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U165
-U 1 1 76C46C77
-P 35850 16350
-F 0 "U165" H 36150 16150 50  0000 C CNN
-F 1 "Electrode" H 36150 16200 50  0000 C CNN
-F 2 "" H 35850 16350 50  0001 C CNN
-F 3 "" H 35850 16350 50  0001 C CNN
-	1    35850 16350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U164
-U 1 1 76C46C71
-P 35850 16250
-F 0 "U164" H 36150 16050 50  0000 C CNN
-F 1 "Electrode" H 36150 16100 50  0000 C CNN
-F 2 "" H 35850 16250 50  0001 C CNN
-F 3 "" H 35850 16250 50  0001 C CNN
-	1    35850 16250
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U163
-U 1 1 76C46C6B
-P 35850 16150
-F 0 "U163" H 36150 15950 50  0000 C CNN
-F 1 "Electrode" H 36150 16000 50  0000 C CNN
-F 2 "" H 35850 16150 50  0001 C CNN
-F 3 "" H 35850 16150 50  0001 C CNN
-	1    35850 16150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U162
-U 1 1 76C46C65
-P 35850 16050
-F 0 "U162" H 36150 15850 50  0000 C CNN
-F 1 "Electrode" H 36150 15900 50  0000 C CNN
-F 2 "" H 35850 16050 50  0001 C CNN
-F 3 "" H 35850 16050 50  0001 C CNN
-	1    35850 16050
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U161
-U 1 1 76C46C5F
-P 35850 15950
-F 0 "U161" H 36150 15750 50  0000 C CNN
-F 1 "Electrode" H 36150 15800 50  0000 C CNN
-F 2 "" H 35850 15950 50  0001 C CNN
-F 3 "" H 35850 15950 50  0001 C CNN
-	1    35850 15950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U160
-U 1 1 76C46C59
-P 35850 15850
-F 0 "U160" H 36150 15650 50  0000 C CNN
-F 1 "Electrode" H 36150 15700 50  0000 C CNN
-F 2 "" H 35850 15850 50  0001 C CNN
-F 3 "" H 35850 15850 50  0001 C CNN
-	1    35850 15850
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U159
-U 1 1 76C46C53
-P 35850 15750
-F 0 "U159" H 36150 15550 50  0000 C CNN
-F 1 "Electrode" H 36150 15600 50  0000 C CNN
-F 2 "" H 35850 15750 50  0001 C CNN
-F 3 "" H 35850 15750 50  0001 C CNN
-	1    35850 15750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x08 J26
-U 1 1 76C46C4D
-P 36150 15800
-F 0 "J26" H 36230 15792 50  0000 L CNN
-F 1 "Conn_01x08" H 36230 15701 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 36150 15800 50  0001 C CNN
-F 3 "~" H 36150 15800 50  0001 C CNN
-	1    36150 15800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U158
-U 1 1 76C46C47
-P 35850 15650
-F 0 "U158" H 36150 15450 50  0000 C CNN
-F 1 "Electrode" H 36150 15500 50  0000 C CNN
-F 2 "" H 35850 15650 50  0001 C CNN
-F 3 "" H 35850 15650 50  0001 C CNN
-	1    35850 15650
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U157
-U 1 1 76C46C41
-P 35850 15350
-F 0 "U157" H 36150 15150 50  0000 C CNN
-F 1 "Electrode" H 36150 15200 50  0000 C CNN
-F 2 "" H 35850 15350 50  0001 C CNN
-F 3 "" H 35850 15350 50  0001 C CNN
-	1    35850 15350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U156
-U 1 1 76C46C3B
-P 35850 15250
-F 0 "U156" H 36150 15050 50  0000 C CNN
-F 1 "Electrode" H 36150 15100 50  0000 C CNN
-F 2 "" H 35850 15250 50  0001 C CNN
-F 3 "" H 35850 15250 50  0001 C CNN
-	1    35850 15250
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U155
-U 1 1 76C46C35
-P 35850 15150
-F 0 "U155" H 36150 14950 50  0000 C CNN
-F 1 "Electrode" H 36150 15000 50  0000 C CNN
-F 2 "" H 35850 15150 50  0001 C CNN
-F 3 "" H 35850 15150 50  0001 C CNN
-	1    35850 15150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U154
-U 1 1 76C46C2F
-P 35850 15050
-F 0 "U154" H 36150 14850 50  0000 C CNN
-F 1 "Electrode" H 36150 14900 50  0000 C CNN
-F 2 "" H 35850 15050 50  0001 C CNN
-F 3 "" H 35850 15050 50  0001 C CNN
-	1    35850 15050
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U153
-U 1 1 76C46C29
-P 35850 14950
-F 0 "U153" H 36150 14750 50  0000 C CNN
-F 1 "Electrode" H 36150 14800 50  0000 C CNN
-F 2 "" H 35850 14950 50  0001 C CNN
-F 3 "" H 35850 14950 50  0001 C CNN
-	1    35850 14950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U152
-U 1 1 76C46C23
-P 35850 14850
-F 0 "U152" H 36150 14650 50  0000 C CNN
-F 1 "Electrode" H 36150 14700 50  0000 C CNN
-F 2 "" H 35850 14850 50  0001 C CNN
-F 3 "" H 35850 14850 50  0001 C CNN
-	1    35850 14850
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U151
-U 1 1 76C46C1D
-P 35850 14750
-F 0 "U151" H 36150 14550 50  0000 C CNN
-F 1 "Electrode" H 36150 14600 50  0000 C CNN
-F 2 "" H 35850 14750 50  0001 C CNN
-F 3 "" H 35850 14750 50  0001 C CNN
-	1    35850 14750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x08 J25
-U 1 1 76C46C17
-P 36150 14800
-F 0 "J25" H 36230 14792 50  0000 L CNN
-F 1 "Conn_01x08" H 36230 14701 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 36150 14800 50  0001 C CNN
-F 3 "~" H 36150 14800 50  0001 C CNN
-	1    36150 14800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U150
-U 1 1 76C46C11
-P 35850 14650
-F 0 "U150" H 36150 14450 50  0000 C CNN
-F 1 "Electrode" H 36150 14500 50  0000 C CNN
-F 2 "" H 35850 14650 50  0001 C CNN
-F 3 "" H 35850 14650 50  0001 C CNN
-	1    35850 14650
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U149
-U 1 1 76B4E724
-P 35850 14350
-F 0 "U149" H 36150 14150 50  0000 C CNN
-F 1 "Electrode" H 36150 14200 50  0000 C CNN
-F 2 "" H 35850 14350 50  0001 C CNN
-F 3 "" H 35850 14350 50  0001 C CNN
-	1    35850 14350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U148
-U 1 1 76B4E71E
-P 35850 14250
-F 0 "U148" H 36150 14050 50  0000 C CNN
-F 1 "Electrode" H 36150 14100 50  0000 C CNN
-F 2 "" H 35850 14250 50  0001 C CNN
-F 3 "" H 35850 14250 50  0001 C CNN
-	1    35850 14250
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U147
-U 1 1 76B4E718
-P 35850 14150
-F 0 "U147" H 36150 13950 50  0000 C CNN
-F 1 "Electrode" H 36150 14000 50  0000 C CNN
-F 2 "" H 35850 14150 50  0001 C CNN
-F 3 "" H 35850 14150 50  0001 C CNN
-	1    35850 14150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U146
-U 1 1 76B4E712
-P 35850 14050
-F 0 "U146" H 36150 13850 50  0000 C CNN
-F 1 "Electrode" H 36150 13900 50  0000 C CNN
-F 2 "" H 35850 14050 50  0001 C CNN
-F 3 "" H 35850 14050 50  0001 C CNN
-	1    35850 14050
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U145
-U 1 1 76B4E70C
-P 35850 13950
-F 0 "U145" H 36150 13750 50  0000 C CNN
-F 1 "Electrode" H 36150 13800 50  0000 C CNN
-F 2 "" H 35850 13950 50  0001 C CNN
-F 3 "" H 35850 13950 50  0001 C CNN
-	1    35850 13950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U144
-U 1 1 76B4E706
-P 35850 13850
-F 0 "U144" H 36150 13650 50  0000 C CNN
-F 1 "Electrode" H 36150 13700 50  0000 C CNN
-F 2 "" H 35850 13850 50  0001 C CNN
-F 3 "" H 35850 13850 50  0001 C CNN
-	1    35850 13850
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U143
-U 1 1 76B4E700
-P 35850 13750
-F 0 "U143" H 36150 13550 50  0000 C CNN
-F 1 "Electrode" H 36150 13600 50  0000 C CNN
-F 2 "" H 35850 13750 50  0001 C CNN
-F 3 "" H 35850 13750 50  0001 C CNN
-	1    35850 13750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x08 J24
-U 1 1 76B4E6FA
-P 36150 13800
-F 0 "J24" H 36230 13792 50  0000 L CNN
-F 1 "Conn_01x08" H 36230 13701 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 36150 13800 50  0001 C CNN
-F 3 "~" H 36150 13800 50  0001 C CNN
-	1    36150 13800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U142
-U 1 1 76B4E6F4
-P 35850 13650
-F 0 "U142" H 36150 13450 50  0000 C CNN
-F 1 "Electrode" H 36150 13500 50  0000 C CNN
-F 2 "" H 35850 13650 50  0001 C CNN
-F 3 "" H 35850 13650 50  0001 C CNN
-	1    35850 13650
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U125
-U 1 1 7687931E
-P 34450 14350
-F 0 "U125" H 34750 14150 50  0000 C CNN
-F 1 "Electrode" H 34750 14200 50  0000 C CNN
-F 2 "" H 34450 14350 50  0001 C CNN
-F 3 "" H 34450 14350 50  0001 C CNN
-	1    34450 14350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U124
-U 1 1 76879033
-P 34450 14250
-F 0 "U124" H 34750 14050 50  0000 C CNN
-F 1 "Electrode" H 34750 14100 50  0000 C CNN
-F 2 "" H 34450 14250 50  0001 C CNN
-F 3 "" H 34450 14250 50  0001 C CNN
-	1    34450 14250
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U123
-U 1 1 76878CC7
-P 34450 14150
-F 0 "U123" H 34750 13950 50  0000 C CNN
-F 1 "Electrode" H 34750 14000 50  0000 C CNN
-F 2 "" H 34450 14150 50  0001 C CNN
-F 3 "" H 34450 14150 50  0001 C CNN
-	1    34450 14150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U122
-U 1 1 76878ADE
-P 34450 14050
-F 0 "U122" H 34750 13850 50  0000 C CNN
-F 1 "Electrode" H 34750 13900 50  0000 C CNN
-F 2 "" H 34450 14050 50  0001 C CNN
-F 3 "" H 34450 14050 50  0001 C CNN
-	1    34450 14050
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U121
-U 1 1 76878885
-P 34450 13950
-F 0 "U121" H 34750 13750 50  0000 C CNN
-F 1 "Electrode" H 34750 13800 50  0000 C CNN
-F 2 "" H 34450 13950 50  0001 C CNN
-F 3 "" H 34450 13950 50  0001 C CNN
-	1    34450 13950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U120
-U 1 1 7687866E
-P 34450 13850
-F 0 "U120" H 34750 13650 50  0000 C CNN
-F 1 "Electrode" H 34750 13700 50  0000 C CNN
-F 2 "" H 34450 13850 50  0001 C CNN
-F 3 "" H 34450 13850 50  0001 C CNN
-	1    34450 13850
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U119
-U 1 1 76878293
-P 34450 13750
-F 0 "U119" H 34750 13550 50  0000 C CNN
-F 1 "Electrode" H 34750 13600 50  0000 C CNN
-F 2 "" H 34450 13750 50  0001 C CNN
-F 3 "" H 34450 13750 50  0001 C CNN
-	1    34450 13750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x08 J21
-U 1 1 76784DC2
-P 34750 13800
-F 0 "J21" H 34830 13792 50  0000 L CNN
-F 1 "Conn_01x08" H 34830 13701 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 34750 13800 50  0001 C CNN
-F 3 "~" H 34750 13800 50  0001 C CNN
-	1    34750 13800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode U118
-U 1 1 7677F370
-P 34450 13650
-F 0 "U118" H 34750 13450 50  0000 C CNN
-F 1 "Electrode" H 34750 13500 50  0000 C CNN
-F 2 "" H 34450 13650 50  0001 C CNN
-F 3 "" H 34450 13650 50  0001 C CNN
-	1    34450 13650
-	-1   0    0    1   
-$EndComp
 Text Notes 42850 600  0    50   ~ 0
 Extraneous parts
 Text Notes 24150 600  0    50   ~ 0
 Control
 Text Notes 500  600  0    50   ~ 0
 SPI Tinker
-Text Notes 33300 2050 0    50   ~ 0
-Power supply
-$Comp
-L Custom_Power:9V_CTRL #PWR73
-U 1 1 6B712CDF
-P 30300 1950
-F 0 "#PWR73" H 30285 2066 50  0001 C CNN
-F 1 "9V_CTRL" H 30285 1975 50  0000 C CNN
-F 2 "" H 30300 1950 50  0001 C CNN
-F 3 "" H 30300 1950 50  0001 C CNN
-	1    30300 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small CP5
-U 1 1 69096BF4
-P 31900 3200
-F 0 "CP5" H 31992 3246 50  0000 L CNN
-F 1 "10uF" H 31992 3155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 31900 3200 50  0001 C CNN
-F 3 "~" H 31900 3200 50  0001 C CNN
-	1    31900 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Power:3.3V_CTRL #PWR89
-U 1 1 69BB3682
-P 36500 2950
-F 0 "#PWR89" H 36485 3016 50  0001 C CNN
-F 1 "3.3V_CTRL" H 36485 2925 50  0000 C CNN
-F 2 "" H 36500 3000 50  0001 C CNN
-F 3 "" H 36500 3000 50  0001 C CNN
-	1    36500 2950
-	1    0    0    -1  
-$EndComp
-Connection ~ 36500 3250
-Wire Wire Line
-	36500 3250 36500 3350
-Wire Wire Line
-	36100 3250 36500 3250
-Connection ~ 36100 3250
-Wire Wire Line
-	36100 3250 36100 3350
-Wire Wire Line
-	35900 3250 36100 3250
-Wire Wire Line
-	31900 3800 32000 3800
-Wire Wire Line
-	31900 3900 31900 3800
-Wire Wire Line
-	31900 4150 31900 4200
-Connection ~ 31900 4150
-Wire Wire Line
-	31900 4150 32200 4150
-Wire Wire Line
-	31900 4400 31900 4500
-Wire Wire Line
-	31900 4100 31900 4150
-Text GLabel 32200 4150 2    50   Input ~ 0
-BUCK_EN_CTRL
-Text GLabel 32000 3800 2    50   Input ~ 0
-BUCK_IN_CTRL
-$Comp
-L Device:R_Small RP8
-U 1 1 69096C0C
-P 31900 4300
-F 0 "RP8" H 31959 4346 50  0000 L CNN
-F 1 "68k" H 31959 4255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 31900 4300 50  0001 C CNN
-F 3 "~" H 31900 4300 50  0001 C CNN
-	1    31900 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small RP7
-U 1 1 69096C06
-P 31900 4000
-F 0 "RP7" H 31959 4046 50  0000 L CNN
-F 1 "100k" H 31959 3955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 31900 4000 50  0001 C CNN
-F 3 "~" H 31900 4000 50  0001 C CNN
-	1    31900 4000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	31900 3000 32050 3000
-Connection ~ 31900 3000
-Wire Wire Line
-	31900 3000 31900 3100
-Wire Wire Line
-	31800 3000 31900 3000
-Wire Wire Line
-	31300 3000 31600 3000
-Text GLabel 32100 3000 2    50   Input ~ 0
-BUCK_IN_CTRL
-Wire Wire Line
-	30400 3000 30500 3000
-Wire Wire Line
-	30400 2500 30400 3000
-Text GLabel 33250 3350 0    50   Input ~ 0
-BUCK_IN_CTRL
-Text GLabel 33250 3450 0    50   Input ~ 0
-BUCK_EN_CTRL
-Wire Wire Line
-	36500 3250 36500 3150
-Connection ~ 35600 3250
-Wire Wire Line
-	35600 3250 35700 3250
-Wire Wire Line
-	35600 3250 35600 3350
-Wire Wire Line
-	35400 3250 35600 3250
-Wire Wire Line
-	36500 3550 36500 3650
-Wire Wire Line
-	36100 3550 36100 3650
-Wire Wire Line
-	35600 3550 35600 3650
-Text GLabel 35400 3250 0    50   Input ~ 0
-BUCK_SW_CTRL
-$Comp
-L Device:C_Small CP8
-U 1 1 69096BA9
-P 36500 3450
-F 0 "CP8" H 36592 3496 50  0000 L CNN
-F 1 "10uF" H 36592 3405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 36500 3450 50  0001 C CNN
-F 3 "~" H 36500 3450 50  0001 C CNN
-	1    36500 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small CP7
-U 1 1 69096BA3
-P 36100 3450
-F 0 "CP7" H 36192 3496 50  0000 L CNN
-F 1 "10uF" H 36192 3405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 36100 3450 50  0001 C CNN
-F 3 "~" H 36100 3450 50  0001 C CNN
-	1    36100 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_FET:AO3401A Q2
-U 1 1 69096B9D
-P 30700 3100
-F 0 "Q2" V 31042 3100 50  0000 C CNN
-F 1 "AO3401A" V 30951 3100 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 30900 3025 50  0001 L CIN
-F 3 "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf" H 30700 3100 50  0001 L CNN
-	1    30700 3100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:Polyfuse_Small F2
-U 1 1 69096B97
-P 31200 3000
-F 0 "F2" V 30995 3000 50  0000 C CNN
-F 1 "1A" V 31086 3000 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric" H 31250 2800 50  0001 L CNN
-F 3 "~" H 31200 3000 50  0001 C CNN
-	1    31200 3000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:Ferrite_Bead_Small FB2
-U 1 1 69096B91
-P 31700 3000
-F 0 "FB2" V 31463 3000 50  0000 C CNN
-F 1 "600 @ 600MHz" V 31554 3000 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric" V 31630 3000 50  0001 C CNN
-F 3 "~" H 31700 3000 50  0001 C CNN
-	1    31700 3000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:L_Small L2
-U 1 1 69096B8B
-P 35800 3250
-F 0 "L2" V 35985 3250 50  0000 C CNN
-F 1 "10uH" V 35894 3250 50  0000 C CNN
-F 2 "Inductor_SMD:L_Sunlord_MWSA0518_5.4x5.2mm" H 35800 3250 50  0001 C CNN
-F 3 "~" H 35800 3250 50  0001 C CNN
-	1    35800 3250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D_Schottky_Small D8
-U 1 1 69096B85
-P 35600 3450
-F 0 "D8" V 35554 3520 50  0000 L CNN
-F 1 "B5819W" V 35645 3520 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" V 35600 3450 50  0001 C CNN
-F 3 "~" V 35600 3450 50  0001 C CNN
-	1    35600 3450
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	34850 4000 34850 4050
-Connection ~ 34850 4000
-Wire Wire Line
-	34850 4000 34750 4000
-Text GLabel 34750 4000 0    50   Input ~ 0
-BUCK_FB_CTRL
-Wire Wire Line
-	34850 4550 34850 4650
-Wire Wire Line
-	34850 4250 34850 4350
-Wire Wire Line
-	34850 3950 34850 4000
-Wire Wire Line
-	34850 3650 34850 3750
-$Comp
-L power:+3.3V #PWR085
-U 1 1 69096B77
-P 34850 3650
-F 0 "#PWR085" H 34850 3500 50  0001 C CNN
-F 1 "+3.3V" H 34865 3823 50  0000 C CNN
-F 2 "" H 34850 3650 50  0001 C CNN
-F 3 "" H 34850 3650 50  0001 C CNN
-	1    34850 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small RP11
-U 1 1 69096B6B
-P 34850 4450
-F 0 "RP11" H 34909 4496 50  0000 L CNN
-F 1 "270" H 34909 4405 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 34850 4450 50  0001 C CNN
-F 3 "~" H 34850 4450 50  0001 C CNN
-	1    34850 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small RP10
-U 1 1 69096B65
-P 34850 4150
-F 0 "RP10" H 34909 4196 50  0000 L CNN
-F 1 "15k" H 34909 4105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 34850 4150 50  0001 C CNN
-F 3 "~" H 34850 4150 50  0001 C CNN
-	1    34850 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small RP9
-U 1 1 69096B5F
-P 34850 3850
-F 0 "RP9" H 34909 3896 50  0000 L CNN
-F 1 "47k" H 34909 3805 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 34850 3850 50  0001 C CNN
-F 3 "~" H 34850 3850 50  0001 C CNN
-	1    34850 3850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	35000 2900 35000 3000
-Wire Wire Line
-	35000 3000 34900 3000
-Wire Wire Line
-	35000 2600 35000 2700
-Wire Wire Line
-	34900 2600 35000 2600
-Text GLabel 34900 3000 0    50   Input ~ 0
-BUCK_SW_CTRL
-Text GLabel 34900 2600 0    50   Input ~ 0
-BUCK_BST_CTRL
-$Comp
-L Device:C_Small CP6
-U 1 1 69096B53
-P 35000 2800
-F 0 "CP6" H 35092 2846 50  0000 L CNN
-F 1 "10nF" H 35092 2755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 35000 2800 50  0001 C CNN
-F 3 "~" H 35000 2800 50  0001 C CNN
-	1    35000 2800
-	1    0    0    -1  
-$EndComp
-Text GLabel 33850 3550 2    50   Input ~ 0
-BUCK_FB_CTRL
-Text GLabel 33850 3450 2    50   Input ~ 0
-BUCK_SW_CTRL
-Text GLabel 33850 3350 2    50   Input ~ 0
-BUCK_BST_CTRL
-$Comp
-L Custom_Power:MP2359DT-LF U116
-U 1 1 69096B44
-P 33550 3150
-F 0 "U116" H 33550 3215 50  0000 C CNN
-F 1 "MP2359DT-LF" H 33550 3124 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 33550 3150 50  0001 C CNN
-F 3 "" H 33550 3150 50  0001 C CNN
-	1    33550 3150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	37350 3300 37350 3400
-Wire Wire Line
-	37350 3600 37350 3700
-Wire Wire Line
-	37350 3000 37350 3100
-$Comp
-L Device:LED_Small D13
-U 1 1 69096B2F
-P 37350 3200
-F 0 "D13" V 37396 3130 50  0000 R CNN
-F 1 "B" V 37305 3130 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 37350 3200 50  0001 C CNN
-F 3 "~" V 37350 3200 50  0001 C CNN
-	1    37350 3200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small RP12
-U 1 1 69096B29
-P 37350 3500
-F 0 "RP12" H 37409 3546 50  0000 L CNN
-F 1 "1k" H 37409 3455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 37350 3500 50  0001 C CNN
-F 3 "~" H 37350 3500 50  0001 C CNN
-	1    37350 3500
-	1    0    0    -1  
-$EndComp
 Text Notes 11100 1700 0    50   ~ 0
 Power supply
 $Comp
@@ -8195,25 +5250,6 @@ Wire Wire Line
 	14300 2950 14300 3050
 Connection ~ 14300 2950
 $Comp
-L Connector:Screw_Terminal_01x02 J12
-U 1 1 6341F502
-P 29150 2650
-F 0 "J12" H 29230 2642 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 29230 2551 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal" H 29150 2650 50  0001 C CNN
-F 3 "~" H 29150 2650 50  0001 C CNN
-	1    29150 2650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	28950 2750 28850 2750
-Wire Wire Line
-	28850 2750 28850 2850
-Wire Wire Line
-	28950 2650 28850 2650
-Wire Wire Line
-	28850 2650 28850 2550
-$Comp
 L Connector:Screw_Terminal_01x02 J8
 U 1 1 63762858
 P 6450 2400
@@ -8328,186 +5364,6 @@ Connection ~ 9850 2700
 Wire Wire Line
 	9850 2700 9900 2700
 $Comp
-L power:PWR_FLAG #FLG04
-U 1 1 64D91FB3
-P 32050 3000
-F 0 "#FLG04" H 32050 3075 50  0001 C CNN
-F 1 "PWR_FLAG" H 32050 3173 50  0000 C CNN
-F 2 "" H 32050 3000 50  0001 C CNN
-F 3 "~" H 32050 3000 50  0001 C CNN
-	1    32050 3000
-	1    0    0    -1  
-$EndComp
-Connection ~ 32050 3000
-Wire Wire Line
-	32050 3000 32100 3000
-$Comp
-L Custom_Power:3.3V_CTRL #PWR91
-U 1 1 6563A2BE
-P 37350 2800
-F 0 "#PWR91" H 37335 2866 50  0001 C CNN
-F 1 "3.3V_CTRL" H 37335 2775 50  0000 C CNN
-F 2 "" H 37350 2850 50  0001 C CNN
-F 3 "" H 37350 2850 50  0001 C CNN
-	1    37350 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR071
-U 1 1 65756B3C
-P 28850 2850
-F 0 "#PWR071" H 28850 2600 50  0001 C CNN
-F 1 "GND" H 28855 2677 50  0000 C CNN
-F 2 "" H 28850 2850 50  0001 C CNN
-F 3 "" H 28850 2850 50  0001 C CNN
-	1    28850 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR075
-U 1 1 65A056BA
-P 30700 3300
-F 0 "#PWR075" H 30700 3050 50  0001 C CNN
-F 1 "GND" H 30705 3127 50  0000 C CNN
-F 2 "" H 30700 3300 50  0001 C CNN
-F 3 "" H 30700 3300 50  0001 C CNN
-	1    30700 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR077
-U 1 1 65B18227
-P 31900 3300
-F 0 "#PWR077" H 31900 3050 50  0001 C CNN
-F 1 "GND" H 31905 3127 50  0000 C CNN
-F 2 "" H 31900 3300 50  0001 C CNN
-F 3 "" H 31900 3300 50  0001 C CNN
-	1    31900 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR078
-U 1 1 65C2A976
-P 31900 4500
-F 0 "#PWR078" H 31900 4250 50  0001 C CNN
-F 1 "GND" H 31905 4327 50  0000 C CNN
-F 2 "" H 31900 4500 50  0001 C CNN
-F 3 "" H 31900 4500 50  0001 C CNN
-	1    31900 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR082
-U 1 1 65D3E907
-P 33550 3900
-F 0 "#PWR082" H 33550 3650 50  0001 C CNN
-F 1 "GND" H 33555 3727 50  0000 C CNN
-F 2 "" H 33550 3900 50  0001 C CNN
-F 3 "" H 33550 3900 50  0001 C CNN
-	1    33550 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR086
-U 1 1 66009EC4
-P 34850 4650
-F 0 "#PWR086" H 34850 4400 50  0001 C CNN
-F 1 "GND" H 34855 4477 50  0000 C CNN
-F 2 "" H 34850 4650 50  0001 C CNN
-F 3 "" H 34850 4650 50  0001 C CNN
-	1    34850 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR087
-U 1 1 6611C6D2
-P 35600 3650
-F 0 "#PWR087" H 35600 3400 50  0001 C CNN
-F 1 "GND" H 35605 3477 50  0000 C CNN
-F 2 "" H 35600 3650 50  0001 C CNN
-F 3 "" H 35600 3650 50  0001 C CNN
-	1    35600 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR088
-U 1 1 6622F423
-P 36100 3650
-F 0 "#PWR088" H 36100 3400 50  0001 C CNN
-F 1 "GND" H 36105 3477 50  0000 C CNN
-F 2 "" H 36100 3650 50  0001 C CNN
-F 3 "" H 36100 3650 50  0001 C CNN
-	1    36100 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR090
-U 1 1 6622F70E
-P 36500 3650
-F 0 "#PWR090" H 36500 3400 50  0001 C CNN
-F 1 "GND" H 36505 3477 50  0000 C CNN
-F 2 "" H 36500 3650 50  0001 C CNN
-F 3 "" H 36500 3650 50  0001 C CNN
-	1    36500 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR092
-U 1 1 6622F9C4
-P 37350 3700
-F 0 "#PWR092" H 37350 3450 50  0001 C CNN
-F 1 "GND" H 37355 3527 50  0000 C CNN
-F 2 "" H 37350 3700 50  0001 C CNN
-F 3 "" H 37350 3700 50  0001 C CNN
-	1    37350 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR072
-U 1 1 662318AD
-P 30200 10000
-F 0 "#PWR072" H 30200 9750 50  0001 C CNN
-F 1 "GND" H 30205 9827 50  0000 C CNN
-F 2 "" H 30200 10000 50  0001 C CNN
-F 3 "" H 30200 10000 50  0001 C CNN
-	1    30200 10000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR080
-U 1 1 66345547
-P 32350 8000
-F 0 "#PWR080" H 32350 7750 50  0001 C CNN
-F 1 "GND" H 32355 7827 50  0000 C CNN
-F 2 "" H 32350 8000 50  0001 C CNN
-F 3 "" H 32350 8000 50  0001 C CNN
-	1    32350 8000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR083
-U 1 1 66458CAE
-P 34400 9700
-F 0 "#PWR083" H 34400 9450 50  0001 C CNN
-F 1 "GND" H 34405 9527 50  0000 C CNN
-F 2 "" H 34400 9700 50  0001 C CNN
-F 3 "" H 34400 9700 50  0001 C CNN
-	1    34400 9700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR094
-U 1 1 6656B824
-P 37650 7650
-F 0 "#PWR094" H 37650 7400 50  0001 C CNN
-F 1 "GND" H 37655 7477 50  0000 C CNN
-F 2 "" H 37650 7650 50  0001 C CNN
-F 3 "" H 37650 7650 50  0001 C CNN
-	1    37650 7650
-	1    0    0    -1  
-$EndComp
-Connection ~ 37650 7650
-$Comp
 L power:GND #PWR015
 U 1 1 6669B5A9
 P 6500 4050
@@ -8518,8 +5374,6 @@ F 3 "" H 6500 4050 50  0001 C CNN
 	1    6500 4050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	30900 3000 31100 3000
 Text GLabel 14550 9550 0    50   Output ~ 0
 INTB4
 Text GLabel 8400 16200 0    50   Output ~ 0
@@ -8560,28 +5414,6 @@ Connection ~ 2850 10450
 Connection ~ 2850 10350
 Wire Wire Line
 	2850 10350 2850 10450
-$Comp
-L Custom_Power:3.3V_CTRL #PWR84
-U 1 1 6B44C2B7
-P 34450 6700
-F 0 "#PWR84" H 34435 6766 50  0001 C CNN
-F 1 "3.3V_CTRL" H 34435 6675 50  0000 C CNN
-F 2 "" H 34450 6750 50  0001 C CNN
-F 3 "" H 34450 6750 50  0001 C CNN
-	1    34450 6700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Power:9V_CTRL #PWR70
-U 1 1 63421377
-P 28850 2400
-F 0 "#PWR70" H 28835 2516 50  0001 C CNN
-F 1 "9V_CTRL" H 28835 2425 50  0000 C CNN
-F 2 "" H 28850 2400 50  0001 C CNN
-F 3 "" H 28850 2400 50  0001 C CNN
-	1    28850 2400
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+3.3V #PWR040
 U 1 1 6575D300
@@ -8914,134 +5746,6 @@ F 3 "~" H 45000 3950 50  0001 C CNN
 	1    45000 3950
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x03 J16
-U 1 1 692719FA
-P 31250 7000
-F 0 "J16" H 31168 6675 50  0000 C CNN
-F 1 "Conn_01x03" H 31168 6766 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 31250 7000 50  0001 C CNN
-F 3 "~" H 31250 7000 50  0001 C CNN
-	1    31250 7000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	30450 6100 30450 6200
-$Comp
-L Device:R_Small R78
-U 1 1 6949E2DE
-P 30450 6300
-F 0 "R78" H 30509 6346 50  0000 L CNN
-F 1 "2k2" H 30509 6255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 30450 6300 50  0001 C CNN
-F 3 "~" H 30450 6300 50  0001 C CNN
-	1    30450 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R79
-U 1 1 696D46D6
-P 30700 6300
-F 0 "R79" H 30759 6346 50  0000 L CNN
-F 1 "2k2" H 30759 6255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 30700 6300 50  0001 C CNN
-F 3 "~" H 30700 6300 50  0001 C CNN
-	1    30700 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Power:3.3V_CTRL #PWR74
-U 1 1 6B19358B
-P 30450 5800
-F 0 "#PWR74" H 30435 5866 50  0001 C CNN
-F 1 "3.3V_CTRL" H 30435 5775 50  0000 C CNN
-F 2 "" H 30450 5850 50  0001 C CNN
-F 3 "" H 30450 5850 50  0001 C CNN
-	1    30450 5800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	30350 6900 30450 6900
-Wire Wire Line
-	30350 7000 30700 7000
-Wire Wire Line
-	30700 6400 30700 7000
-Connection ~ 30700 7000
-Wire Wire Line
-	30700 7000 31050 7000
-Wire Wire Line
-	30450 6400 30450 6900
-Connection ~ 30450 6900
-Wire Wire Line
-	30450 6900 31050 6900
-Wire Wire Line
-	30700 6200 30700 6100
-Wire Wire Line
-	30700 6100 30450 6100
-Connection ~ 30450 6100
-Wire Wire Line
-	30450 6000 30450 6100
-$Comp
-L Device:R_Small R80
-U 1 1 6A55FE97
-P 30750 5550
-F 0 "R80" H 30809 5596 50  0000 L CNN
-F 1 "4k7" H 30809 5505 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 30750 5550 50  0001 C CNN
-F 3 "~" H 30750 5550 50  0001 C CNN
-	1    30750 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JP16
-U 1 1 6A563335
-P 30950 5850
-F 0 "JP16" V 30904 5918 50  0000 L CNN
-F 1 "SolderJumper_3_Bridged12" V 30995 5918 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 30950 5850 50  0001 C CNN
-F 3 "~" H 30950 5850 50  0001 C CNN
-	1    30950 5850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	30350 7100 30950 7100
-Wire Wire Line
-	30950 7100 30950 6000
-Connection ~ 30950 7100
-Wire Wire Line
-	30950 7100 31050 7100
-$Comp
-L Custom_Power:3.3V_CTRL #PWR76
-U 1 1 6A825E06
-P 30750 5150
-F 0 "#PWR76" H 30735 5216 50  0001 C CNN
-F 1 "3.3V_CTRL" H 30735 5125 50  0000 C CNN
-F 2 "" H 30750 5200 50  0001 C CNN
-F 3 "" H 30750 5200 50  0001 C CNN
-	1    30750 5150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	30750 5850 30750 5650
-Wire Wire Line
-	30750 5450 30750 5350
-$Comp
-L Connector_Generic:Conn_01x01 J17
-U 1 1 6A8B52E1
-P 31350 5850
-F 0 "J17" H 31430 5892 50  0000 L CNN
-F 1 "Conn_01x01" H 31430 5801 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 31350 5850 50  0001 C CNN
-F 3 "~" H 31350 5850 50  0001 C CNN
-	1    31350 5850
-	1    0    0    -1  
-$EndComp
-Text GLabel 30350 7100 0    50   Output ~ 0
-INTB_CTRL
-Text GLabel 30350 7000 0    50   Input ~ 0
-SDA_CTRL
-Text GLabel 30350 6900 0    50   Input ~ 0
-SCL_CTRL
 $Comp
 L Device:C_Small CX17
 U 1 1 6BC4B972
@@ -16493,16 +13197,3318 @@ F 3 "~" H 43600 6050 50  0001 C CNN
 	1    43600 6050
 	1    0    0    -1  
 $EndComp
+NoConn ~ 30450 2700
 $Comp
 L Switch:SW_SPDT SW1
 U 1 1 6D90DB60
-P 30300 2300
-F 0 "SW1" V 30254 2448 50  0000 L CNN
-F 1 "SW_SPDT" V 30345 2448 50  0000 L CNN
-F 2 "Button_Switch_SMD:SW_SPDT_PCM12" H 30300 2300 50  0001 C CNN
-F 3 "~" H 30300 2300 50  0001 C CNN
-	1    30300 2300
+P 30550 2500
+F 0 "SW1" V 30504 2648 50  0000 L CNN
+F 1 "SW_SPDT" V 30595 2648 50  0000 L CNN
+F 2 "Button_Switch_SMD:SW_SPDT_PCM12" H 30550 2500 50  0001 C CNN
+F 3 "~" H 30550 2500 50  0001 C CNN
+	1    30550 2500
 	0    1    1    0   
 $EndComp
-NoConn ~ 30200 2500
+Text GLabel 30600 7100 0    50   Input ~ 0
+SCL_CTRL
+Text GLabel 30600 7200 0    50   Input ~ 0
+SDA_CTRL
+Text GLabel 30600 7300 0    50   Output ~ 0
+INTB_CTRL
+$Comp
+L Connector_Generic:Conn_01x01 J17
+U 1 1 6A8B52E1
+P 31600 6050
+F 0 "J17" H 31680 6092 50  0000 L CNN
+F 1 "Conn_01x01" H 31680 6001 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 31600 6050 50  0001 C CNN
+F 3 "~" H 31600 6050 50  0001 C CNN
+	1    31600 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	31000 5650 31000 5550
+Wire Wire Line
+	31000 6050 31000 5850
+$Comp
+L Custom_Power:3.3V_CTRL #PWR76
+U 1 1 6A825E06
+P 31000 5350
+F 0 "#PWR76" H 30985 5416 50  0001 C CNN
+F 1 "3.3V_CTRL" H 30985 5325 50  0000 C CNN
+F 2 "" H 31000 5400 50  0001 C CNN
+F 3 "" H 31000 5400 50  0001 C CNN
+	1    31000 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	31200 7300 31300 7300
+Connection ~ 31200 7300
+Wire Wire Line
+	31200 7300 31200 6200
+Wire Wire Line
+	30600 7300 31200 7300
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP16
+U 1 1 6A563335
+P 31200 6050
+F 0 "JP16" V 31154 6118 50  0000 L CNN
+F 1 "SolderJumper_3_Bridged12" V 31245 6118 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 31200 6050 50  0001 C CNN
+F 3 "~" H 31200 6050 50  0001 C CNN
+	1    31200 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R80
+U 1 1 6A55FE97
+P 31000 5750
+F 0 "R80" H 31059 5796 50  0000 L CNN
+F 1 "4k7" H 31059 5705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 31000 5750 50  0001 C CNN
+F 3 "~" H 31000 5750 50  0001 C CNN
+	1    31000 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	30700 6200 30700 6300
+Connection ~ 30700 6300
+Wire Wire Line
+	30950 6300 30700 6300
+Wire Wire Line
+	30950 6400 30950 6300
+Wire Wire Line
+	30700 7100 31300 7100
+Connection ~ 30700 7100
+Wire Wire Line
+	30700 6600 30700 7100
+Wire Wire Line
+	30950 7200 31300 7200
+Connection ~ 30950 7200
+Wire Wire Line
+	30950 6600 30950 7200
+Wire Wire Line
+	30600 7200 30950 7200
+Wire Wire Line
+	30600 7100 30700 7100
+$Comp
+L Custom_Power:3.3V_CTRL #PWR74
+U 1 1 6B19358B
+P 30700 6000
+F 0 "#PWR74" H 30685 6066 50  0001 C CNN
+F 1 "3.3V_CTRL" H 30685 5975 50  0000 C CNN
+F 2 "" H 30700 6050 50  0001 C CNN
+F 3 "" H 30700 6050 50  0001 C CNN
+	1    30700 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R79
+U 1 1 696D46D6
+P 30950 6500
+F 0 "R79" H 31009 6546 50  0000 L CNN
+F 1 "2k2" H 31009 6455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 30950 6500 50  0001 C CNN
+F 3 "~" H 30950 6500 50  0001 C CNN
+	1    30950 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R78
+U 1 1 6949E2DE
+P 30700 6500
+F 0 "R78" H 30759 6546 50  0000 L CNN
+F 1 "2k2" H 30759 6455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 30700 6500 50  0001 C CNN
+F 3 "~" H 30700 6500 50  0001 C CNN
+	1    30700 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	30700 6300 30700 6400
+$Comp
+L Connector_Generic:Conn_01x03 J16
+U 1 1 692719FA
+P 31500 7200
+F 0 "J16" H 31418 6875 50  0000 C CNN
+F 1 "Conn_01x03" H 31418 6966 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 31500 7200 50  0001 C CNN
+F 3 "~" H 31500 7200 50  0001 C CNN
+	1    31500 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Power:9V_CTRL #PWR70
+U 1 1 63421377
+P 29100 2600
+F 0 "#PWR70" H 29085 2716 50  0001 C CNN
+F 1 "9V_CTRL" H 29085 2625 50  0000 C CNN
+F 2 "" H 29100 2600 50  0001 C CNN
+F 3 "" H 29100 2600 50  0001 C CNN
+	1    29100 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Power:3.3V_CTRL #PWR84
+U 1 1 6B44C2B7
+P 34700 6900
+F 0 "#PWR84" H 34685 6966 50  0001 C CNN
+F 1 "3.3V_CTRL" H 34685 6875 50  0000 C CNN
+F 2 "" H 34700 6950 50  0001 C CNN
+F 3 "" H 34700 6950 50  0001 C CNN
+	1    34700 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	31150 3200 31350 3200
+Connection ~ 37900 7850
+$Comp
+L power:GND #PWR094
+U 1 1 6656B824
+P 37900 7850
+F 0 "#PWR094" H 37900 7600 50  0001 C CNN
+F 1 "GND" H 37905 7677 50  0000 C CNN
+F 2 "" H 37900 7850 50  0001 C CNN
+F 3 "" H 37900 7850 50  0001 C CNN
+	1    37900 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR083
+U 1 1 66458CAE
+P 34650 9900
+F 0 "#PWR083" H 34650 9650 50  0001 C CNN
+F 1 "GND" H 34655 9727 50  0000 C CNN
+F 2 "" H 34650 9900 50  0001 C CNN
+F 3 "" H 34650 9900 50  0001 C CNN
+	1    34650 9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR080
+U 1 1 66345547
+P 32600 8200
+F 0 "#PWR080" H 32600 7950 50  0001 C CNN
+F 1 "GND" H 32605 8027 50  0000 C CNN
+F 2 "" H 32600 8200 50  0001 C CNN
+F 3 "" H 32600 8200 50  0001 C CNN
+	1    32600 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR072
+U 1 1 662318AD
+P 30450 10200
+F 0 "#PWR072" H 30450 9950 50  0001 C CNN
+F 1 "GND" H 30455 10027 50  0000 C CNN
+F 2 "" H 30450 10200 50  0001 C CNN
+F 3 "" H 30450 10200 50  0001 C CNN
+	1    30450 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR092
+U 1 1 6622F9C4
+P 37600 3900
+F 0 "#PWR092" H 37600 3650 50  0001 C CNN
+F 1 "GND" H 37605 3727 50  0000 C CNN
+F 2 "" H 37600 3900 50  0001 C CNN
+F 3 "" H 37600 3900 50  0001 C CNN
+	1    37600 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR090
+U 1 1 6622F70E
+P 36750 3850
+F 0 "#PWR090" H 36750 3600 50  0001 C CNN
+F 1 "GND" H 36755 3677 50  0000 C CNN
+F 2 "" H 36750 3850 50  0001 C CNN
+F 3 "" H 36750 3850 50  0001 C CNN
+	1    36750 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR088
+U 1 1 6622F423
+P 36350 3850
+F 0 "#PWR088" H 36350 3600 50  0001 C CNN
+F 1 "GND" H 36355 3677 50  0000 C CNN
+F 2 "" H 36350 3850 50  0001 C CNN
+F 3 "" H 36350 3850 50  0001 C CNN
+	1    36350 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR087
+U 1 1 6611C6D2
+P 35850 3850
+F 0 "#PWR087" H 35850 3600 50  0001 C CNN
+F 1 "GND" H 35855 3677 50  0000 C CNN
+F 2 "" H 35850 3850 50  0001 C CNN
+F 3 "" H 35850 3850 50  0001 C CNN
+	1    35850 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR086
+U 1 1 66009EC4
+P 35100 4850
+F 0 "#PWR086" H 35100 4600 50  0001 C CNN
+F 1 "GND" H 35105 4677 50  0000 C CNN
+F 2 "" H 35100 4850 50  0001 C CNN
+F 3 "" H 35100 4850 50  0001 C CNN
+	1    35100 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR082
+U 1 1 65D3E907
+P 33800 4100
+F 0 "#PWR082" H 33800 3850 50  0001 C CNN
+F 1 "GND" H 33805 3927 50  0000 C CNN
+F 2 "" H 33800 4100 50  0001 C CNN
+F 3 "" H 33800 4100 50  0001 C CNN
+	1    33800 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR078
+U 1 1 65C2A976
+P 32150 4700
+F 0 "#PWR078" H 32150 4450 50  0001 C CNN
+F 1 "GND" H 32155 4527 50  0000 C CNN
+F 2 "" H 32150 4700 50  0001 C CNN
+F 3 "" H 32150 4700 50  0001 C CNN
+	1    32150 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR077
+U 1 1 65B18227
+P 32150 3500
+F 0 "#PWR077" H 32150 3250 50  0001 C CNN
+F 1 "GND" H 32155 3327 50  0000 C CNN
+F 2 "" H 32150 3500 50  0001 C CNN
+F 3 "" H 32150 3500 50  0001 C CNN
+	1    32150 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR075
+U 1 1 65A056BA
+P 30950 3500
+F 0 "#PWR075" H 30950 3250 50  0001 C CNN
+F 1 "GND" H 30955 3327 50  0000 C CNN
+F 2 "" H 30950 3500 50  0001 C CNN
+F 3 "" H 30950 3500 50  0001 C CNN
+	1    30950 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR071
+U 1 1 65756B3C
+P 29100 3050
+F 0 "#PWR071" H 29100 2800 50  0001 C CNN
+F 1 "GND" H 29105 2877 50  0000 C CNN
+F 2 "" H 29100 3050 50  0001 C CNN
+F 3 "" H 29100 3050 50  0001 C CNN
+	1    29100 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Power:3.3V_CTRL #PWR91
+U 1 1 6563A2BE
+P 37600 3000
+F 0 "#PWR91" H 37585 3066 50  0001 C CNN
+F 1 "3.3V_CTRL" H 37585 2975 50  0000 C CNN
+F 2 "" H 37600 3050 50  0001 C CNN
+F 3 "" H 37600 3050 50  0001 C CNN
+	1    37600 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	32300 3200 32350 3200
+Connection ~ 32300 3200
+$Comp
+L power:PWR_FLAG #FLG04
+U 1 1 64D91FB3
+P 32300 3200
+F 0 "#FLG04" H 32300 3275 50  0001 C CNN
+F 1 "PWR_FLAG" H 32300 3373 50  0000 C CNN
+F 2 "" H 32300 3200 50  0001 C CNN
+F 3 "~" H 32300 3200 50  0001 C CNN
+	1    32300 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	29100 2850 29100 2750
+Wire Wire Line
+	29200 2850 29100 2850
+Wire Wire Line
+	29100 2950 29100 3050
+Wire Wire Line
+	29200 2950 29100 2950
+$Comp
+L Connector:Screw_Terminal_01x02 J12
+U 1 1 6341F502
+P 29400 2850
+F 0 "J12" H 29480 2842 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 29480 2751 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal" H 29400 2850 50  0001 C CNN
+F 3 "~" H 29400 2850 50  0001 C CNN
+	1    29400 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RP12
+U 1 1 69096B29
+P 37600 3700
+F 0 "RP12" H 37659 3746 50  0000 L CNN
+F 1 "1k" H 37659 3655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 37600 3700 50  0001 C CNN
+F 3 "~" H 37600 3700 50  0001 C CNN
+	1    37600 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D13
+U 1 1 69096B2F
+P 37600 3400
+F 0 "D13" V 37646 3330 50  0000 R CNN
+F 1 "B" V 37555 3330 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 37600 3400 50  0001 C CNN
+F 3 "~" V 37600 3400 50  0001 C CNN
+	1    37600 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	37600 3200 37600 3300
+Wire Wire Line
+	37600 3800 37600 3900
+Wire Wire Line
+	37600 3500 37600 3600
+$Comp
+L Custom_Power:MP2359DT-LF U116
+U 1 1 69096B44
+P 33800 3350
+F 0 "U116" H 33800 3415 50  0000 C CNN
+F 1 "MP2359DT-LF" H 33800 3324 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 33800 3350 50  0001 C CNN
+F 3 "" H 33800 3350 50  0001 C CNN
+	1    33800 3350
+	1    0    0    -1  
+$EndComp
+Text GLabel 34100 3550 2    50   Input ~ 0
+BUCK_BST_CTRL
+Text GLabel 34100 3650 2    50   Input ~ 0
+BUCK_SW_CTRL
+Text GLabel 34100 3750 2    50   Input ~ 0
+BUCK_FB_CTRL
+$Comp
+L Device:C_Small CP6
+U 1 1 69096B53
+P 35250 3000
+F 0 "CP6" H 35342 3046 50  0000 L CNN
+F 1 "10nF" H 35342 2955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 35250 3000 50  0001 C CNN
+F 3 "~" H 35250 3000 50  0001 C CNN
+	1    35250 3000
+	1    0    0    -1  
+$EndComp
+Text GLabel 35150 2800 0    50   Input ~ 0
+BUCK_BST_CTRL
+Text GLabel 35150 3200 0    50   Input ~ 0
+BUCK_SW_CTRL
+Wire Wire Line
+	35150 2800 35250 2800
+Wire Wire Line
+	35250 2800 35250 2900
+Wire Wire Line
+	35250 3200 35150 3200
+Wire Wire Line
+	35250 3100 35250 3200
+$Comp
+L Device:R_Small RP9
+U 1 1 69096B5F
+P 35100 4050
+F 0 "RP9" H 35159 4096 50  0000 L CNN
+F 1 "47k" H 35159 4005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 35100 4050 50  0001 C CNN
+F 3 "~" H 35100 4050 50  0001 C CNN
+	1    35100 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RP10
+U 1 1 69096B65
+P 35100 4350
+F 0 "RP10" H 35159 4396 50  0000 L CNN
+F 1 "15k" H 35159 4305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 35100 4350 50  0001 C CNN
+F 3 "~" H 35100 4350 50  0001 C CNN
+	1    35100 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RP11
+U 1 1 69096B6B
+P 35100 4650
+F 0 "RP11" H 35159 4696 50  0000 L CNN
+F 1 "270" H 35159 4605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 35100 4650 50  0001 C CNN
+F 3 "~" H 35100 4650 50  0001 C CNN
+	1    35100 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR085
+U 1 1 69096B77
+P 35100 3850
+F 0 "#PWR085" H 35100 3700 50  0001 C CNN
+F 1 "+3.3V" H 35115 4023 50  0000 C CNN
+F 2 "" H 35100 3850 50  0001 C CNN
+F 3 "" H 35100 3850 50  0001 C CNN
+	1    35100 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	35100 3850 35100 3950
+Wire Wire Line
+	35100 4150 35100 4200
+Wire Wire Line
+	35100 4450 35100 4550
+Wire Wire Line
+	35100 4750 35100 4850
+Text GLabel 35000 4200 0    50   Input ~ 0
+BUCK_FB_CTRL
+Wire Wire Line
+	35100 4200 35000 4200
+Connection ~ 35100 4200
+Wire Wire Line
+	35100 4200 35100 4250
+$Comp
+L Device:D_Schottky_Small D8
+U 1 1 69096B85
+P 35850 3650
+F 0 "D8" V 35804 3720 50  0000 L CNN
+F 1 "B5819W" V 35895 3720 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 35850 3650 50  0001 C CNN
+F 3 "~" V 35850 3650 50  0001 C CNN
+	1    35850 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:L_Small L2
+U 1 1 69096B8B
+P 36050 3450
+F 0 "L2" V 36235 3450 50  0000 C CNN
+F 1 "10uH" V 36144 3450 50  0000 C CNN
+F 2 "Inductor_SMD:L_Sunlord_MWSA0518_5.4x5.2mm" H 36050 3450 50  0001 C CNN
+F 3 "~" H 36050 3450 50  0001 C CNN
+	1    36050 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small FB2
+U 1 1 69096B91
+P 31950 3200
+F 0 "FB2" V 31713 3200 50  0000 C CNN
+F 1 "600 @ 600MHz" V 31804 3200 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 31880 3200 50  0001 C CNN
+F 3 "~" H 31950 3200 50  0001 C CNN
+	1    31950 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Polyfuse_Small F2
+U 1 1 69096B97
+P 31450 3200
+F 0 "F2" V 31245 3200 50  0000 C CNN
+F 1 "1A" V 31336 3200 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric" H 31500 3000 50  0001 L CNN
+F 3 "~" H 31450 3200 50  0001 C CNN
+	1    31450 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_FET:AO3401A Q2
+U 1 1 69096B9D
+P 30950 3300
+F 0 "Q2" V 31292 3300 50  0000 C CNN
+F 1 "AO3401A" V 31201 3300 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 31150 3225 50  0001 L CIN
+F 3 "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf" H 30950 3300 50  0001 L CNN
+	1    30950 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small CP7
+U 1 1 69096BA3
+P 36350 3650
+F 0 "CP7" H 36442 3696 50  0000 L CNN
+F 1 "10uF" H 36442 3605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 36350 3650 50  0001 C CNN
+F 3 "~" H 36350 3650 50  0001 C CNN
+	1    36350 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small CP8
+U 1 1 69096BA9
+P 36750 3650
+F 0 "CP8" H 36842 3696 50  0000 L CNN
+F 1 "10uF" H 36842 3605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 36750 3650 50  0001 C CNN
+F 3 "~" H 36750 3650 50  0001 C CNN
+	1    36750 3650
+	1    0    0    -1  
+$EndComp
+Text GLabel 35650 3450 0    50   Input ~ 0
+BUCK_SW_CTRL
+Wire Wire Line
+	35850 3750 35850 3850
+Wire Wire Line
+	36350 3750 36350 3850
+Wire Wire Line
+	36750 3750 36750 3850
+Wire Wire Line
+	35650 3450 35850 3450
+Wire Wire Line
+	35850 3450 35850 3550
+Wire Wire Line
+	35850 3450 35950 3450
+Connection ~ 35850 3450
+Wire Wire Line
+	36750 3450 36750 3350
+Text GLabel 33500 3650 0    50   Input ~ 0
+BUCK_EN_CTRL
+Text GLabel 33500 3550 0    50   Input ~ 0
+BUCK_IN_CTRL
+Wire Wire Line
+	30650 2700 30650 3200
+Wire Wire Line
+	30650 3200 30750 3200
+Text GLabel 32350 3200 2    50   Input ~ 0
+BUCK_IN_CTRL
+Wire Wire Line
+	31550 3200 31850 3200
+Wire Wire Line
+	32050 3200 32150 3200
+Wire Wire Line
+	32150 3200 32150 3300
+Connection ~ 32150 3200
+Wire Wire Line
+	32150 3200 32300 3200
+$Comp
+L Device:R_Small RP7
+U 1 1 69096C06
+P 32150 4200
+F 0 "RP7" H 32209 4246 50  0000 L CNN
+F 1 "100k" H 32209 4155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 32150 4200 50  0001 C CNN
+F 3 "~" H 32150 4200 50  0001 C CNN
+	1    32150 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RP8
+U 1 1 69096C0C
+P 32150 4500
+F 0 "RP8" H 32209 4546 50  0000 L CNN
+F 1 "68k" H 32209 4455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 32150 4500 50  0001 C CNN
+F 3 "~" H 32150 4500 50  0001 C CNN
+	1    32150 4500
+	1    0    0    -1  
+$EndComp
+Text GLabel 32250 4000 2    50   Input ~ 0
+BUCK_IN_CTRL
+Text GLabel 32450 4350 2    50   Input ~ 0
+BUCK_EN_CTRL
+Wire Wire Line
+	32150 4300 32150 4350
+Wire Wire Line
+	32150 4600 32150 4700
+Wire Wire Line
+	32150 4350 32450 4350
+Connection ~ 32150 4350
+Wire Wire Line
+	32150 4350 32150 4400
+Wire Wire Line
+	32150 4100 32150 4000
+Wire Wire Line
+	32150 4000 32250 4000
+Wire Wire Line
+	36150 3450 36350 3450
+Wire Wire Line
+	36350 3450 36350 3550
+Connection ~ 36350 3450
+Wire Wire Line
+	36350 3450 36750 3450
+Wire Wire Line
+	36750 3450 36750 3550
+Connection ~ 36750 3450
+$Comp
+L Custom_Power:3.3V_CTRL #PWR89
+U 1 1 69BB3682
+P 36750 3150
+F 0 "#PWR89" H 36735 3216 50  0001 C CNN
+F 1 "3.3V_CTRL" H 36735 3125 50  0000 C CNN
+F 2 "" H 36750 3200 50  0001 C CNN
+F 3 "" H 36750 3200 50  0001 C CNN
+	1    36750 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small CP5
+U 1 1 69096BF4
+P 32150 3400
+F 0 "CP5" H 32242 3446 50  0000 L CNN
+F 1 "10uF" H 32242 3355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 32150 3400 50  0001 C CNN
+F 3 "~" H 32150 3400 50  0001 C CNN
+	1    32150 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Power:9V_CTRL #PWR73
+U 1 1 6B712CDF
+P 30550 2150
+F 0 "#PWR73" H 30535 2266 50  0001 C CNN
+F 1 "9V_CTRL" H 30535 2175 50  0000 C CNN
+F 2 "" H 30550 2150 50  0001 C CNN
+F 3 "" H 30550 2150 50  0001 C CNN
+	1    30550 2150
+	1    0    0    -1  
+$EndComp
+Text Notes 33550 2250 0    50   ~ 0
+Power supply
+$Comp
+L Custom_Sensor_Touch:Electrode U118
+U 1 1 7677F370
+P 34700 13850
+F 0 "U118" H 35000 13650 50  0000 C CNN
+F 1 "Electrode" H 35000 13700 50  0000 C CNN
+F 2 "" H 34700 13850 50  0001 C CNN
+F 3 "" H 34700 13850 50  0001 C CNN
+	1    34700 13850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J21
+U 1 1 76784DC2
+P 35000 14000
+F 0 "J21" H 35080 13992 50  0000 L CNN
+F 1 "Conn_01x08" H 35080 13901 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 35000 14000 50  0001 C CNN
+F 3 "~" H 35000 14000 50  0001 C CNN
+	1    35000 14000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U119
+U 1 1 76878293
+P 34700 13950
+F 0 "U119" H 35000 13750 50  0000 C CNN
+F 1 "Electrode" H 35000 13800 50  0000 C CNN
+F 2 "" H 34700 13950 50  0001 C CNN
+F 3 "" H 34700 13950 50  0001 C CNN
+	1    34700 13950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U120
+U 1 1 7687866E
+P 34700 14050
+F 0 "U120" H 35000 13850 50  0000 C CNN
+F 1 "Electrode" H 35000 13900 50  0000 C CNN
+F 2 "" H 34700 14050 50  0001 C CNN
+F 3 "" H 34700 14050 50  0001 C CNN
+	1    34700 14050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U121
+U 1 1 76878885
+P 34700 14150
+F 0 "U121" H 35000 13950 50  0000 C CNN
+F 1 "Electrode" H 35000 14000 50  0000 C CNN
+F 2 "" H 34700 14150 50  0001 C CNN
+F 3 "" H 34700 14150 50  0001 C CNN
+	1    34700 14150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U122
+U 1 1 76878ADE
+P 34700 14250
+F 0 "U122" H 35000 14050 50  0000 C CNN
+F 1 "Electrode" H 35000 14100 50  0000 C CNN
+F 2 "" H 34700 14250 50  0001 C CNN
+F 3 "" H 34700 14250 50  0001 C CNN
+	1    34700 14250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U123
+U 1 1 76878CC7
+P 34700 14350
+F 0 "U123" H 35000 14150 50  0000 C CNN
+F 1 "Electrode" H 35000 14200 50  0000 C CNN
+F 2 "" H 34700 14350 50  0001 C CNN
+F 3 "" H 34700 14350 50  0001 C CNN
+	1    34700 14350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U124
+U 1 1 76879033
+P 34700 14450
+F 0 "U124" H 35000 14250 50  0000 C CNN
+F 1 "Electrode" H 35000 14300 50  0000 C CNN
+F 2 "" H 34700 14450 50  0001 C CNN
+F 3 "" H 34700 14450 50  0001 C CNN
+	1    34700 14450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U125
+U 1 1 7687931E
+P 34700 14550
+F 0 "U125" H 35000 14350 50  0000 C CNN
+F 1 "Electrode" H 35000 14400 50  0000 C CNN
+F 2 "" H 34700 14550 50  0001 C CNN
+F 3 "" H 34700 14550 50  0001 C CNN
+	1    34700 14550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U142
+U 1 1 76B4E6F4
+P 36100 13850
+F 0 "U142" H 36400 13650 50  0000 C CNN
+F 1 "Electrode" H 36400 13700 50  0000 C CNN
+F 2 "" H 36100 13850 50  0001 C CNN
+F 3 "" H 36100 13850 50  0001 C CNN
+	1    36100 13850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J24
+U 1 1 76B4E6FA
+P 36400 14000
+F 0 "J24" H 36480 13992 50  0000 L CNN
+F 1 "Conn_01x08" H 36480 13901 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 36400 14000 50  0001 C CNN
+F 3 "~" H 36400 14000 50  0001 C CNN
+	1    36400 14000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U143
+U 1 1 76B4E700
+P 36100 13950
+F 0 "U143" H 36400 13750 50  0000 C CNN
+F 1 "Electrode" H 36400 13800 50  0000 C CNN
+F 2 "" H 36100 13950 50  0001 C CNN
+F 3 "" H 36100 13950 50  0001 C CNN
+	1    36100 13950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U144
+U 1 1 76B4E706
+P 36100 14050
+F 0 "U144" H 36400 13850 50  0000 C CNN
+F 1 "Electrode" H 36400 13900 50  0000 C CNN
+F 2 "" H 36100 14050 50  0001 C CNN
+F 3 "" H 36100 14050 50  0001 C CNN
+	1    36100 14050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U145
+U 1 1 76B4E70C
+P 36100 14150
+F 0 "U145" H 36400 13950 50  0000 C CNN
+F 1 "Electrode" H 36400 14000 50  0000 C CNN
+F 2 "" H 36100 14150 50  0001 C CNN
+F 3 "" H 36100 14150 50  0001 C CNN
+	1    36100 14150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U146
+U 1 1 76B4E712
+P 36100 14250
+F 0 "U146" H 36400 14050 50  0000 C CNN
+F 1 "Electrode" H 36400 14100 50  0000 C CNN
+F 2 "" H 36100 14250 50  0001 C CNN
+F 3 "" H 36100 14250 50  0001 C CNN
+	1    36100 14250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U147
+U 1 1 76B4E718
+P 36100 14350
+F 0 "U147" H 36400 14150 50  0000 C CNN
+F 1 "Electrode" H 36400 14200 50  0000 C CNN
+F 2 "" H 36100 14350 50  0001 C CNN
+F 3 "" H 36100 14350 50  0001 C CNN
+	1    36100 14350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U148
+U 1 1 76B4E71E
+P 36100 14450
+F 0 "U148" H 36400 14250 50  0000 C CNN
+F 1 "Electrode" H 36400 14300 50  0000 C CNN
+F 2 "" H 36100 14450 50  0001 C CNN
+F 3 "" H 36100 14450 50  0001 C CNN
+	1    36100 14450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U149
+U 1 1 76B4E724
+P 36100 14550
+F 0 "U149" H 36400 14350 50  0000 C CNN
+F 1 "Electrode" H 36400 14400 50  0000 C CNN
+F 2 "" H 36100 14550 50  0001 C CNN
+F 3 "" H 36100 14550 50  0001 C CNN
+	1    36100 14550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U150
+U 1 1 76C46C11
+P 36100 14850
+F 0 "U150" H 36400 14650 50  0000 C CNN
+F 1 "Electrode" H 36400 14700 50  0000 C CNN
+F 2 "" H 36100 14850 50  0001 C CNN
+F 3 "" H 36100 14850 50  0001 C CNN
+	1    36100 14850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J25
+U 1 1 76C46C17
+P 36400 15000
+F 0 "J25" H 36480 14992 50  0000 L CNN
+F 1 "Conn_01x08" H 36480 14901 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 36400 15000 50  0001 C CNN
+F 3 "~" H 36400 15000 50  0001 C CNN
+	1    36400 15000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U151
+U 1 1 76C46C1D
+P 36100 14950
+F 0 "U151" H 36400 14750 50  0000 C CNN
+F 1 "Electrode" H 36400 14800 50  0000 C CNN
+F 2 "" H 36100 14950 50  0001 C CNN
+F 3 "" H 36100 14950 50  0001 C CNN
+	1    36100 14950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U152
+U 1 1 76C46C23
+P 36100 15050
+F 0 "U152" H 36400 14850 50  0000 C CNN
+F 1 "Electrode" H 36400 14900 50  0000 C CNN
+F 2 "" H 36100 15050 50  0001 C CNN
+F 3 "" H 36100 15050 50  0001 C CNN
+	1    36100 15050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U153
+U 1 1 76C46C29
+P 36100 15150
+F 0 "U153" H 36400 14950 50  0000 C CNN
+F 1 "Electrode" H 36400 15000 50  0000 C CNN
+F 2 "" H 36100 15150 50  0001 C CNN
+F 3 "" H 36100 15150 50  0001 C CNN
+	1    36100 15150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U154
+U 1 1 76C46C2F
+P 36100 15250
+F 0 "U154" H 36400 15050 50  0000 C CNN
+F 1 "Electrode" H 36400 15100 50  0000 C CNN
+F 2 "" H 36100 15250 50  0001 C CNN
+F 3 "" H 36100 15250 50  0001 C CNN
+	1    36100 15250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U155
+U 1 1 76C46C35
+P 36100 15350
+F 0 "U155" H 36400 15150 50  0000 C CNN
+F 1 "Electrode" H 36400 15200 50  0000 C CNN
+F 2 "" H 36100 15350 50  0001 C CNN
+F 3 "" H 36100 15350 50  0001 C CNN
+	1    36100 15350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U156
+U 1 1 76C46C3B
+P 36100 15450
+F 0 "U156" H 36400 15250 50  0000 C CNN
+F 1 "Electrode" H 36400 15300 50  0000 C CNN
+F 2 "" H 36100 15450 50  0001 C CNN
+F 3 "" H 36100 15450 50  0001 C CNN
+	1    36100 15450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U157
+U 1 1 76C46C41
+P 36100 15550
+F 0 "U157" H 36400 15350 50  0000 C CNN
+F 1 "Electrode" H 36400 15400 50  0000 C CNN
+F 2 "" H 36100 15550 50  0001 C CNN
+F 3 "" H 36100 15550 50  0001 C CNN
+	1    36100 15550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U158
+U 1 1 76C46C47
+P 36100 15850
+F 0 "U158" H 36400 15650 50  0000 C CNN
+F 1 "Electrode" H 36400 15700 50  0000 C CNN
+F 2 "" H 36100 15850 50  0001 C CNN
+F 3 "" H 36100 15850 50  0001 C CNN
+	1    36100 15850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J26
+U 1 1 76C46C4D
+P 36400 16000
+F 0 "J26" H 36480 15992 50  0000 L CNN
+F 1 "Conn_01x08" H 36480 15901 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 36400 16000 50  0001 C CNN
+F 3 "~" H 36400 16000 50  0001 C CNN
+	1    36400 16000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U159
+U 1 1 76C46C53
+P 36100 15950
+F 0 "U159" H 36400 15750 50  0000 C CNN
+F 1 "Electrode" H 36400 15800 50  0000 C CNN
+F 2 "" H 36100 15950 50  0001 C CNN
+F 3 "" H 36100 15950 50  0001 C CNN
+	1    36100 15950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U160
+U 1 1 76C46C59
+P 36100 16050
+F 0 "U160" H 36400 15850 50  0000 C CNN
+F 1 "Electrode" H 36400 15900 50  0000 C CNN
+F 2 "" H 36100 16050 50  0001 C CNN
+F 3 "" H 36100 16050 50  0001 C CNN
+	1    36100 16050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U161
+U 1 1 76C46C5F
+P 36100 16150
+F 0 "U161" H 36400 15950 50  0000 C CNN
+F 1 "Electrode" H 36400 16000 50  0000 C CNN
+F 2 "" H 36100 16150 50  0001 C CNN
+F 3 "" H 36100 16150 50  0001 C CNN
+	1    36100 16150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U162
+U 1 1 76C46C65
+P 36100 16250
+F 0 "U162" H 36400 16050 50  0000 C CNN
+F 1 "Electrode" H 36400 16100 50  0000 C CNN
+F 2 "" H 36100 16250 50  0001 C CNN
+F 3 "" H 36100 16250 50  0001 C CNN
+	1    36100 16250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U163
+U 1 1 76C46C6B
+P 36100 16350
+F 0 "U163" H 36400 16150 50  0000 C CNN
+F 1 "Electrode" H 36400 16200 50  0000 C CNN
+F 2 "" H 36100 16350 50  0001 C CNN
+F 3 "" H 36100 16350 50  0001 C CNN
+	1    36100 16350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U164
+U 1 1 76C46C71
+P 36100 16450
+F 0 "U164" H 36400 16250 50  0000 C CNN
+F 1 "Electrode" H 36400 16300 50  0000 C CNN
+F 2 "" H 36100 16450 50  0001 C CNN
+F 3 "" H 36100 16450 50  0001 C CNN
+	1    36100 16450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U165
+U 1 1 76C46C77
+P 36100 16550
+F 0 "U165" H 36400 16350 50  0000 C CNN
+F 1 "Electrode" H 36400 16400 50  0000 C CNN
+F 2 "" H 36100 16550 50  0001 C CNN
+F 3 "" H 36100 16550 50  0001 C CNN
+	1    36100 16550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U126
+U 1 1 76D43F6E
+P 34700 14850
+F 0 "U126" H 35000 14650 50  0000 C CNN
+F 1 "Electrode" H 35000 14700 50  0000 C CNN
+F 2 "" H 34700 14850 50  0001 C CNN
+F 3 "" H 34700 14850 50  0001 C CNN
+	1    34700 14850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J22
+U 1 1 76D43F74
+P 35000 15000
+F 0 "J22" H 35080 14992 50  0000 L CNN
+F 1 "Conn_01x08" H 35080 14901 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 35000 15000 50  0001 C CNN
+F 3 "~" H 35000 15000 50  0001 C CNN
+	1    35000 15000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U127
+U 1 1 76D43F7A
+P 34700 14950
+F 0 "U127" H 35000 14750 50  0000 C CNN
+F 1 "Electrode" H 35000 14800 50  0000 C CNN
+F 2 "" H 34700 14950 50  0001 C CNN
+F 3 "" H 34700 14950 50  0001 C CNN
+	1    34700 14950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U128
+U 1 1 76D43F80
+P 34700 15050
+F 0 "U128" H 35000 14850 50  0000 C CNN
+F 1 "Electrode" H 35000 14900 50  0000 C CNN
+F 2 "" H 34700 15050 50  0001 C CNN
+F 3 "" H 34700 15050 50  0001 C CNN
+	1    34700 15050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U129
+U 1 1 76D43F86
+P 34700 15150
+F 0 "U129" H 35000 14950 50  0000 C CNN
+F 1 "Electrode" H 35000 15000 50  0000 C CNN
+F 2 "" H 34700 15150 50  0001 C CNN
+F 3 "" H 34700 15150 50  0001 C CNN
+	1    34700 15150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U130
+U 1 1 76D43F8C
+P 34700 15250
+F 0 "U130" H 35000 15050 50  0000 C CNN
+F 1 "Electrode" H 35000 15100 50  0000 C CNN
+F 2 "" H 34700 15250 50  0001 C CNN
+F 3 "" H 34700 15250 50  0001 C CNN
+	1    34700 15250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U131
+U 1 1 76D43F92
+P 34700 15350
+F 0 "U131" H 35000 15150 50  0000 C CNN
+F 1 "Electrode" H 35000 15200 50  0000 C CNN
+F 2 "" H 34700 15350 50  0001 C CNN
+F 3 "" H 34700 15350 50  0001 C CNN
+	1    34700 15350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U132
+U 1 1 76D43F98
+P 34700 15450
+F 0 "U132" H 35000 15250 50  0000 C CNN
+F 1 "Electrode" H 35000 15300 50  0000 C CNN
+F 2 "" H 34700 15450 50  0001 C CNN
+F 3 "" H 34700 15450 50  0001 C CNN
+	1    34700 15450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U133
+U 1 1 76D43F9E
+P 34700 15550
+F 0 "U133" H 35000 15350 50  0000 C CNN
+F 1 "Electrode" H 35000 15400 50  0000 C CNN
+F 2 "" H 34700 15550 50  0001 C CNN
+F 3 "" H 34700 15550 50  0001 C CNN
+	1    34700 15550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U134
+U 1 1 76E3397B
+P 34700 15900
+F 0 "U134" H 35000 15700 50  0000 C CNN
+F 1 "Electrode" H 35000 15750 50  0000 C CNN
+F 2 "" H 34700 15900 50  0001 C CNN
+F 3 "" H 34700 15900 50  0001 C CNN
+	1    34700 15900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J23
+U 1 1 76E33981
+P 35000 16050
+F 0 "J23" H 35080 16042 50  0000 L CNN
+F 1 "Conn_01x08" H 35080 15951 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 35000 16050 50  0001 C CNN
+F 3 "~" H 35000 16050 50  0001 C CNN
+	1    35000 16050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U135
+U 1 1 76E33987
+P 34700 16000
+F 0 "U135" H 35000 15800 50  0000 C CNN
+F 1 "Electrode" H 35000 15850 50  0000 C CNN
+F 2 "" H 34700 16000 50  0001 C CNN
+F 3 "" H 34700 16000 50  0001 C CNN
+	1    34700 16000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U136
+U 1 1 76E3398D
+P 34700 16100
+F 0 "U136" H 35000 15900 50  0000 C CNN
+F 1 "Electrode" H 35000 15950 50  0000 C CNN
+F 2 "" H 34700 16100 50  0001 C CNN
+F 3 "" H 34700 16100 50  0001 C CNN
+	1    34700 16100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U137
+U 1 1 76E33993
+P 34700 16200
+F 0 "U137" H 35000 16000 50  0000 C CNN
+F 1 "Electrode" H 35000 16050 50  0000 C CNN
+F 2 "" H 34700 16200 50  0001 C CNN
+F 3 "" H 34700 16200 50  0001 C CNN
+	1    34700 16200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U138
+U 1 1 76E33999
+P 34700 16300
+F 0 "U138" H 35000 16100 50  0000 C CNN
+F 1 "Electrode" H 35000 16150 50  0000 C CNN
+F 2 "" H 34700 16300 50  0001 C CNN
+F 3 "" H 34700 16300 50  0001 C CNN
+	1    34700 16300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U139
+U 1 1 76E3399F
+P 34700 16400
+F 0 "U139" H 35000 16200 50  0000 C CNN
+F 1 "Electrode" H 35000 16250 50  0000 C CNN
+F 2 "" H 34700 16400 50  0001 C CNN
+F 3 "" H 34700 16400 50  0001 C CNN
+	1    34700 16400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U140
+U 1 1 76E339A5
+P 34700 16500
+F 0 "U140" H 35000 16300 50  0000 C CNN
+F 1 "Electrode" H 35000 16350 50  0000 C CNN
+F 2 "" H 34700 16500 50  0001 C CNN
+F 3 "" H 34700 16500 50  0001 C CNN
+	1    34700 16500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U141
+U 1 1 76E339AB
+P 34700 16600
+F 0 "U141" H 35000 16400 50  0000 C CNN
+F 1 "Electrode" H 35000 16450 50  0000 C CNN
+F 2 "" H 34700 16600 50  0001 C CNN
+F 3 "" H 34700 16600 50  0001 C CNN
+	1    34700 16600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U166
+U 1 1 7721020C
+P 37600 13850
+F 0 "U166" H 37900 13650 50  0000 C CNN
+F 1 "Electrode" H 37900 13700 50  0000 C CNN
+F 2 "" H 37600 13850 50  0001 C CNN
+F 3 "" H 37600 13850 50  0001 C CNN
+	1    37600 13850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J28
+U 1 1 77210212
+P 37900 14000
+F 0 "J28" H 37980 13992 50  0000 L CNN
+F 1 "Conn_01x08" H 37980 13901 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 37900 14000 50  0001 C CNN
+F 3 "~" H 37900 14000 50  0001 C CNN
+	1    37900 14000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U167
+U 1 1 77210218
+P 37600 13950
+F 0 "U167" H 37900 13750 50  0000 C CNN
+F 1 "Electrode" H 37900 13800 50  0000 C CNN
+F 2 "" H 37600 13950 50  0001 C CNN
+F 3 "" H 37600 13950 50  0001 C CNN
+	1    37600 13950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U168
+U 1 1 7721021E
+P 37600 14050
+F 0 "U168" H 37900 13850 50  0000 C CNN
+F 1 "Electrode" H 37900 13900 50  0000 C CNN
+F 2 "" H 37600 14050 50  0001 C CNN
+F 3 "" H 37600 14050 50  0001 C CNN
+	1    37600 14050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U169
+U 1 1 77210224
+P 37600 14150
+F 0 "U169" H 37900 13950 50  0000 C CNN
+F 1 "Electrode" H 37900 14000 50  0000 C CNN
+F 2 "" H 37600 14150 50  0001 C CNN
+F 3 "" H 37600 14150 50  0001 C CNN
+	1    37600 14150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U170
+U 1 1 7721022A
+P 37600 14250
+F 0 "U170" H 37900 14050 50  0000 C CNN
+F 1 "Electrode" H 37900 14100 50  0000 C CNN
+F 2 "" H 37600 14250 50  0001 C CNN
+F 3 "" H 37600 14250 50  0001 C CNN
+	1    37600 14250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U171
+U 1 1 77210230
+P 37600 14350
+F 0 "U171" H 37900 14150 50  0000 C CNN
+F 1 "Electrode" H 37900 14200 50  0000 C CNN
+F 2 "" H 37600 14350 50  0001 C CNN
+F 3 "" H 37600 14350 50  0001 C CNN
+	1    37600 14350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U172
+U 1 1 77210236
+P 37600 14450
+F 0 "U172" H 37900 14250 50  0000 C CNN
+F 1 "Electrode" H 37900 14300 50  0000 C CNN
+F 2 "" H 37600 14450 50  0001 C CNN
+F 3 "" H 37600 14450 50  0001 C CNN
+	1    37600 14450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U173
+U 1 1 7721023C
+P 37600 14550
+F 0 "U173" H 37900 14350 50  0000 C CNN
+F 1 "Electrode" H 37900 14400 50  0000 C CNN
+F 2 "" H 37600 14550 50  0001 C CNN
+F 3 "" H 37600 14550 50  0001 C CNN
+	1    37600 14550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U174
+U 1 1 77210242
+P 37600 14850
+F 0 "U174" H 37900 14650 50  0000 C CNN
+F 1 "Electrode" H 37900 14700 50  0000 C CNN
+F 2 "" H 37600 14850 50  0001 C CNN
+F 3 "" H 37600 14850 50  0001 C CNN
+	1    37600 14850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J29
+U 1 1 77210248
+P 37900 15000
+F 0 "J29" H 37980 14992 50  0000 L CNN
+F 1 "Conn_01x08" H 37980 14901 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 37900 15000 50  0001 C CNN
+F 3 "~" H 37900 15000 50  0001 C CNN
+	1    37900 15000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U175
+U 1 1 7721024E
+P 37600 14950
+F 0 "U175" H 37900 14750 50  0000 C CNN
+F 1 "Electrode" H 37900 14800 50  0000 C CNN
+F 2 "" H 37600 14950 50  0001 C CNN
+F 3 "" H 37600 14950 50  0001 C CNN
+	1    37600 14950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U176
+U 1 1 77210254
+P 37600 15050
+F 0 "U176" H 37900 14850 50  0000 C CNN
+F 1 "Electrode" H 37900 14900 50  0000 C CNN
+F 2 "" H 37600 15050 50  0001 C CNN
+F 3 "" H 37600 15050 50  0001 C CNN
+	1    37600 15050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U177
+U 1 1 7721025A
+P 37600 15150
+F 0 "U177" H 37900 14950 50  0000 C CNN
+F 1 "Electrode" H 37900 15000 50  0000 C CNN
+F 2 "" H 37600 15150 50  0001 C CNN
+F 3 "" H 37600 15150 50  0001 C CNN
+	1    37600 15150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U178
+U 1 1 77210260
+P 37600 15250
+F 0 "U178" H 37900 15050 50  0000 C CNN
+F 1 "Electrode" H 37900 15100 50  0000 C CNN
+F 2 "" H 37600 15250 50  0001 C CNN
+F 3 "" H 37600 15250 50  0001 C CNN
+	1    37600 15250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U179
+U 1 1 77210266
+P 37600 15350
+F 0 "U179" H 37900 15150 50  0000 C CNN
+F 1 "Electrode" H 37900 15200 50  0000 C CNN
+F 2 "" H 37600 15350 50  0001 C CNN
+F 3 "" H 37600 15350 50  0001 C CNN
+	1    37600 15350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U180
+U 1 1 7721026C
+P 37600 15450
+F 0 "U180" H 37900 15250 50  0000 C CNN
+F 1 "Electrode" H 37900 15300 50  0000 C CNN
+F 2 "" H 37600 15450 50  0001 C CNN
+F 3 "" H 37600 15450 50  0001 C CNN
+	1    37600 15450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U181
+U 1 1 77210272
+P 37600 15550
+F 0 "U181" H 37900 15350 50  0000 C CNN
+F 1 "Electrode" H 37900 15400 50  0000 C CNN
+F 2 "" H 37600 15550 50  0001 C CNN
+F 3 "" H 37600 15550 50  0001 C CNN
+	1    37600 15550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U182
+U 1 1 77210278
+P 37600 15850
+F 0 "U182" H 37900 15650 50  0000 C CNN
+F 1 "Electrode" H 37900 15700 50  0000 C CNN
+F 2 "" H 37600 15850 50  0001 C CNN
+F 3 "" H 37600 15850 50  0001 C CNN
+	1    37600 15850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J30
+U 1 1 7721027E
+P 37900 16000
+F 0 "J30" H 37980 15992 50  0000 L CNN
+F 1 "Conn_01x08" H 37980 15901 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 37900 16000 50  0001 C CNN
+F 3 "~" H 37900 16000 50  0001 C CNN
+	1    37900 16000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U183
+U 1 1 77210284
+P 37600 15950
+F 0 "U183" H 37900 15750 50  0000 C CNN
+F 1 "Electrode" H 37900 15800 50  0000 C CNN
+F 2 "" H 37600 15950 50  0001 C CNN
+F 3 "" H 37600 15950 50  0001 C CNN
+	1    37600 15950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U184
+U 1 1 7721028A
+P 37600 16050
+F 0 "U184" H 37900 15850 50  0000 C CNN
+F 1 "Electrode" H 37900 15900 50  0000 C CNN
+F 2 "" H 37600 16050 50  0001 C CNN
+F 3 "" H 37600 16050 50  0001 C CNN
+	1    37600 16050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U185
+U 1 1 77210290
+P 37600 16150
+F 0 "U185" H 37900 15950 50  0000 C CNN
+F 1 "Electrode" H 37900 16000 50  0000 C CNN
+F 2 "" H 37600 16150 50  0001 C CNN
+F 3 "" H 37600 16150 50  0001 C CNN
+	1    37600 16150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U186
+U 1 1 77210296
+P 37600 16250
+F 0 "U186" H 37900 16050 50  0000 C CNN
+F 1 "Electrode" H 37900 16100 50  0000 C CNN
+F 2 "" H 37600 16250 50  0001 C CNN
+F 3 "" H 37600 16250 50  0001 C CNN
+	1    37600 16250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U187
+U 1 1 7721029C
+P 37600 16350
+F 0 "U187" H 37900 16150 50  0000 C CNN
+F 1 "Electrode" H 37900 16200 50  0000 C CNN
+F 2 "" H 37600 16350 50  0001 C CNN
+F 3 "" H 37600 16350 50  0001 C CNN
+	1    37600 16350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U188
+U 1 1 772102A2
+P 37600 16450
+F 0 "U188" H 37900 16250 50  0000 C CNN
+F 1 "Electrode" H 37900 16300 50  0000 C CNN
+F 2 "" H 37600 16450 50  0001 C CNN
+F 3 "" H 37600 16450 50  0001 C CNN
+	1    37600 16450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U189
+U 1 1 772102A8
+P 37600 16550
+F 0 "U189" H 37900 16350 50  0000 C CNN
+F 1 "Electrode" H 37900 16400 50  0000 C CNN
+F 2 "" H 37600 16550 50  0001 C CNN
+F 3 "" H 37600 16550 50  0001 C CNN
+	1    37600 16550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U68
+U 1 1 775042B6
+P 30900 13850
+F 0 "U68" H 31200 13650 50  0000 C CNN
+F 1 "Electrode" H 31200 13700 50  0000 C CNN
+F 2 "" H 30900 13850 50  0001 C CNN
+F 3 "" H 30900 13850 50  0001 C CNN
+	1    30900 13850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J13
+U 1 1 775042BC
+P 31200 14000
+F 0 "J13" H 31280 13992 50  0000 L CNN
+F 1 "Conn_01x08" H 31280 13901 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 31200 14000 50  0001 C CNN
+F 3 "~" H 31200 14000 50  0001 C CNN
+	1    31200 14000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U69
+U 1 1 775042C2
+P 30900 13950
+F 0 "U69" H 31200 13750 50  0000 C CNN
+F 1 "Electrode" H 31200 13800 50  0000 C CNN
+F 2 "" H 30900 13950 50  0001 C CNN
+F 3 "" H 30900 13950 50  0001 C CNN
+	1    30900 13950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U70
+U 1 1 775042C8
+P 30900 14050
+F 0 "U70" H 31200 13850 50  0000 C CNN
+F 1 "Electrode" H 31200 13900 50  0000 C CNN
+F 2 "" H 30900 14050 50  0001 C CNN
+F 3 "" H 30900 14050 50  0001 C CNN
+	1    30900 14050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U71
+U 1 1 775042CE
+P 30900 14150
+F 0 "U71" H 31200 13950 50  0000 C CNN
+F 1 "Electrode" H 31200 14000 50  0000 C CNN
+F 2 "" H 30900 14150 50  0001 C CNN
+F 3 "" H 30900 14150 50  0001 C CNN
+	1    30900 14150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U72
+U 1 1 775042D4
+P 30900 14250
+F 0 "U72" H 31200 14050 50  0000 C CNN
+F 1 "Electrode" H 31200 14100 50  0000 C CNN
+F 2 "" H 30900 14250 50  0001 C CNN
+F 3 "" H 30900 14250 50  0001 C CNN
+	1    30900 14250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U73
+U 1 1 775042DA
+P 30900 14350
+F 0 "U73" H 31200 14150 50  0000 C CNN
+F 1 "Electrode" H 31200 14200 50  0000 C CNN
+F 2 "" H 30900 14350 50  0001 C CNN
+F 3 "" H 30900 14350 50  0001 C CNN
+	1    30900 14350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U74
+U 1 1 775042E0
+P 30900 14450
+F 0 "U74" H 31200 14250 50  0000 C CNN
+F 1 "Electrode" H 31200 14300 50  0000 C CNN
+F 2 "" H 30900 14450 50  0001 C CNN
+F 3 "" H 30900 14450 50  0001 C CNN
+	1    30900 14450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U75
+U 1 1 775042E6
+P 30900 14550
+F 0 "U75" H 31200 14350 50  0000 C CNN
+F 1 "Electrode" H 31200 14400 50  0000 C CNN
+F 2 "" H 30900 14550 50  0001 C CNN
+F 3 "" H 30900 14550 50  0001 C CNN
+	1    30900 14550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U76
+U 1 1 775042EC
+P 30900 14850
+F 0 "U76" H 31200 14650 50  0000 C CNN
+F 1 "Electrode" H 31200 14700 50  0000 C CNN
+F 2 "" H 30900 14850 50  0001 C CNN
+F 3 "" H 30900 14850 50  0001 C CNN
+	1    30900 14850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J14
+U 1 1 775042F2
+P 31200 15000
+F 0 "J14" H 31280 14992 50  0000 L CNN
+F 1 "Conn_01x08" H 31280 14901 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 31200 15000 50  0001 C CNN
+F 3 "~" H 31200 15000 50  0001 C CNN
+	1    31200 15000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U77
+U 1 1 775042F8
+P 30900 14950
+F 0 "U77" H 31200 14750 50  0000 C CNN
+F 1 "Electrode" H 31200 14800 50  0000 C CNN
+F 2 "" H 30900 14950 50  0001 C CNN
+F 3 "" H 30900 14950 50  0001 C CNN
+	1    30900 14950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U78
+U 1 1 775042FE
+P 30900 15050
+F 0 "U78" H 31200 14850 50  0000 C CNN
+F 1 "Electrode" H 31200 14900 50  0000 C CNN
+F 2 "" H 30900 15050 50  0001 C CNN
+F 3 "" H 30900 15050 50  0001 C CNN
+	1    30900 15050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U79
+U 1 1 77504304
+P 30900 15150
+F 0 "U79" H 31200 14950 50  0000 C CNN
+F 1 "Electrode" H 31200 15000 50  0000 C CNN
+F 2 "" H 30900 15150 50  0001 C CNN
+F 3 "" H 30900 15150 50  0001 C CNN
+	1    30900 15150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U80
+U 1 1 7750430A
+P 30900 15250
+F 0 "U80" H 31200 15050 50  0000 C CNN
+F 1 "Electrode" H 31200 15100 50  0000 C CNN
+F 2 "" H 30900 15250 50  0001 C CNN
+F 3 "" H 30900 15250 50  0001 C CNN
+	1    30900 15250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U81
+U 1 1 77504310
+P 30900 15350
+F 0 "U81" H 31200 15150 50  0000 C CNN
+F 1 "Electrode" H 31200 15200 50  0000 C CNN
+F 2 "" H 30900 15350 50  0001 C CNN
+F 3 "" H 30900 15350 50  0001 C CNN
+	1    30900 15350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U82
+U 1 1 77504316
+P 30900 15450
+F 0 "U82" H 31200 15250 50  0000 C CNN
+F 1 "Electrode" H 31200 15300 50  0000 C CNN
+F 2 "" H 30900 15450 50  0001 C CNN
+F 3 "" H 30900 15450 50  0001 C CNN
+	1    30900 15450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U83
+U 1 1 7750431C
+P 30900 15550
+F 0 "U83" H 31200 15350 50  0000 C CNN
+F 1 "Electrode" H 31200 15400 50  0000 C CNN
+F 2 "" H 30900 15550 50  0001 C CNN
+F 3 "" H 30900 15550 50  0001 C CNN
+	1    30900 15550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U84
+U 1 1 77504322
+P 30900 15850
+F 0 "U84" H 31200 15650 50  0000 C CNN
+F 1 "Electrode" H 31200 15700 50  0000 C CNN
+F 2 "" H 30900 15850 50  0001 C CNN
+F 3 "" H 30900 15850 50  0001 C CNN
+	1    30900 15850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J15
+U 1 1 77504328
+P 31200 16000
+F 0 "J15" H 31280 15992 50  0000 L CNN
+F 1 "Conn_01x08" H 31280 15901 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 31200 16000 50  0001 C CNN
+F 3 "~" H 31200 16000 50  0001 C CNN
+	1    31200 16000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U85
+U 1 1 7750432E
+P 30900 15950
+F 0 "U85" H 31200 15750 50  0000 C CNN
+F 1 "Electrode" H 31200 15800 50  0000 C CNN
+F 2 "" H 30900 15950 50  0001 C CNN
+F 3 "" H 30900 15950 50  0001 C CNN
+	1    30900 15950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U86
+U 1 1 77504334
+P 30900 16050
+F 0 "U86" H 31200 15850 50  0000 C CNN
+F 1 "Electrode" H 31200 15900 50  0000 C CNN
+F 2 "" H 30900 16050 50  0001 C CNN
+F 3 "" H 30900 16050 50  0001 C CNN
+	1    30900 16050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U87
+U 1 1 7750433A
+P 30900 16150
+F 0 "U87" H 31200 15950 50  0000 C CNN
+F 1 "Electrode" H 31200 16000 50  0000 C CNN
+F 2 "" H 30900 16150 50  0001 C CNN
+F 3 "" H 30900 16150 50  0001 C CNN
+	1    30900 16150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U88
+U 1 1 77504340
+P 30900 16250
+F 0 "U88" H 31200 16050 50  0000 C CNN
+F 1 "Electrode" H 31200 16100 50  0000 C CNN
+F 2 "" H 30900 16250 50  0001 C CNN
+F 3 "" H 30900 16250 50  0001 C CNN
+	1    30900 16250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U89
+U 1 1 77504346
+P 30900 16350
+F 0 "U89" H 31200 16150 50  0000 C CNN
+F 1 "Electrode" H 31200 16200 50  0000 C CNN
+F 2 "" H 30900 16350 50  0001 C CNN
+F 3 "" H 30900 16350 50  0001 C CNN
+	1    30900 16350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U90
+U 1 1 7750434C
+P 30900 16450
+F 0 "U90" H 31200 16250 50  0000 C CNN
+F 1 "Electrode" H 31200 16300 50  0000 C CNN
+F 2 "" H 30900 16450 50  0001 C CNN
+F 3 "" H 30900 16450 50  0001 C CNN
+	1    30900 16450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U91
+U 1 1 77504352
+P 30900 16550
+F 0 "U91" H 31200 16350 50  0000 C CNN
+F 1 "Electrode" H 31200 16400 50  0000 C CNN
+F 2 "" H 30900 16550 50  0001 C CNN
+F 3 "" H 30900 16550 50  0001 C CNN
+	1    30900 16550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U92
+U 1 1 77504358
+P 32450 13850
+F 0 "U92" H 32750 13650 50  0000 C CNN
+F 1 "Electrode" H 32750 13700 50  0000 C CNN
+F 2 "" H 32450 13850 50  0001 C CNN
+F 3 "" H 32450 13850 50  0001 C CNN
+	1    32450 13850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J18
+U 1 1 7750435E
+P 32750 14000
+F 0 "J18" H 32830 13992 50  0000 L CNN
+F 1 "Conn_01x08" H 32830 13901 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 32750 14000 50  0001 C CNN
+F 3 "~" H 32750 14000 50  0001 C CNN
+	1    32750 14000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U93
+U 1 1 77504364
+P 32450 13950
+F 0 "U93" H 32750 13750 50  0000 C CNN
+F 1 "Electrode" H 32750 13800 50  0000 C CNN
+F 2 "" H 32450 13950 50  0001 C CNN
+F 3 "" H 32450 13950 50  0001 C CNN
+	1    32450 13950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U94
+U 1 1 7750436A
+P 32450 14050
+F 0 "U94" H 32750 13850 50  0000 C CNN
+F 1 "Electrode" H 32750 13900 50  0000 C CNN
+F 2 "" H 32450 14050 50  0001 C CNN
+F 3 "" H 32450 14050 50  0001 C CNN
+	1    32450 14050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U95
+U 1 1 77504370
+P 32450 14150
+F 0 "U95" H 32750 13950 50  0000 C CNN
+F 1 "Electrode" H 32750 14000 50  0000 C CNN
+F 2 "" H 32450 14150 50  0001 C CNN
+F 3 "" H 32450 14150 50  0001 C CNN
+	1    32450 14150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U96
+U 1 1 77504376
+P 32450 14250
+F 0 "U96" H 32750 14050 50  0000 C CNN
+F 1 "Electrode" H 32750 14100 50  0000 C CNN
+F 2 "" H 32450 14250 50  0001 C CNN
+F 3 "" H 32450 14250 50  0001 C CNN
+	1    32450 14250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U97
+U 1 1 7750437C
+P 32450 14350
+F 0 "U97" H 32750 14150 50  0000 C CNN
+F 1 "Electrode" H 32750 14200 50  0000 C CNN
+F 2 "" H 32450 14350 50  0001 C CNN
+F 3 "" H 32450 14350 50  0001 C CNN
+	1    32450 14350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U98
+U 1 1 77504382
+P 32450 14450
+F 0 "U98" H 32750 14250 50  0000 C CNN
+F 1 "Electrode" H 32750 14300 50  0000 C CNN
+F 2 "" H 32450 14450 50  0001 C CNN
+F 3 "" H 32450 14450 50  0001 C CNN
+	1    32450 14450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U99
+U 1 1 77504388
+P 32450 14550
+F 0 "U99" H 32750 14350 50  0000 C CNN
+F 1 "Electrode" H 32750 14400 50  0000 C CNN
+F 2 "" H 32450 14550 50  0001 C CNN
+F 3 "" H 32450 14550 50  0001 C CNN
+	1    32450 14550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U100
+U 1 1 7750438E
+P 32450 14850
+F 0 "U100" H 32750 14650 50  0000 C CNN
+F 1 "Electrode" H 32750 14700 50  0000 C CNN
+F 2 "" H 32450 14850 50  0001 C CNN
+F 3 "" H 32450 14850 50  0001 C CNN
+	1    32450 14850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J19
+U 1 1 77504394
+P 32750 15000
+F 0 "J19" H 32830 14992 50  0000 L CNN
+F 1 "Conn_01x08" H 32830 14901 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 32750 15000 50  0001 C CNN
+F 3 "~" H 32750 15000 50  0001 C CNN
+	1    32750 15000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U101
+U 1 1 7750439A
+P 32450 14950
+F 0 "U101" H 32750 14750 50  0000 C CNN
+F 1 "Electrode" H 32750 14800 50  0000 C CNN
+F 2 "" H 32450 14950 50  0001 C CNN
+F 3 "" H 32450 14950 50  0001 C CNN
+	1    32450 14950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U102
+U 1 1 775043A0
+P 32450 15050
+F 0 "U102" H 32750 14850 50  0000 C CNN
+F 1 "Electrode" H 32750 14900 50  0000 C CNN
+F 2 "" H 32450 15050 50  0001 C CNN
+F 3 "" H 32450 15050 50  0001 C CNN
+	1    32450 15050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U103
+U 1 1 775043A6
+P 32450 15150
+F 0 "U103" H 32750 14950 50  0000 C CNN
+F 1 "Electrode" H 32750 15000 50  0000 C CNN
+F 2 "" H 32450 15150 50  0001 C CNN
+F 3 "" H 32450 15150 50  0001 C CNN
+	1    32450 15150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U104
+U 1 1 775043AC
+P 32450 15250
+F 0 "U104" H 32750 15050 50  0000 C CNN
+F 1 "Electrode" H 32750 15100 50  0000 C CNN
+F 2 "" H 32450 15250 50  0001 C CNN
+F 3 "" H 32450 15250 50  0001 C CNN
+	1    32450 15250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U105
+U 1 1 775043B2
+P 32450 15350
+F 0 "U105" H 32750 15150 50  0000 C CNN
+F 1 "Electrode" H 32750 15200 50  0000 C CNN
+F 2 "" H 32450 15350 50  0001 C CNN
+F 3 "" H 32450 15350 50  0001 C CNN
+	1    32450 15350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U106
+U 1 1 775043B8
+P 32450 15450
+F 0 "U106" H 32750 15250 50  0000 C CNN
+F 1 "Electrode" H 32750 15300 50  0000 C CNN
+F 2 "" H 32450 15450 50  0001 C CNN
+F 3 "" H 32450 15450 50  0001 C CNN
+	1    32450 15450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U107
+U 1 1 775043BE
+P 32450 15550
+F 0 "U107" H 32750 15350 50  0000 C CNN
+F 1 "Electrode" H 32750 15400 50  0000 C CNN
+F 2 "" H 32450 15550 50  0001 C CNN
+F 3 "" H 32450 15550 50  0001 C CNN
+	1    32450 15550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U108
+U 1 1 775043C4
+P 32450 15850
+F 0 "U108" H 32750 15650 50  0000 C CNN
+F 1 "Electrode" H 32750 15700 50  0000 C CNN
+F 2 "" H 32450 15850 50  0001 C CNN
+F 3 "" H 32450 15850 50  0001 C CNN
+	1    32450 15850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J20
+U 1 1 775043CA
+P 32750 16000
+F 0 "J20" H 32830 15992 50  0000 L CNN
+F 1 "Conn_01x08" H 32830 15901 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 32750 16000 50  0001 C CNN
+F 3 "~" H 32750 16000 50  0001 C CNN
+	1    32750 16000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U109
+U 1 1 775043D0
+P 32450 15950
+F 0 "U109" H 32750 15750 50  0000 C CNN
+F 1 "Electrode" H 32750 15800 50  0000 C CNN
+F 2 "" H 32450 15950 50  0001 C CNN
+F 3 "" H 32450 15950 50  0001 C CNN
+	1    32450 15950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U110
+U 1 1 775043D6
+P 32450 16050
+F 0 "U110" H 32750 15850 50  0000 C CNN
+F 1 "Electrode" H 32750 15900 50  0000 C CNN
+F 2 "" H 32450 16050 50  0001 C CNN
+F 3 "" H 32450 16050 50  0001 C CNN
+	1    32450 16050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U111
+U 1 1 775043DC
+P 32450 16150
+F 0 "U111" H 32750 15950 50  0000 C CNN
+F 1 "Electrode" H 32750 16000 50  0000 C CNN
+F 2 "" H 32450 16150 50  0001 C CNN
+F 3 "" H 32450 16150 50  0001 C CNN
+	1    32450 16150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U112
+U 1 1 775043E2
+P 32450 16250
+F 0 "U112" H 32750 16050 50  0000 C CNN
+F 1 "Electrode" H 32750 16100 50  0000 C CNN
+F 2 "" H 32450 16250 50  0001 C CNN
+F 3 "" H 32450 16250 50  0001 C CNN
+	1    32450 16250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U113
+U 1 1 775043E8
+P 32450 16350
+F 0 "U113" H 32750 16150 50  0000 C CNN
+F 1 "Electrode" H 32750 16200 50  0000 C CNN
+F 2 "" H 32450 16350 50  0001 C CNN
+F 3 "" H 32450 16350 50  0001 C CNN
+	1    32450 16350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U114
+U 1 1 775043EE
+P 32450 16450
+F 0 "U114" H 32750 16250 50  0000 C CNN
+F 1 "Electrode" H 32750 16300 50  0000 C CNN
+F 2 "" H 32450 16450 50  0001 C CNN
+F 3 "" H 32450 16450 50  0001 C CNN
+	1    32450 16450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U115
+U 1 1 775043F4
+P 32450 16550
+F 0 "U115" H 32750 16350 50  0000 C CNN
+F 1 "Electrode" H 32750 16400 50  0000 C CNN
+F 2 "" H 32450 16550 50  0001 C CNN
+F 3 "" H 32450 16550 50  0001 C CNN
+	1    32450 16550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	40000 7250 39200 7250
+Wire Wire Line
+	40000 11000 40000 7250
+Wire Wire Line
+	34700 11000 40000 11000
+Wire Wire Line
+	34700 8100 34700 11000
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP17
+U 1 1 7866F195
+P 34700 7900
+F 0 "JP17" V 34654 7968 50  0000 L CNN
+F 1 "SolderJumper_3_Bridged12" V 34745 7968 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 34700 7900 50  0001 C CNN
+F 3 "~" H 34700 7900 50  0001 C CNN
+	1    34700 7900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	34550 8200 35150 8200
+Wire Wire Line
+	35000 8250 35000 10900
+Wire Wire Line
+	39900 7400 39200 7400
+Wire Wire Line
+	39900 10900 39900 7400
+Wire Wire Line
+	35000 10900 39900 10900
+Wire Wire Line
+	39800 7550 39200 7550
+Wire Wire Line
+	39800 10800 39800 7550
+Wire Wire Line
+	35300 10800 39800 10800
+Wire Wire Line
+	35300 8400 35300 10800
+Wire Wire Line
+	39700 7700 39200 7700
+Wire Wire Line
+	39700 10700 39700 7700
+Wire Wire Line
+	35600 10700 39700 10700
+Wire Wire Line
+	35600 8550 35600 10700
+Wire Wire Line
+	39600 7850 39200 7850
+Wire Wire Line
+	39600 10600 39600 7850
+Wire Wire Line
+	35900 10600 39600 10600
+Wire Wire Line
+	35900 8700 35900 10600
+Wire Wire Line
+	39500 8000 39200 8000
+Wire Wire Line
+	39500 10500 39500 8000
+Wire Wire Line
+	36200 10500 39500 10500
+Wire Wire Line
+	36200 8850 36200 10500
+Wire Wire Line
+	39400 8150 39200 8150
+Wire Wire Line
+	39400 10400 39400 8150
+Wire Wire Line
+	36500 10400 39400 10400
+Wire Wire Line
+	36500 9000 36500 10400
+Wire Wire Line
+	39300 8300 39200 8300
+Wire Wire Line
+	39300 10300 39300 8300
+Wire Wire Line
+	36800 10300 39300 10300
+Wire Wire Line
+	36800 9150 36800 10300
+Wire Wire Line
+	36800 8750 36800 7700
+Wire Wire Line
+	34550 8950 36650 8950
+Wire Wire Line
+	36500 8600 36500 7700
+Wire Wire Line
+	34550 8800 36350 8800
+Wire Wire Line
+	36200 8450 36200 7700
+Wire Wire Line
+	34550 8650 36050 8650
+Wire Wire Line
+	35900 8300 35900 7700
+Wire Wire Line
+	34550 8500 35750 8500
+Wire Wire Line
+	35600 8150 35600 7700
+Wire Wire Line
+	34550 8350 35450 8350
+Wire Wire Line
+	35300 8000 35300 7700
+Wire Wire Line
+	35000 7850 35000 7700
+Wire Wire Line
+	34550 8050 34850 8050
+$Comp
+L Custom_Interface_Expansion:MAX7301 U190
+U 1 1 619D8C54
+P 38800 7050
+F 0 "U190" H 38800 7115 50  0000 C CNN
+F 1 "MAX7301" H 38800 7024 50  0000 C CNN
+F 2 "Custom:MAX7301AAX" H 38800 7050 50  0001 C CNN
+F 3 "" H 38800 7050 50  0001 C CNN
+	1    38800 7050
+	1    0    0    -1  
+$EndComp
+Connection ~ 38400 7550
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP22
+U 1 1 78A1B190
+P 36200 8650
+F 0 "JP22" V 36154 8718 50  0000 L CNN
+F 1 "SolderJumper_3_Bridged12" V 36245 8718 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 36200 8650 50  0001 C CNN
+F 3 "~" H 36200 8650 50  0001 C CNN
+	1    36200 8650
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP21
+U 1 1 78769F36
+P 35900 8500
+F 0 "JP21" V 35854 8568 50  0000 L CNN
+F 1 "SolderJumper_3_Bridged12" V 35945 8568 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 35900 8500 50  0001 C CNN
+F 3 "~" H 35900 8500 50  0001 C CNN
+	1    35900 8500
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP20
+U 1 1 78768B99
+P 35600 8350
+F 0 "JP20" V 35554 8418 50  0000 L CNN
+F 1 "SolderJumper_3_Bridged12" V 35645 8418 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 35600 8350 50  0001 C CNN
+F 3 "~" H 35600 8350 50  0001 C CNN
+	1    35600 8350
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP19
+U 1 1 7876824A
+P 35300 8200
+F 0 "JP19" V 35254 8268 50  0000 L CNN
+F 1 "SolderJumper_3_Bridged12" V 35345 8268 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 35300 8200 50  0001 C CNN
+F 3 "~" H 35300 8200 50  0001 C CNN
+	1    35300 8200
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP18
+U 1 1 78767733
+P 35000 8050
+F 0 "JP18" V 34954 8118 50  0000 L CNN
+F 1 "SolderJumper_3_Bridged12" V 35045 8118 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 35000 8050 50  0001 C CNN
+F 3 "~" H 35000 8050 50  0001 C CNN
+	1    35000 8050
+	0    1    1    0   
+$EndComp
+Text Notes 33000 13150 0    50   ~ 0
+Alternative electrodes to test based on sizes
+$Comp
+L Device:C_Small C70
+U 1 1 6171DFB7
+P 32550 10000
+F 0 "C70" H 32642 10046 50  0000 L CNN
+F 1 "6pF" H 32642 9955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 32550 10000 50  0001 C CNN
+F 3 "~" H 32550 10000 50  0001 C CNN
+	1    32550 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C69
+U 1 1 6171DFED
+P 32250 10000
+F 0 "C69" H 32342 10046 50  0000 L CNN
+F 1 "6pF" H 32342 9955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 32250 10000 50  0001 C CNN
+F 3 "~" H 32250 10000 50  0001 C CNN
+	1    32250 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C68
+U 1 1 6171DFFB
+P 31950 10000
+F 0 "C68" H 32042 10046 50  0000 L CNN
+F 1 "6pF" H 32042 9955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 31950 10000 50  0001 C CNN
+F 3 "~" H 31950 10000 50  0001 C CNN
+	1    31950 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C67
+U 1 1 6171E001
+P 31650 10000
+F 0 "C67" H 31742 10046 50  0000 L CNN
+F 1 "6pF" H 31742 9955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 31650 10000 50  0001 C CNN
+F 3 "~" H 31650 10000 50  0001 C CNN
+	1    31650 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C66
+U 1 1 6171E007
+P 31350 10000
+F 0 "C66" H 31442 10046 50  0000 L CNN
+F 1 "6pF" H 31442 9955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 31350 10000 50  0001 C CNN
+F 3 "~" H 31350 10000 50  0001 C CNN
+	1    31350 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C65
+U 1 1 6171E00D
+P 31050 10000
+F 0 "C65" H 31142 10046 50  0000 L CNN
+F 1 "6pF" H 31142 9955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 31050 10000 50  0001 C CNN
+F 3 "~" H 31050 10000 50  0001 C CNN
+	1    31050 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C64
+U 1 1 6171E013
+P 30750 10000
+F 0 "C64" H 30842 10046 50  0000 L CNN
+F 1 "6pF" H 30842 9955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 30750 10000 50  0001 C CNN
+F 3 "~" H 30750 10000 50  0001 C CNN
+	1    30750 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C63
+U 1 1 6171E019
+P 30450 10000
+F 0 "C63" H 30542 10046 50  0000 L CNN
+F 1 "6pF" H 30542 9955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 30450 10000 50  0001 C CNN
+F 3 "~" H 30450 10000 50  0001 C CNN
+	1    30450 10000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	32550 10100 32250 10100
+Wire Wire Line
+	32250 10100 31950 10100
+Connection ~ 30750 10100
+Wire Wire Line
+	30750 10100 30450 10100
+Wire Wire Line
+	31050 10100 30750 10100
+Connection ~ 31050 10100
+Connection ~ 31350 10100
+Wire Wire Line
+	31350 10100 31050 10100
+Wire Wire Line
+	31650 10100 31350 10100
+Connection ~ 31650 10100
+Connection ~ 31950 10100
+Wire Wire Line
+	31950 10100 31650 10100
+Connection ~ 32250 10100
+Connection ~ 30450 10100
+Text GLabel 26600 9900 0    50   Input ~ 0
+ALT8
+Text GLabel 26600 9800 0    50   Input ~ 0
+ALT7
+Text GLabel 26600 9700 0    50   Input ~ 0
+ALT6
+Text GLabel 26600 9600 0    50   Input ~ 0
+ALT5
+Text GLabel 26600 9500 0    50   Input ~ 0
+ALT4
+Text GLabel 26600 9400 0    50   Input ~ 0
+ALT3
+Text GLabel 26600 9300 0    50   Input ~ 0
+ALT2
+Text GLabel 26600 9200 0    50   Input ~ 0
+ALT1
+$Comp
+L Connector_Generic:Conn_01x08 J11
+U 1 1 6CB09154
+P 26800 9500
+F 0 "J11" H 26880 9492 50  0000 L CNN
+F 1 "Conn_01x08" H 26880 9401 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 26800 9500 50  0001 C CNN
+F 3 "~" H 26800 9500 50  0001 C CNN
+	1    26800 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Power:3.3V_CTRL #PWR79
+U 1 1 6BC8C4CC
+P 32600 7600
+F 0 "#PWR79" H 32585 7666 50  0001 C CNN
+F 1 "3.3V_CTRL" H 32585 7575 50  0000 C CNN
+F 2 "" H 32600 7650 50  0001 C CNN
+F 3 "" H 32600 7650 50  0001 C CNN
+	1    32600 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R97
+U 1 1 6BC8B46A
+P 36800 7600
+F 0 "R97" H 36859 7646 50  0000 L CNN
+F 1 "1k" H 36859 7555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 36800 7600 50  0001 C CNN
+F 3 "~" H 36800 7600 50  0001 C CNN
+	1    36800 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R96
+U 1 1 6BC8B2AF
+P 36500 7600
+F 0 "R96" H 36559 7646 50  0000 L CNN
+F 1 "1k" H 36559 7555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 36500 7600 50  0001 C CNN
+F 3 "~" H 36500 7600 50  0001 C CNN
+	1    36500 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R95
+U 1 1 6BC8AF69
+P 36200 7600
+F 0 "R95" H 36259 7646 50  0000 L CNN
+F 1 "1k" H 36259 7555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 36200 7600 50  0001 C CNN
+F 3 "~" H 36200 7600 50  0001 C CNN
+	1    36200 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Power:3.3V_CTRL #PWR93
+U 1 1 6B44C7E4
+P 37900 6950
+F 0 "#PWR93" H 37885 7016 50  0001 C CNN
+F 1 "3.3V_CTRL" H 37885 6925 50  0000 C CNN
+F 2 "" H 37900 7000 50  0001 C CNN
+F 3 "" H 37900 7000 50  0001 C CNN
+	1    37900 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U67
+U 1 1 6444B096
+P 27950 11600
+F 0 "U67" V 27988 11372 50  0000 R CNN
+F 1 "Electrode" V 27897 11372 50  0000 R CNN
+F 2 "" H 27950 11600 50  0001 C CNN
+F 3 "" H 27950 11600 50  0001 C CNN
+	1    27950 11600
+	0    -1   -1   0   
+$EndComp
+Text GLabel 27900 11850 0    50   Input ~ 0
+ALT8
+Text GLabel 28300 11850 2    50   Input ~ 0
+ELECTRODE8
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP15
+U 1 1 6444B08E
+P 28100 11850
+F 0 "JP15" H 28100 11963 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 28100 12054 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 28100 11850 50  0001 C CNN
+F 3 "~" H 28100 11850 50  0001 C CNN
+	1    28100 11850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U66
+U 1 1 6444B088
+P 27950 10900
+F 0 "U66" V 27988 10672 50  0000 R CNN
+F 1 "Electrode" V 27897 10672 50  0000 R CNN
+F 2 "" H 27950 10900 50  0001 C CNN
+F 3 "" H 27950 10900 50  0001 C CNN
+	1    27950 10900
+	0    -1   -1   0   
+$EndComp
+Text GLabel 27900 11150 0    50   Input ~ 0
+ALT7
+Text GLabel 28300 11150 2    50   Input ~ 0
+ELECTRODE7
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP14
+U 1 1 6444B080
+P 28100 11150
+F 0 "JP14" H 28100 11263 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 28100 11354 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 28100 11150 50  0001 C CNN
+F 3 "~" H 28100 11150 50  0001 C CNN
+	1    28100 11150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U65
+U 1 1 6444B07A
+P 27950 10200
+F 0 "U65" V 27988 9972 50  0000 R CNN
+F 1 "Electrode" V 27897 9972 50  0000 R CNN
+F 2 "" H 27950 10200 50  0001 C CNN
+F 3 "" H 27950 10200 50  0001 C CNN
+	1    27950 10200
+	0    -1   -1   0   
+$EndComp
+Text GLabel 27900 10450 0    50   Input ~ 0
+ALT6
+Text GLabel 28300 10450 2    50   Input ~ 0
+ELECTRODE6
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP13
+U 1 1 6444B072
+P 28100 10450
+F 0 "JP13" H 28100 10563 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 28100 10654 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 28100 10450 50  0001 C CNN
+F 3 "~" H 28100 10450 50  0001 C CNN
+	1    28100 10450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U64
+U 1 1 6444B06C
+P 27950 9500
+F 0 "U64" V 27988 9272 50  0000 R CNN
+F 1 "Electrode" V 27897 9272 50  0000 R CNN
+F 2 "" H 27950 9500 50  0001 C CNN
+F 3 "" H 27950 9500 50  0001 C CNN
+	1    27950 9500
+	0    -1   -1   0   
+$EndComp
+Text GLabel 27900 9750 0    50   Input ~ 0
+ALT5
+Text GLabel 28300 9750 2    50   Input ~ 0
+ELECTRODE5
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP12
+U 1 1 6444B064
+P 28100 9750
+F 0 "JP12" H 28100 9863 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 28100 9954 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 28100 9750 50  0001 C CNN
+F 3 "~" H 28100 9750 50  0001 C CNN
+	1    28100 9750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U63
+U 1 1 642AF1EC
+P 27950 8800
+F 0 "U63" V 27988 8572 50  0000 R CNN
+F 1 "Electrode" V 27897 8572 50  0000 R CNN
+F 2 "" H 27950 8800 50  0001 C CNN
+F 3 "" H 27950 8800 50  0001 C CNN
+	1    27950 8800
+	0    -1   -1   0   
+$EndComp
+Text GLabel 27900 9050 0    50   Input ~ 0
+ALT4
+Text GLabel 28300 9050 2    50   Input ~ 0
+ELECTRODE4
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP11
+U 1 1 642AF1E4
+P 28100 9050
+F 0 "JP11" H 28100 9163 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 28100 9254 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 28100 9050 50  0001 C CNN
+F 3 "~" H 28100 9050 50  0001 C CNN
+	1    28100 9050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U62
+U 1 1 642AF1DE
+P 27950 8100
+F 0 "U62" V 27988 7872 50  0000 R CNN
+F 1 "Electrode" V 27897 7872 50  0000 R CNN
+F 2 "" H 27950 8100 50  0001 C CNN
+F 3 "" H 27950 8100 50  0001 C CNN
+	1    27950 8100
+	0    -1   -1   0   
+$EndComp
+Text GLabel 27900 8350 0    50   Input ~ 0
+ALT3
+Text GLabel 28300 8350 2    50   Input ~ 0
+ELECTRODE3
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP10
+U 1 1 642AF1D6
+P 28100 8350
+F 0 "JP10" H 28100 8463 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 28100 8554 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 28100 8350 50  0001 C CNN
+F 3 "~" H 28100 8350 50  0001 C CNN
+	1    28100 8350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U61
+U 1 1 641E200C
+P 27950 7400
+F 0 "U61" V 27988 7172 50  0000 R CNN
+F 1 "Electrode" V 27897 7172 50  0000 R CNN
+F 2 "" H 27950 7400 50  0001 C CNN
+F 3 "" H 27950 7400 50  0001 C CNN
+	1    27950 7400
+	0    -1   -1   0   
+$EndComp
+Text GLabel 27900 7650 0    50   Input ~ 0
+ALT2
+Text GLabel 28300 7650 2    50   Input ~ 0
+ELECTRODE2
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP9
+U 1 1 641E2004
+P 28100 7650
+F 0 "JP9" H 28100 7763 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 28100 7854 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 28100 7650 50  0001 C CNN
+F 3 "~" H 28100 7650 50  0001 C CNN
+	1    28100 7650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode U60
+U 1 1 63EBCC4D
+P 27950 6700
+F 0 "U60" V 27988 6472 50  0000 R CNN
+F 1 "Electrode" V 27897 6472 50  0000 R CNN
+F 2 "" H 27950 6700 50  0001 C CNN
+F 3 "" H 27950 6700 50  0001 C CNN
+	1    27950 6700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	30450 10100 30450 10200
+$Comp
+L Device:LED_Small D12
+U 1 1 61858DA1
+P 36800 7300
+F 0 "D12" V 36846 7230 50  0000 R CNN
+F 1 "Y" V 36755 7230 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 36800 7300 50  0001 C CNN
+F 3 "~" V 36800 7300 50  0001 C CNN
+	1    36800 7300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	37900 7250 37900 7150
+Connection ~ 37900 7250
+Text GLabel 27900 6950 0    50   Input ~ 0
+ALT1
+Text GLabel 28300 6950 2    50   Input ~ 0
+ELECTRODE1
+Text GLabel 30350 9800 0    50   Input ~ 0
+ELECTRODE8
+Text GLabel 30350 9650 0    50   Input ~ 0
+ELECTRODE7
+Text GLabel 30350 9500 0    50   Input ~ 0
+ELECTRODE6
+Text GLabel 30350 9350 0    50   Input ~ 0
+ELECTRODE5
+Text GLabel 30350 9200 0    50   Input ~ 0
+ELECTRODE4
+Text GLabel 30350 9050 0    50   Input ~ 0
+ELECTRODE3
+Text GLabel 30350 8900 0    50   Input ~ 0
+ELECTRODE2
+Text GLabel 30350 8750 0    50   Input ~ 0
+ELECTRODE1
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP8
+U 1 1 616A81CF
+P 28100 6950
+F 0 "JP8" H 28100 7063 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 28100 7154 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 28100 6950 50  0001 C CNN
+F 3 "~" H 28100 6950 50  0001 C CNN
+	1    28100 6950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	32950 8550 32850 8550
+Wire Wire Line
+	32850 8550 32850 8450
+Wire Wire Line
+	33550 8550 33150 8550
+$Comp
+L power:+3.3V #PWR081
+U 1 1 6424E834
+P 32850 8450
+F 0 "#PWR081" H 32850 8300 50  0001 C CNN
+F 1 "+3.3V" H 32865 8623 50  0000 C CNN
+F 2 "" H 32850 8450 50  0001 C CNN
+F 3 "" H 32850 8450 50  0001 C CNN
+	1    32850 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R85
+U 1 1 6424E82E
+P 33050 8550
+F 0 "R85" V 32854 8550 50  0000 C CNN
+F 1 "10k" V 32945 8550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 33050 8550 50  0001 C CNN
+F 3 "~" H 33050 8550 50  0001 C CNN
+	1    33050 8550
+	0    1    1    0   
+$EndComp
+Text GLabel 37500 8400 0    50   Output ~ 0
+DOUT_CTRL
+Text GLabel 37500 8300 0    50   Input ~ 0
+DIN_CTRL
+Text GLabel 37500 8200 0    50   Input ~ 0
+SCKL_CTRL
+Text GLabel 37500 8100 0    50   Input ~ 0
+~CS_CTRL
+$Comp
+L Connector_Generic:Conn_01x04 J27
+U 1 1 62264DFF
+P 37700 8200
+F 0 "J27" H 37618 7775 50  0000 C CNN
+F 1 "Conn_01x04" H 37618 7866 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 37700 8200 50  0001 C CNN
+F 3 "~" H 37700 8200 50  0001 C CNN
+	1    37700 8200
+	1    0    0    -1  
+$EndComp
+Text GLabel 38400 8600 0    50   Output ~ 0
+DOUT_CTRL
+Text GLabel 38400 8450 0    50   Input ~ 0
+DIN_CTRL
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP23
+U 1 1 6217EFC7
+P 36500 8800
+F 0 "JP23" V 36454 8868 50  0000 L CNN
+F 1 "SolderJumper_3_Bridged12" V 36545 8868 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 36500 8800 50  0001 C CNN
+F 3 "~" H 36500 8800 50  0001 C CNN
+	1    36500 8800
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP24
+U 1 1 620FFDCF
+P 36800 8950
+F 0 "JP24" V 36754 9018 50  0000 L CNN
+F 1 "SolderJumper_3_Bridged12" V 36845 9018 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 36800 8950 50  0001 C CNN
+F 3 "~" H 36800 8950 50  0001 C CNN
+	1    36800 8950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	36500 7200 36800 7200
+Connection ~ 36500 7200
+Wire Wire Line
+	36800 7400 36800 7500
+Text Notes 33300 6600 0    50   ~ 0
+Control that tests one IS31SE5100 and one MAX7301 with jumpers\n
+Wire Wire Line
+	37900 7250 38400 7250
+Connection ~ 37900 7550
+Wire Wire Line
+	37900 7550 37900 7850
+Wire Wire Line
+	37900 7550 38400 7550
+Wire Wire Line
+	37900 7450 37900 7550
+$Comp
+L Device:C_Small C73
+U 1 1 61DBFB8E
+P 37900 7350
+F 0 "C73" H 37992 7396 50  0000 L CNN
+F 1 "47nF" H 37992 7305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 37900 7350 50  0001 C CNN
+F 3 "~" H 37900 7350 50  0001 C CNN
+	1    37900 7350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 39200 8450
+NoConn ~ 39200 8600
+NoConn ~ 39200 8750
+NoConn ~ 39200 8900
+NoConn ~ 39200 9050
+NoConn ~ 39200 9200
+NoConn ~ 39200 9350
+NoConn ~ 39200 9500
+NoConn ~ 39200 9650
+NoConn ~ 39200 9800
+NoConn ~ 39200 9950
+NoConn ~ 39200 10100
+NoConn ~ 38400 10100
+NoConn ~ 38400 9950
+NoConn ~ 38400 9800
+NoConn ~ 38400 9650
+NoConn ~ 38400 9500
+NoConn ~ 38400 9350
+NoConn ~ 38400 9200
+NoConn ~ 38400 9050
+Text GLabel 38400 8300 0    50   Input ~ 0
+SCKL_CTRL
+Text GLabel 38400 8150 0    50   Input ~ 0
+~CS_CTRL
+Wire Wire Line
+	38400 7400 38400 7550
+Wire Wire Line
+	38050 7850 37900 7850
+Wire Wire Line
+	38400 7850 38250 7850
+$Comp
+L Device:R_Small R98
+U 1 1 619D8C60
+P 38150 7850
+F 0 "R98" V 37954 7850 50  0000 C CNN
+F 1 "39k" V 38045 7850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 38150 7850 50  0001 C CNN
+F 3 "~" H 38150 7850 50  0001 C CNN
+	1    38150 7850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	36500 7400 36500 7500
+Wire Wire Line
+	36200 7400 36200 7500
+Wire Wire Line
+	35900 7400 35900 7500
+Wire Wire Line
+	35600 7400 35600 7500
+Wire Wire Line
+	35300 7400 35300 7500
+Wire Wire Line
+	35000 7400 35000 7500
+Wire Wire Line
+	34700 7400 34700 7500
+Wire Wire Line
+	36200 7200 36500 7200
+Connection ~ 36200 7200
+Wire Wire Line
+	35900 7200 36200 7200
+Connection ~ 35900 7200
+Wire Wire Line
+	35600 7200 35900 7200
+Connection ~ 35600 7200
+Wire Wire Line
+	35300 7200 35600 7200
+Connection ~ 35300 7200
+Wire Wire Line
+	35000 7200 35300 7200
+Connection ~ 35000 7200
+Connection ~ 34700 7200
+Wire Wire Line
+	34700 7200 35000 7200
+Wire Wire Line
+	34700 7100 34700 7200
+$Comp
+L Device:LED_Small D11
+U 1 1 61858D9B
+P 36500 7300
+F 0 "D11" V 36546 7230 50  0000 R CNN
+F 1 "Y" V 36455 7230 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 36500 7300 50  0001 C CNN
+F 3 "~" V 36500 7300 50  0001 C CNN
+	1    36500 7300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D10
+U 1 1 61858D95
+P 36200 7300
+F 0 "D10" V 36246 7230 50  0000 R CNN
+F 1 "Y" V 36155 7230 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 36200 7300 50  0001 C CNN
+F 3 "~" V 36200 7300 50  0001 C CNN
+	1    36200 7300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D9
+U 1 1 61858D8F
+P 35900 7300
+F 0 "D9" V 35946 7230 50  0000 R CNN
+F 1 "Y" V 35855 7230 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 35900 7300 50  0001 C CNN
+F 3 "~" V 35900 7300 50  0001 C CNN
+	1    35900 7300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D7
+U 1 1 6184927B
+P 35600 7300
+F 0 "D7" V 35646 7230 50  0000 R CNN
+F 1 "Y" V 35555 7230 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 35600 7300 50  0001 C CNN
+F 3 "~" V 35600 7300 50  0001 C CNN
+	1    35600 7300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D6
+U 1 1 61849275
+P 35300 7300
+F 0 "D6" V 35346 7230 50  0000 R CNN
+F 1 "Y" V 35255 7230 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 35300 7300 50  0001 C CNN
+F 3 "~" V 35300 7300 50  0001 C CNN
+	1    35300 7300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D5
+U 1 1 6184782F
+P 35000 7300
+F 0 "D5" V 35046 7230 50  0000 R CNN
+F 1 "Y" V 34955 7230 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 35000 7300 50  0001 C CNN
+F 3 "~" V 35000 7300 50  0001 C CNN
+	1    35000 7300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R94
+U 1 1 6181E559
+P 35900 7600
+F 0 "R94" H 35959 7646 50  0000 L CNN
+F 1 "1k" H 35959 7555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 35900 7600 50  0001 C CNN
+F 3 "~" H 35900 7600 50  0001 C CNN
+	1    35900 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R93
+U 1 1 6181BFF9
+P 35600 7600
+F 0 "R93" H 35659 7646 50  0000 L CNN
+F 1 "1k" H 35659 7555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 35600 7600 50  0001 C CNN
+F 3 "~" H 35600 7600 50  0001 C CNN
+	1    35600 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R92
+U 1 1 6180DC19
+P 35300 7600
+F 0 "R92" H 35359 7646 50  0000 L CNN
+F 1 "1k" H 35359 7555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 35300 7600 50  0001 C CNN
+F 3 "~" H 35300 7600 50  0001 C CNN
+	1    35300 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R91
+U 1 1 6180C6B8
+P 35000 7600
+F 0 "R91" H 35059 7646 50  0000 L CNN
+F 1 "1k" H 35059 7555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 35000 7600 50  0001 C CNN
+F 3 "~" H 35000 7600 50  0001 C CNN
+	1    35000 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R90
+U 1 1 617FD618
+P 34700 7600
+F 0 "R90" H 34759 7646 50  0000 L CNN
+F 1 "1k" H 34759 7555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 34700 7600 50  0001 C CNN
+F 3 "~" H 34700 7600 50  0001 C CNN
+	1    34700 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D4
+U 1 1 617E28F1
+P 34700 7300
+F 0 "D4" V 34746 7230 50  0000 R CNN
+F 1 "Y" V 34655 7230 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 34700 7300 50  0001 C CNN
+F 3 "~" V 34700 7300 50  0001 C CNN
+	1    34700 7300
+	0    -1   -1   0   
+$EndComp
+Text GLabel 33550 8400 0    50   Output ~ 0
+INTB_CTRL
+Text GLabel 33550 8250 0    50   Input ~ 0
+SDA_CTRL
+Text GLabel 33550 8100 0    50   Input ~ 0
+SCL_CTRL
+Wire Wire Line
+	32550 9800 32650 9800
+Connection ~ 32550 9800
+Wire Wire Line
+	32550 9900 32550 9800
+Wire Wire Line
+	32250 9650 30350 9650
+Connection ~ 32250 9650
+Wire Wire Line
+	32250 9900 32250 9650
+Wire Wire Line
+	31950 9500 33050 9500
+Connection ~ 31950 9500
+Wire Wire Line
+	31950 9900 31950 9500
+Wire Wire Line
+	31650 9350 30350 9350
+Connection ~ 31650 9350
+Wire Wire Line
+	31650 9900 31650 9350
+Wire Wire Line
+	31350 9200 32650 9200
+Connection ~ 31350 9200
+Wire Wire Line
+	31350 9900 31350 9200
+Wire Wire Line
+	31050 9050 30350 9050
+Connection ~ 31050 9050
+Wire Wire Line
+	31050 9900 31050 9050
+Wire Wire Line
+	30750 8900 33050 8900
+Connection ~ 30750 8900
+Wire Wire Line
+	30750 9900 30750 8900
+Wire Wire Line
+	30450 8750 30350 8750
+Connection ~ 30450 8750
+Wire Wire Line
+	30450 9900 30450 8750
+Wire Wire Line
+	30350 9800 32550 9800
+Wire Wire Line
+	32850 9650 32250 9650
+Wire Wire Line
+	30350 9500 31950 9500
+Wire Wire Line
+	33250 9350 31650 9350
+Wire Wire Line
+	30350 9200 31350 9200
+Wire Wire Line
+	32850 9050 31050 9050
+Wire Wire Line
+	30350 8900 30750 8900
+Wire Wire Line
+	33250 8750 30450 8750
+Wire Wire Line
+	33550 8750 33450 8750
+Wire Wire Line
+	33550 8900 33250 8900
+Wire Wire Line
+	33550 9050 33050 9050
+Wire Wire Line
+	33550 9200 32850 9200
+Wire Wire Line
+	33550 9350 33450 9350
+Wire Wire Line
+	33550 9500 33250 9500
+Wire Wire Line
+	33550 9650 33050 9650
+Wire Wire Line
+	33550 9800 32850 9800
+$Comp
+L Device:R_Small R82
+U 1 1 6171DFE7
+P 32750 9800
+F 0 "R82" V 32554 9800 50  0000 C CNN
+F 1 "510" V 32645 9800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 32750 9800 50  0001 C CNN
+F 3 "~" H 32750 9800 50  0001 C CNN
+	1    32750 9800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R84
+U 1 1 6171DFE1
+P 32950 9650
+F 0 "R84" V 32754 9650 50  0000 C CNN
+F 1 "510" V 32845 9650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 32950 9650 50  0001 C CNN
+F 3 "~" H 32950 9650 50  0001 C CNN
+	1    32950 9650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R87
+U 1 1 6171DFDB
+P 33150 9500
+F 0 "R87" V 32954 9500 50  0000 C CNN
+F 1 "510" V 33045 9500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 33150 9500 50  0001 C CNN
+F 3 "~" H 33150 9500 50  0001 C CNN
+	1    33150 9500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R89
+U 1 1 6171DFD5
+P 33350 9350
+F 0 "R89" V 33154 9350 50  0000 C CNN
+F 1 "510" V 33245 9350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 33350 9350 50  0001 C CNN
+F 3 "~" H 33350 9350 50  0001 C CNN
+	1    33350 9350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R81
+U 1 1 6171DFCF
+P 32750 9200
+F 0 "R81" V 32554 9200 50  0000 C CNN
+F 1 "510" V 32645 9200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 32750 9200 50  0001 C CNN
+F 3 "~" H 32750 9200 50  0001 C CNN
+	1    32750 9200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R83
+U 1 1 6171DFC9
+P 32950 9050
+F 0 "R83" V 32754 9050 50  0000 C CNN
+F 1 "510" V 32845 9050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 32950 9050 50  0001 C CNN
+F 3 "~" H 32950 9050 50  0001 C CNN
+	1    32950 9050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R88
+U 1 1 6171DFC3
+P 33350 8750
+F 0 "R88" V 33154 8750 50  0000 C CNN
+F 1 "510" V 33245 8750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 33350 8750 50  0001 C CNN
+F 3 "~" H 33350 8750 50  0001 C CNN
+	1    33350 8750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R86
+U 1 1 6171DFBD
+P 33150 8900
+F 0 "R86" V 32954 8900 50  0000 C CNN
+F 1 "510" V 33045 8900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 33150 8900 50  0001 C CNN
+F 3 "~" H 33150 8900 50  0001 C CNN
+	1    33150 8900
+	0    1    1    0   
+$EndComp
+$Comp
+L Custom_Sensor_Touch:IS31SE5100-SALS2 U117
+U 1 1 6171DFAA
+P 34050 7600
+F 0 "U117" H 34050 7565 50  0000 C CNN
+F 1 "IS31SE5100-SALS2" H 34050 7474 50  0000 C CNN
+F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 34050 7600 50  0001 C CNN
+F 3 "" H 34050 7600 50  0001 C CNN
+	1    34050 7600
+	1    0    0    -1  
+$EndComp
+Connection ~ 34650 9650
+Wire Wire Line
+	34650 9500 34650 9650
+Wire Wire Line
+	34550 9500 34650 9500
+Connection ~ 34650 9800
+Wire Wire Line
+	34650 9650 34650 9800
+Wire Wire Line
+	34550 9650 34650 9650
+Wire Wire Line
+	34650 9800 34650 9900
+Wire Wire Line
+	34550 9800 34650 9800
+Connection ~ 33050 7900
+Wire Wire Line
+	33050 7900 33550 7900
+$Comp
+L Device:C_Small C72
+U 1 1 6171DF93
+P 33050 8000
+F 0 "C72" H 33142 8046 50  0000 L CNN
+F 1 "0.1uF" H 33142 7955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 33050 8000 50  0001 C CNN
+F 3 "~" H 33050 8000 50  0001 C CNN
+	1    33050 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C71
+U 1 1 6171DF8D
+P 32600 8000
+F 0 "C71" H 32692 8046 50  0000 L CNN
+F 1 "10uF" H 32692 7955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 32600 8000 50  0001 C CNN
+F 3 "~" H 32600 8000 50  0001 C CNN
+	1    32600 8000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	32600 7800 32600 7900
+Wire Wire Line
+	32600 7900 33050 7900
+Connection ~ 32600 7900
+Wire Wire Line
+	32600 8100 33050 8100
+Wire Wire Line
+	32600 8100 32600 8200
+Connection ~ 32600 8100
+$Sheet
+S 40650 14750 1650 850 
+U 616830EB
+F0 "Sheet616830EA" 50
+F1 "is31se5100_tinker_mod.sch" 50
+$EndSheet
 $EndSCHEMATC

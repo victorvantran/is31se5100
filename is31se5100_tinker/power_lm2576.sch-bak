@@ -1,0 +1,215 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Regulator_Switching:LM2576S-3.3 U?
+U 1 1 615FF73E
+P 3700 3400
+AR Path="/615FF73E" Ref="U?"  Part="1" 
+AR Path="/615FF298/615FF73E" Ref="U?"  Part="1" 
+F 0 "U?" H 3700 3767 50  0000 C CNN
+F 1 "LM2576S-3.3" H 3700 3676 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H 3700 3150 50  0001 L CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2576.pdf" H 3700 3400 50  0001 C CNN
+	1    3700 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 61600C1E
+P 2800 3250
+F 0 "#PWR?" H 2800 3100 50  0001 C CNN
+F 1 "+BATT" H 2815 3423 50  0000 C CNN
+F 2 "" H 2800 3250 50  0001 C CNN
+F 3 "" H 2800 3250 50  0001 C CNN
+	1    2800 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61602084
+P 2800 3450
+F 0 "C?" H 2892 3496 50  0000 L CNN
+F 1 "100uF" H 2892 3405 50  0000 L CNN
+F 2 "" H 2800 3450 50  0001 C CNN
+F 3 "~" H 2800 3450 50  0001 C CNN
+	1    2800 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61602DBC
+P 2800 3700
+F 0 "#PWR?" H 2800 3450 50  0001 C CNN
+F 1 "GND" H 2805 3527 50  0000 C CNN
+F 2 "" H 2800 3700 50  0001 C CNN
+F 3 "" H 2800 3700 50  0001 C CNN
+	1    2800 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 3550 2800 3700
+$Comp
+L power:GND #PWR?
+U 1 1 6160612B
+P 3700 3700
+F 0 "#PWR?" H 3700 3450 50  0001 C CNN
+F 1 "GND" H 3705 3527 50  0000 C CNN
+F 2 "" H 3700 3700 50  0001 C CNN
+F 3 "" H 3700 3700 50  0001 C CNN
+	1    3700 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61606712
+P 3200 3600
+F 0 "#PWR?" H 3200 3350 50  0001 C CNN
+F 1 "GND" H 3205 3427 50  0000 C CNN
+F 2 "" H 3200 3600 50  0001 C CNN
+F 3 "" H 3200 3600 50  0001 C CNN
+	1    3200 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 3500 3200 3600
+Wire Wire Line
+	2800 3250 2800 3300
+Wire Wire Line
+	3200 3300 2800 3300
+Connection ~ 2800 3300
+Wire Wire Line
+	2800 3300 2800 3350
+$Comp
+L Device:C_Small C?
+U 1 1 6160D5AB
+P 5950 3500
+AR Path="/615DF516/6160D5AB" Ref="C?"  Part="1" 
+AR Path="/615EFEC7/6160D5AB" Ref="C?"  Part="1" 
+AR Path="/615FF298/6160D5AB" Ref="C?"  Part="1" 
+F 0 "C?" H 6042 3546 50  0000 L CNN
+F 1 "1000uF" H 6042 3455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5950 3500 50  0001 C CNN
+F 3 "~" H 5950 3500 50  0001 C CNN
+F 4 "C13585" H 5950 3500 50  0001 C CNN "LCSC Part #"
+	1    5950 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky_Small D?
+U 1 1 6160D5B2
+P 5000 3500
+AR Path="/615DF516/6160D5B2" Ref="D?"  Part="1" 
+AR Path="/615EFEC7/6160D5B2" Ref="D?"  Part="1" 
+AR Path="/615FF298/6160D5B2" Ref="D?"  Part="1" 
+F 0 "D?" V 4954 3570 50  0000 L CNN
+F 1 "1N5822" V 5045 3570 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 5000 3500 50  0001 C CNN
+F 3 "~" V 5000 3500 50  0001 C CNN
+F 4 "C8598" H 5000 3500 50  0001 C CNN "LCSC Part #"
+	1    5000 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6160D5B8
+P 5000 3600
+AR Path="/615DF516/6160D5B8" Ref="#PWR?"  Part="1" 
+AR Path="/615EFEC7/6160D5B8" Ref="#PWR?"  Part="1" 
+AR Path="/615FF298/6160D5B8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5000 3350 50  0001 C CNN
+F 1 "GND" H 5005 3427 50  0000 C CNN
+F 2 "" H 5000 3600 50  0001 C CNN
+F 3 "" H 5000 3600 50  0001 C CNN
+	1    5000 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6160D5BE
+P 5950 3600
+AR Path="/615DF516/6160D5BE" Ref="#PWR?"  Part="1" 
+AR Path="/615EFEC7/6160D5BE" Ref="#PWR?"  Part="1" 
+AR Path="/615FF298/6160D5BE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5950 3350 50  0001 C CNN
+F 1 "GND" H 5955 3427 50  0000 C CNN
+F 2 "" H 5950 3600 50  0001 C CNN
+F 3 "" H 5950 3600 50  0001 C CNN
+	1    5950 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6160D5C4
+P 6300 3200
+AR Path="/615DF516/6160D5C4" Ref="#PWR?"  Part="1" 
+AR Path="/615EFEC7/6160D5C4" Ref="#PWR?"  Part="1" 
+AR Path="/615FF298/6160D5C4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6300 3050 50  0001 C CNN
+F 1 "+3V3" H 6315 3373 50  0000 C CNN
+F 2 "" H 6300 3200 50  0001 C CNN
+F 3 "" H 6300 3200 50  0001 C CNN
+	1    6300 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 3300 5000 3300
+Wire Wire Line
+	6300 3300 6300 3200
+Wire Wire Line
+	5000 3300 5000 3400
+Connection ~ 5000 3300
+Wire Wire Line
+	5000 3300 5350 3300
+Wire Wire Line
+	5950 3300 5950 3400
+Wire Wire Line
+	5950 3300 6300 3300
+Wire Wire Line
+	6300 3300 6300 3400
+Connection ~ 6300 3300
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 6160D5D3
+P 6300 3300
+AR Path="/615DF516/6160D5D3" Ref="#FLG?"  Part="1" 
+AR Path="/615EFEC7/6160D5D3" Ref="#FLG?"  Part="1" 
+AR Path="/615FF298/6160D5D3" Ref="#FLG?"  Part="1" 
+F 0 "#FLG?" H 6300 3375 50  0001 C CNN
+F 1 "PWR_FLAG" V 6300 3428 50  0000 L CNN
+F 2 "" H 6300 3300 50  0001 C CNN
+F 3 "~" H 6300 3300 50  0001 C CNN
+	1    6300 3300
+	0    1    1    0   
+$EndComp
+Connection ~ 5950 3300
+Wire Wire Line
+	5550 3300 5950 3300
+$Comp
+L Device:L_Small L?
+U 1 1 6160D5E9
+P 5450 3300
+AR Path="/615DF516/6160D5E9" Ref="L?"  Part="1" 
+AR Path="/615EFEC7/6160D5E9" Ref="L?"  Part="1" 
+AR Path="/615FF298/6160D5E9" Ref="L?"  Part="1" 
+F 0 "L?" V 5635 3300 50  0000 C CNN
+F 1 "100uH" V 5544 3300 50  0000 C CNN
+F 2 "Inductor_SMD:L_Sunlord_MWSA0518_5.4x5.2mm" V 5543 3300 50  0001 C CNN
+F 3 "~" H 5450 3300 50  0001 C CNN
+F 4 "C408412" H 5450 3300 50  0001 C CNN "LCSC Part #"
+	1    5450 3300
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC
