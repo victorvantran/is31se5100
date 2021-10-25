@@ -1,0 +1,15 @@
+(module String_1.1684x34.434mm (layer F.Cu) (tedit 61764A18)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value String_1.1684x34.434mm (at 0 -0.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 connect custom (at -0.55 -3.125) (size 0.1 0.1) (layers F.Cu F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy 0 -17.217) (xy -0.47707 17.217) (xy 0.69133 17.217) (xy 1.1684 -17.217)) (width 0))
+    ))
+)
