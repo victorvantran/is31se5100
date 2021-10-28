@@ -1,4 +1,4 @@
-19310769092421504
+19320581054409509
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -48818,6 +48818,41 @@ Circle_10mm
 1
 1
 Custom_Electrode
+E2_F2
+
+
+0
+1
+1
+Custom_Electrode
+E2_Fret1
+
+
+0
+1
+1
+Custom_Electrode
+E2_Fret19
+
+
+0
+1
+1
+Custom_Electrode
+E2_Fret20
+
+
+0
+1
+1
+Custom_Electrode
+E4_Fret20
+
+
+0
+1
+1
+Custom_Electrode
 Rect_0.381x9.663mm
 
 
@@ -49182,7 +49217,14 @@ Rect_Ring_13x13mm
 1
 1
 Custom_Electrode
-String_1.1684x36.482
+String_1.1684x34.434mm
+
+
+0
+1
+1
+Custom_Electrode
+String_1.1684x36.482mm
 
 
 0

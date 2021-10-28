@@ -1,0 +1,15 @@
+(module E2_F#2 (layer F.Cu) (tedit 617A89D6)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value E2_F#2 (at 0 -0.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 connect custom (at -0.075 20.35) (size 0.1 0.1) (layers F.Cu F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -0.359054 -16.2171) (xy -0.809346 16.2171) (xy 0.359054 16.2171) (xy 0.809346 -16.2171)) (width 0))
+    ))
+)
