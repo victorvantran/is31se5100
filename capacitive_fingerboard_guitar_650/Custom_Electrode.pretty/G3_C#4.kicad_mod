@@ -1,0 +1,15 @@
+(module G3_C#4 (layer F.Cu) (tedit 617BD456)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value G3_C#4 (at 0 -0.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 connect custom (at 0.05 15.4) (size 0.1 0.1) (layers F.Cu F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -0.22624 -12.6652) (xy -0.15476 12.6652) (xy 0.22624 12.6652) (xy 0.15476 -12.6652)) (width 0))
+    ))
+)

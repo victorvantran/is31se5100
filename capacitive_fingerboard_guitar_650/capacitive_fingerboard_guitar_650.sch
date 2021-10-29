@@ -366,7 +366,7 @@ U 1 1 617EC52A
 P 5850 1300
 F 0 "U21" H 6050 1200 50  0000 C CNN
 F 1 "Electrode" H 6150 1100 50  0000 C CNN
-F 2 "Custom_Electrode:Circle_2mm" H 5850 1300 50  0001 C CNN
+F 2 "Custom_Electrode:A2_A#2" H 5850 1300 50  0001 C CNN
 F 3 "" H 5850 1300 50  0001 C CNN
 	1    5850 1300
 	-1   0    0    1   
@@ -388,7 +388,7 @@ U 1 1 617EC536
 P 5850 1500
 F 0 "U22" H 5978 1401 50  0000 L CNN
 F 1 "Electrode" H 5978 1310 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 5850 1500 50  0001 C CNN
+F 2 "Custom_Electrode:A2_B2" H 5850 1500 50  0001 C CNN
 F 3 "" H 5850 1500 50  0001 C CNN
 	1    5850 1500
 	-1   0    0    1   
@@ -399,7 +399,7 @@ U 1 1 617EC53C
 P 5850 1700
 F 0 "U23" H 5978 1601 50  0000 L CNN
 F 1 "Electrode" H 5978 1510 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 5850 1700 50  0001 C CNN
+F 2 "Custom_Electrode:A2_C3" H 5850 1700 50  0001 C CNN
 F 3 "" H 5850 1700 50  0001 C CNN
 	1    5850 1700
 	-1   0    0    1   
@@ -410,7 +410,7 @@ U 1 1 617EC542
 P 5850 1900
 F 0 "U24" H 5978 1801 50  0000 L CNN
 F 1 "Electrode" H 5978 1710 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 5850 1900 50  0001 C CNN
+F 2 "Custom_Electrode:A2_C#3" H 5850 1900 50  0001 C CNN
 F 3 "" H 5850 1900 50  0001 C CNN
 	1    5850 1900
 	-1   0    0    1   
@@ -421,7 +421,7 @@ U 1 1 617EC548
 P 5850 2100
 F 0 "U25" H 5978 2001 50  0000 L CNN
 F 1 "Electrode" H 5978 1910 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 5850 2100 50  0001 C CNN
+F 2 "Custom_Electrode:A2_D3" H 5850 2100 50  0001 C CNN
 F 3 "" H 5850 2100 50  0001 C CNN
 	1    5850 2100
 	-1   0    0    1   
@@ -432,7 +432,7 @@ U 1 1 617EC54E
 P 5850 2300
 F 0 "U26" H 5978 2201 50  0000 L CNN
 F 1 "Electrode" H 5978 2110 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 5850 2300 50  0001 C CNN
+F 2 "Custom_Electrode:A2_D#3" H 5850 2300 50  0001 C CNN
 F 3 "" H 5850 2300 50  0001 C CNN
 	1    5850 2300
 	-1   0    0    1   
@@ -443,7 +443,7 @@ U 1 1 617EC554
 P 5850 2500
 F 0 "U27" H 5978 2401 50  0000 L CNN
 F 1 "Electrode" H 5978 2310 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 5850 2500 50  0001 C CNN
+F 2 "Custom_Electrode:A2_E3" H 5850 2500 50  0001 C CNN
 F 3 "" H 5850 2500 50  0001 C CNN
 	1    5850 2500
 	-1   0    0    1   
@@ -454,7 +454,7 @@ U 1 1 617EC55A
 P 5850 2700
 F 0 "U28" H 5978 2601 50  0000 L CNN
 F 1 "Electrode" H 5978 2510 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 5850 2700 50  0001 C CNN
+F 2 "Custom_Electrode:A2_F3" H 5850 2700 50  0001 C CNN
 F 3 "" H 5850 2700 50  0001 C CNN
 	1    5850 2700
 	-1   0    0    1   
@@ -465,7 +465,7 @@ U 1 1 617EC560
 P 5850 2900
 F 0 "U29" H 5978 2801 50  0000 L CNN
 F 1 "Electrode" H 5978 2710 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 5850 2900 50  0001 C CNN
+F 2 "Custom_Electrode:A2_F#3" H 5850 2900 50  0001 C CNN
 F 3 "" H 5850 2900 50  0001 C CNN
 	1    5850 2900
 	-1   0    0    1   
@@ -476,7 +476,7 @@ U 1 1 617EC566
 P 5850 3100
 F 0 "U30" H 5978 3001 50  0000 L CNN
 F 1 "Electrode" H 5978 2910 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 5850 3100 50  0001 C CNN
+F 2 "Custom_Electrode:A2_G3" H 5850 3100 50  0001 C CNN
 F 3 "" H 5850 3100 50  0001 C CNN
 	1    5850 3100
 	-1   0    0    1   
@@ -487,7 +487,7 @@ U 1 1 617EC56C
 P 5850 3300
 F 0 "U31" H 5978 3201 50  0000 L CNN
 F 1 "Electrode" H 5978 3110 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 5850 3300 50  0001 C CNN
+F 2 "Custom_Electrode:A2_G#3" H 5850 3300 50  0001 C CNN
 F 3 "" H 5850 3300 50  0001 C CNN
 	1    5850 3300
 	-1   0    0    1   
@@ -498,7 +498,7 @@ U 1 1 617EC572
 P 5850 3500
 F 0 "U32" H 5978 3401 50  0000 L CNN
 F 1 "Electrode" H 5978 3310 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 5850 3500 50  0001 C CNN
+F 2 "Custom_Electrode:A2_A3" H 5850 3500 50  0001 C CNN
 F 3 "" H 5850 3500 50  0001 C CNN
 	1    5850 3500
 	-1   0    0    1   
@@ -509,7 +509,7 @@ U 1 1 617EC578
 P 5850 3700
 F 0 "U33" H 5978 3601 50  0000 L CNN
 F 1 "Electrode" H 5978 3510 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 5850 3700 50  0001 C CNN
+F 2 "Custom_Electrode:A2_A#3" H 5850 3700 50  0001 C CNN
 F 3 "" H 5850 3700 50  0001 C CNN
 	1    5850 3700
 	-1   0    0    1   
@@ -520,7 +520,7 @@ U 1 1 617EC57E
 P 5850 3900
 F 0 "U34" H 5978 3801 50  0000 L CNN
 F 1 "Electrode" H 5978 3710 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 5850 3900 50  0001 C CNN
+F 2 "Custom_Electrode:A2_B3" H 5850 3900 50  0001 C CNN
 F 3 "" H 5850 3900 50  0001 C CNN
 	1    5850 3900
 	-1   0    0    1   
@@ -531,7 +531,7 @@ U 1 1 617EC584
 P 5850 4100
 F 0 "U35" H 5978 4001 50  0000 L CNN
 F 1 "Electrode" H 5978 3910 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 5850 4100 50  0001 C CNN
+F 2 "Custom_Electrode:A2_C4" H 5850 4100 50  0001 C CNN
 F 3 "" H 5850 4100 50  0001 C CNN
 	1    5850 4100
 	-1   0    0    1   
@@ -542,7 +542,7 @@ U 1 1 617EC58A
 P 5850 4300
 F 0 "U36" H 5978 4201 50  0000 L CNN
 F 1 "Electrode" H 5978 4110 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 5850 4300 50  0001 C CNN
+F 2 "Custom_Electrode:A2_C#4" H 5850 4300 50  0001 C CNN
 F 3 "" H 5850 4300 50  0001 C CNN
 	1    5850 4300
 	-1   0    0    1   
@@ -553,7 +553,7 @@ U 1 1 617EC590
 P 5850 4500
 F 0 "U37" H 5978 4401 50  0000 L CNN
 F 1 "Electrode" H 5978 4310 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 5850 4500 50  0001 C CNN
+F 2 "Custom_Electrode:A2_D4" H 5850 4500 50  0001 C CNN
 F 3 "" H 5850 4500 50  0001 C CNN
 	1    5850 4500
 	-1   0    0    1   
@@ -564,7 +564,7 @@ U 1 1 617EC596
 P 5850 4700
 F 0 "U38" H 5978 4601 50  0000 L CNN
 F 1 "Electrode" H 5978 4510 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 5850 4700 50  0001 C CNN
+F 2 "Custom_Electrode:A2_D#4" H 5850 4700 50  0001 C CNN
 F 3 "" H 5850 4700 50  0001 C CNN
 	1    5850 4700
 	-1   0    0    1   
@@ -575,7 +575,7 @@ U 1 1 617EC59C
 P 5850 4900
 F 0 "U39" H 5978 4801 50  0000 L CNN
 F 1 "Electrode" H 5978 4710 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 5850 4900 50  0001 C CNN
+F 2 "Custom_Electrode:A2_E4" H 5850 4900 50  0001 C CNN
 F 3 "" H 5850 4900 50  0001 C CNN
 	1    5850 4900
 	-1   0    0    1   
@@ -586,7 +586,7 @@ U 1 1 617EC5A2
 P 5850 5100
 F 0 "U40" H 5978 5001 50  0000 L CNN
 F 1 "Electrode" H 5978 4910 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 5850 5100 50  0001 C CNN
+F 2 "Custom_Electrode:A2_F4" H 5850 5100 50  0001 C CNN
 F 3 "" H 5850 5100 50  0001 C CNN
 	1    5850 5100
 	-1   0    0    1   
@@ -713,7 +713,7 @@ U 1 1 61805DC9
 P 8850 1400
 F 0 "U41" H 9050 1300 50  0000 C CNN
 F 1 "Electrode" H 9150 1200 50  0000 C CNN
-F 2 "Custom_Electrode:Circle_2mm" H 8850 1400 50  0001 C CNN
+F 2 "Custom_Electrode:D3_D#3" H 8850 1400 50  0001 C CNN
 F 3 "" H 8850 1400 50  0001 C CNN
 	1    8850 1400
 	-1   0    0    1   
@@ -735,7 +735,7 @@ U 1 1 61805DD5
 P 8850 1600
 F 0 "U42" H 8978 1501 50  0000 L CNN
 F 1 "Electrode" H 8978 1410 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 8850 1600 50  0001 C CNN
+F 2 "Custom_Electrode:D3_E3" H 8850 1600 50  0001 C CNN
 F 3 "" H 8850 1600 50  0001 C CNN
 	1    8850 1600
 	-1   0    0    1   
@@ -746,7 +746,7 @@ U 1 1 61805DDB
 P 8850 1800
 F 0 "U43" H 8978 1701 50  0000 L CNN
 F 1 "Electrode" H 8978 1610 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 8850 1800 50  0001 C CNN
+F 2 "Custom_Electrode:D3_F3" H 8850 1800 50  0001 C CNN
 F 3 "" H 8850 1800 50  0001 C CNN
 	1    8850 1800
 	-1   0    0    1   
@@ -757,7 +757,7 @@ U 1 1 61805DE1
 P 8850 2000
 F 0 "U44" H 8978 1901 50  0000 L CNN
 F 1 "Electrode" H 8978 1810 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 8850 2000 50  0001 C CNN
+F 2 "Custom_Electrode:D3_F#3" H 8850 2000 50  0001 C CNN
 F 3 "" H 8850 2000 50  0001 C CNN
 	1    8850 2000
 	-1   0    0    1   
@@ -768,7 +768,7 @@ U 1 1 61805DE7
 P 8850 2200
 F 0 "U45" H 8978 2101 50  0000 L CNN
 F 1 "Electrode" H 8978 2010 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 8850 2200 50  0001 C CNN
+F 2 "Custom_Electrode:D3_G3" H 8850 2200 50  0001 C CNN
 F 3 "" H 8850 2200 50  0001 C CNN
 	1    8850 2200
 	-1   0    0    1   
@@ -779,7 +779,7 @@ U 1 1 61805DED
 P 8850 2400
 F 0 "U46" H 8978 2301 50  0000 L CNN
 F 1 "Electrode" H 8978 2210 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 8850 2400 50  0001 C CNN
+F 2 "Custom_Electrode:D3_G#3" H 8850 2400 50  0001 C CNN
 F 3 "" H 8850 2400 50  0001 C CNN
 	1    8850 2400
 	-1   0    0    1   
@@ -790,7 +790,7 @@ U 1 1 61805DF3
 P 8850 2600
 F 0 "U47" H 8978 2501 50  0000 L CNN
 F 1 "Electrode" H 8978 2410 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 8850 2600 50  0001 C CNN
+F 2 "Custom_Electrode:D3_A3" H 8850 2600 50  0001 C CNN
 F 3 "" H 8850 2600 50  0001 C CNN
 	1    8850 2600
 	-1   0    0    1   
@@ -801,7 +801,7 @@ U 1 1 61805DF9
 P 8850 2800
 F 0 "U48" H 8978 2701 50  0000 L CNN
 F 1 "Electrode" H 8978 2610 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 8850 2800 50  0001 C CNN
+F 2 "Custom_Electrode:D3_A#3" H 8850 2800 50  0001 C CNN
 F 3 "" H 8850 2800 50  0001 C CNN
 	1    8850 2800
 	-1   0    0    1   
@@ -812,7 +812,7 @@ U 1 1 61805DFF
 P 8850 3000
 F 0 "U49" H 8978 2901 50  0000 L CNN
 F 1 "Electrode" H 8978 2810 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 8850 3000 50  0001 C CNN
+F 2 "Custom_Electrode:D3_B3" H 8850 3000 50  0001 C CNN
 F 3 "" H 8850 3000 50  0001 C CNN
 	1    8850 3000
 	-1   0    0    1   
@@ -823,7 +823,7 @@ U 1 1 61805E05
 P 8850 3200
 F 0 "U50" H 8978 3101 50  0000 L CNN
 F 1 "Electrode" H 8978 3010 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 8850 3200 50  0001 C CNN
+F 2 "Custom_Electrode:D3_C4" H 8850 3200 50  0001 C CNN
 F 3 "" H 8850 3200 50  0001 C CNN
 	1    8850 3200
 	-1   0    0    1   
@@ -834,7 +834,7 @@ U 1 1 61805E0B
 P 8850 3400
 F 0 "U51" H 8978 3301 50  0000 L CNN
 F 1 "Electrode" H 8978 3210 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 8850 3400 50  0001 C CNN
+F 2 "Custom_Electrode:D3_C#4" H 8850 3400 50  0001 C CNN
 F 3 "" H 8850 3400 50  0001 C CNN
 	1    8850 3400
 	-1   0    0    1   
@@ -845,7 +845,7 @@ U 1 1 61805E11
 P 8850 3600
 F 0 "U52" H 8978 3501 50  0000 L CNN
 F 1 "Electrode" H 8978 3410 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 8850 3600 50  0001 C CNN
+F 2 "Custom_Electrode:D3_D4" H 8850 3600 50  0001 C CNN
 F 3 "" H 8850 3600 50  0001 C CNN
 	1    8850 3600
 	-1   0    0    1   
@@ -856,7 +856,7 @@ U 1 1 61805E17
 P 8850 3800
 F 0 "U53" H 8978 3701 50  0000 L CNN
 F 1 "Electrode" H 8978 3610 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 8850 3800 50  0001 C CNN
+F 2 "Custom_Electrode:D3_D#4" H 8850 3800 50  0001 C CNN
 F 3 "" H 8850 3800 50  0001 C CNN
 	1    8850 3800
 	-1   0    0    1   
@@ -867,7 +867,7 @@ U 1 1 61805E1D
 P 8850 4000
 F 0 "U54" H 8978 3901 50  0000 L CNN
 F 1 "Electrode" H 8978 3810 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 8850 4000 50  0001 C CNN
+F 2 "Custom_Electrode:D3_E4" H 8850 4000 50  0001 C CNN
 F 3 "" H 8850 4000 50  0001 C CNN
 	1    8850 4000
 	-1   0    0    1   
@@ -878,7 +878,7 @@ U 1 1 61805E23
 P 8850 4200
 F 0 "U55" H 8978 4101 50  0000 L CNN
 F 1 "Electrode" H 8978 4010 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 8850 4200 50  0001 C CNN
+F 2 "Custom_Electrode:D3_F4" H 8850 4200 50  0001 C CNN
 F 3 "" H 8850 4200 50  0001 C CNN
 	1    8850 4200
 	-1   0    0    1   
@@ -889,7 +889,7 @@ U 1 1 61805E29
 P 8850 4400
 F 0 "U56" H 8978 4301 50  0000 L CNN
 F 1 "Electrode" H 8978 4210 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 8850 4400 50  0001 C CNN
+F 2 "Custom_Electrode:D3_F#4" H 8850 4400 50  0001 C CNN
 F 3 "" H 8850 4400 50  0001 C CNN
 	1    8850 4400
 	-1   0    0    1   
@@ -900,7 +900,7 @@ U 1 1 61805E2F
 P 8850 4600
 F 0 "U57" H 8978 4501 50  0000 L CNN
 F 1 "Electrode" H 8978 4410 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 8850 4600 50  0001 C CNN
+F 2 "Custom_Electrode:D3_G4" H 8850 4600 50  0001 C CNN
 F 3 "" H 8850 4600 50  0001 C CNN
 	1    8850 4600
 	-1   0    0    1   
@@ -911,7 +911,7 @@ U 1 1 61805E35
 P 8850 4800
 F 0 "U58" H 8978 4701 50  0000 L CNN
 F 1 "Electrode" H 8978 4610 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 8850 4800 50  0001 C CNN
+F 2 "Custom_Electrode:D3_G#4" H 8850 4800 50  0001 C CNN
 F 3 "" H 8850 4800 50  0001 C CNN
 	1    8850 4800
 	-1   0    0    1   
@@ -922,7 +922,7 @@ U 1 1 61805E3B
 P 8850 5000
 F 0 "U59" H 8978 4901 50  0000 L CNN
 F 1 "Electrode" H 8978 4810 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 8850 5000 50  0001 C CNN
+F 2 "Custom_Electrode:D3_A4" H 8850 5000 50  0001 C CNN
 F 3 "" H 8850 5000 50  0001 C CNN
 	1    8850 5000
 	-1   0    0    1   
@@ -933,7 +933,7 @@ U 1 1 61805E41
 P 8850 5200
 F 0 "U60" H 8978 5101 50  0000 L CNN
 F 1 "Electrode" H 8978 5010 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 8850 5200 50  0001 C CNN
+F 2 "Custom_Electrode:D3_A#4" H 8850 5200 50  0001 C CNN
 F 3 "" H 8850 5200 50  0001 C CNN
 	1    8850 5200
 	-1   0    0    1   
@@ -1060,7 +1060,7 @@ U 1 1 61811F28
 P 11800 1400
 F 0 "U61" H 12000 1300 50  0000 C CNN
 F 1 "Electrode" H 12100 1200 50  0000 C CNN
-F 2 "Custom_Electrode:Circle_2mm" H 11800 1400 50  0001 C CNN
+F 2 "Custom_Electrode:G3_G#3" H 11800 1400 50  0001 C CNN
 F 3 "" H 11800 1400 50  0001 C CNN
 	1    11800 1400
 	-1   0    0    1   
@@ -1082,7 +1082,7 @@ U 1 1 61811F34
 P 11800 1600
 F 0 "U62" H 11928 1501 50  0000 L CNN
 F 1 "Electrode" H 11928 1410 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 11800 1600 50  0001 C CNN
+F 2 "Custom_Electrode:G3_A3" H 11800 1600 50  0001 C CNN
 F 3 "" H 11800 1600 50  0001 C CNN
 	1    11800 1600
 	-1   0    0    1   
@@ -1093,7 +1093,7 @@ U 1 1 61811F3A
 P 11800 1800
 F 0 "U63" H 11928 1701 50  0000 L CNN
 F 1 "Electrode" H 11928 1610 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 11800 1800 50  0001 C CNN
+F 2 "Custom_Electrode:G3_A#3" H 11800 1800 50  0001 C CNN
 F 3 "" H 11800 1800 50  0001 C CNN
 	1    11800 1800
 	-1   0    0    1   
@@ -1104,7 +1104,7 @@ U 1 1 61811F40
 P 11800 2000
 F 0 "U64" H 11928 1901 50  0000 L CNN
 F 1 "Electrode" H 11928 1810 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 11800 2000 50  0001 C CNN
+F 2 "Custom_Electrode:G3_B3" H 11800 2000 50  0001 C CNN
 F 3 "" H 11800 2000 50  0001 C CNN
 	1    11800 2000
 	-1   0    0    1   
@@ -1115,7 +1115,7 @@ U 1 1 61811F46
 P 11800 2200
 F 0 "U65" H 11928 2101 50  0000 L CNN
 F 1 "Electrode" H 11928 2010 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 11800 2200 50  0001 C CNN
+F 2 "Custom_Electrode:G3_C4" H 11800 2200 50  0001 C CNN
 F 3 "" H 11800 2200 50  0001 C CNN
 	1    11800 2200
 	-1   0    0    1   
@@ -1126,7 +1126,7 @@ U 1 1 61811F4C
 P 11800 2400
 F 0 "U66" H 11928 2301 50  0000 L CNN
 F 1 "Electrode" H 11928 2210 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 11800 2400 50  0001 C CNN
+F 2 "Custom_Electrode:G3_C#4" H 11800 2400 50  0001 C CNN
 F 3 "" H 11800 2400 50  0001 C CNN
 	1    11800 2400
 	-1   0    0    1   
@@ -1137,7 +1137,7 @@ U 1 1 61811F52
 P 11800 2600
 F 0 "U67" H 11928 2501 50  0000 L CNN
 F 1 "Electrode" H 11928 2410 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 11800 2600 50  0001 C CNN
+F 2 "Custom_Electrode:G3_D4" H 11800 2600 50  0001 C CNN
 F 3 "" H 11800 2600 50  0001 C CNN
 	1    11800 2600
 	-1   0    0    1   
@@ -1148,7 +1148,7 @@ U 1 1 61811F58
 P 11800 2800
 F 0 "U68" H 11928 2701 50  0000 L CNN
 F 1 "Electrode" H 11928 2610 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 11800 2800 50  0001 C CNN
+F 2 "Custom_Electrode:G3_D#4" H 11800 2800 50  0001 C CNN
 F 3 "" H 11800 2800 50  0001 C CNN
 	1    11800 2800
 	-1   0    0    1   
@@ -1159,7 +1159,7 @@ U 1 1 61811F5E
 P 11800 3000
 F 0 "U69" H 11928 2901 50  0000 L CNN
 F 1 "Electrode" H 11928 2810 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 11800 3000 50  0001 C CNN
+F 2 "Custom_Electrode:G3_E4" H 11800 3000 50  0001 C CNN
 F 3 "" H 11800 3000 50  0001 C CNN
 	1    11800 3000
 	-1   0    0    1   
@@ -1170,7 +1170,7 @@ U 1 1 61811F64
 P 11800 3200
 F 0 "U70" H 11928 3101 50  0000 L CNN
 F 1 "Electrode" H 11928 3010 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 11800 3200 50  0001 C CNN
+F 2 "Custom_Electrode:G3_F4" H 11800 3200 50  0001 C CNN
 F 3 "" H 11800 3200 50  0001 C CNN
 	1    11800 3200
 	-1   0    0    1   
@@ -1181,7 +1181,7 @@ U 1 1 61811F6A
 P 11800 3400
 F 0 "U71" H 11928 3301 50  0000 L CNN
 F 1 "Electrode" H 11928 3210 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 11800 3400 50  0001 C CNN
+F 2 "Custom_Electrode:G3_F#4" H 11800 3400 50  0001 C CNN
 F 3 "" H 11800 3400 50  0001 C CNN
 	1    11800 3400
 	-1   0    0    1   
@@ -1192,7 +1192,7 @@ U 1 1 61811F70
 P 11800 3600
 F 0 "U72" H 11928 3501 50  0000 L CNN
 F 1 "Electrode" H 11928 3410 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 11800 3600 50  0001 C CNN
+F 2 "Custom_Electrode:G3_G4" H 11800 3600 50  0001 C CNN
 F 3 "" H 11800 3600 50  0001 C CNN
 	1    11800 3600
 	-1   0    0    1   
@@ -1203,7 +1203,7 @@ U 1 1 61811F76
 P 11800 3800
 F 0 "U73" H 11928 3701 50  0000 L CNN
 F 1 "Electrode" H 11928 3610 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 11800 3800 50  0001 C CNN
+F 2 "Custom_Electrode:G3_G#4" H 11800 3800 50  0001 C CNN
 F 3 "" H 11800 3800 50  0001 C CNN
 	1    11800 3800
 	-1   0    0    1   
@@ -1214,7 +1214,7 @@ U 1 1 61811F7C
 P 11800 4000
 F 0 "U74" H 11928 3901 50  0000 L CNN
 F 1 "Electrode" H 11928 3810 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 11800 4000 50  0001 C CNN
+F 2 "Custom_Electrode:G3_A4" H 11800 4000 50  0001 C CNN
 F 3 "" H 11800 4000 50  0001 C CNN
 	1    11800 4000
 	-1   0    0    1   
@@ -1225,7 +1225,7 @@ U 1 1 61811F82
 P 11800 4200
 F 0 "U75" H 11928 4101 50  0000 L CNN
 F 1 "Electrode" H 11928 4010 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 11800 4200 50  0001 C CNN
+F 2 "Custom_Electrode:G3_A#4" H 11800 4200 50  0001 C CNN
 F 3 "" H 11800 4200 50  0001 C CNN
 	1    11800 4200
 	-1   0    0    1   
@@ -1236,7 +1236,7 @@ U 1 1 61811F88
 P 11800 4400
 F 0 "U76" H 11928 4301 50  0000 L CNN
 F 1 "Electrode" H 11928 4210 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 11800 4400 50  0001 C CNN
+F 2 "Custom_Electrode:G3_B4" H 11800 4400 50  0001 C CNN
 F 3 "" H 11800 4400 50  0001 C CNN
 	1    11800 4400
 	-1   0    0    1   
@@ -1247,7 +1247,7 @@ U 1 1 61811F8E
 P 11800 4600
 F 0 "U77" H 11928 4501 50  0000 L CNN
 F 1 "Electrode" H 11928 4410 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 11800 4600 50  0001 C CNN
+F 2 "Custom_Electrode:G3_C5" H 11800 4600 50  0001 C CNN
 F 3 "" H 11800 4600 50  0001 C CNN
 	1    11800 4600
 	-1   0    0    1   
@@ -1258,7 +1258,7 @@ U 1 1 61811F94
 P 11800 4800
 F 0 "U78" H 11928 4701 50  0000 L CNN
 F 1 "Electrode" H 11928 4610 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 11800 4800 50  0001 C CNN
+F 2 "Custom_Electrode:G3_C#5" H 11800 4800 50  0001 C CNN
 F 3 "" H 11800 4800 50  0001 C CNN
 	1    11800 4800
 	-1   0    0    1   
@@ -1269,7 +1269,7 @@ U 1 1 61811F9A
 P 11800 5000
 F 0 "U79" H 11928 4901 50  0000 L CNN
 F 1 "Electrode" H 11928 4810 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 11800 5000 50  0001 C CNN
+F 2 "Custom_Electrode:G3_D5" H 11800 5000 50  0001 C CNN
 F 3 "" H 11800 5000 50  0001 C CNN
 	1    11800 5000
 	-1   0    0    1   
@@ -1280,7 +1280,7 @@ U 1 1 61811FA0
 P 11800 5200
 F 0 "U80" H 11928 5101 50  0000 L CNN
 F 1 "Electrode" H 11928 5010 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_2mm" H 11800 5200 50  0001 C CNN
+F 2 "Custom_Electrode:G3_D#5" H 11800 5200 50  0001 C CNN
 F 3 "" H 11800 5200 50  0001 C CNN
 	1    11800 5200
 	-1   0    0    1   

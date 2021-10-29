@@ -1,0 +1,15 @@
+(module A2_D#3 (layer F.Cu) (tedit 617BB31B)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value A2_D#3 (at 0 -0.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 connect custom (at -0.225 14.85) (size 0.1 0.1) (layers F.Cu F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -0.299181 -12.6652) (xy -0.513619 12.6652) (xy 0.299181 12.6652) (xy 0.513619 -12.6652)) (width 0))
+    ))
+)

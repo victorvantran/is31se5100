@@ -1,0 +1,15 @@
+(module D3_G#4 (layer F.Cu) (tedit 617BCD1B)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value D3_G#4 (at 0 -0.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 connect custom (at -0.1 7.15) (size 0.1 0.1) (layers F.Cu F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -0.28693 -5.8326) (xy -0.32267 5.8326) (xy 0.28693 5.8326) (xy 0.32267 -5.8326)) (width 0))
+    ))
+)
