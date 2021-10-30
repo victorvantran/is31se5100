@@ -1,15 +1,15 @@
-(module B3_A#4 (layer F.Cu) (tedit 617BCED5)
+(module B3_A#4 (layer F.Cu) (tedit 617CAAC7)
   (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value B3_A#4 (at 0 -0.5) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (pad 1 connect custom (at -0.275 7.025) (size 0.1 0.1) (layers F.Cu F.Mask)
+  (pad 1 connect custom (at 0.05 11.125) (size 0.1 0.1) (layers F.Cu F.Mask)
     (zone_connect 0)
     (options (clearance outline) (anchor rect))
     (primitives
       (gr_poly (pts
-         (xy -1 -3) (xy -2 3) (xy 1 3) (xy 2 -3)) (width 0))
+         (xy -0.232724 -9.23733) (xy -0.072076 9.23733) (xy 0.232724 9.23733) (xy 0.072076 -9.23733)) (width 0))
     ))
 )
