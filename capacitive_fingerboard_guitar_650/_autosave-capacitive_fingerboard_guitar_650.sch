@@ -2309,21 +2309,21 @@ Text Label 1650 7850 2    50   ~ 0
 Electrode_19
 Text Label 1650 7950 2    50   ~ 0
 Electrode_20
-Text Label 6100 5750 2    50   ~ 0
+Text Label 6250 6050 2    50   ~ 0
 Electrode_21
-Text Label 6100 5650 2    50   ~ 0
+Text Label 6250 5950 2    50   ~ 0
 Electrode_22
-Text Label 6100 5550 2    50   ~ 0
+Text Label 6250 5850 2    50   ~ 0
 Electrode_23
-Text Label 6100 5450 2    50   ~ 0
+Text Label 6250 5750 2    50   ~ 0
 Electrode_24
-Text Label 6100 6150 2    50   ~ 0
+Text Label 6250 6450 2    50   ~ 0
 Electrode_25
-Text Label 6100 6050 2    50   ~ 0
+Text Label 6250 6350 2    50   ~ 0
 Electrode_26
-Text Label 6100 5950 2    50   ~ 0
+Text Label 6250 6250 2    50   ~ 0
 Electrode_27
-Text Label 6100 5850 2    50   ~ 0
+Text Label 6250 6150 2    50   ~ 0
 Electrode_28
 Text Label 6050 7150 2    50   ~ 0
 Electrode_29
@@ -2677,21 +2677,21 @@ F 3 "~" H 1900 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x08 J?
+L Connector_Generic:Conn_01x08 J4
 U 1 1 67821A9F
-P 6300 5750
-F 0 "J?" H 6380 5742 50  0000 L CNN
-F 1 "Conn_01x08" H 6380 5651 50  0000 L CNN
-F 2 "Custom:SAMTEC_TSM-108-01-F-SV" H 6300 5750 50  0001 C CNN
-F 3 "~" H 6300 5750 50  0001 C CNN
-	1    6300 5750
+P 6450 6050
+F 0 "J4" H 6530 6042 50  0000 L CNN
+F 1 "Conn_01x08" H 6530 5951 50  0000 L CNN
+F 2 "Custom:SAMTEC_TSM-108-01-F-SV" H 6450 6050 50  0001 C CNN
+F 3 "~" H 6450 6050 50  0001 C CNN
+	1    6450 6050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x08 J?
+L Connector_Generic:Conn_01x08 J7
 U 1 1 678646F7
 P 9400 5900
-F 0 "J?" H 9480 5892 50  0000 L CNN
+F 0 "J7" H 9480 5892 50  0000 L CNN
 F 1 "Conn_01x08" H 9480 5801 50  0000 L CNN
 F 2 "Custom:SAMTEC_TSM-108-01-F-SV" H 9400 5900 50  0001 C CNN
 F 3 "~" H 9400 5900 50  0001 C CNN
@@ -2699,10 +2699,10 @@ F 3 "~" H 9400 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x08 J?
+L Connector_Generic:Conn_01x08 J10
 U 1 1 6786580B
 P 12150 5900
-F 0 "J?" H 12230 5892 50  0000 L CNN
+F 0 "J10" H 12230 5892 50  0000 L CNN
 F 1 "Conn_01x08" H 12230 5801 50  0000 L CNN
 F 2 "Custom:SAMTEC_TSM-108-01-F-SV" H 12150 5900 50  0001 C CNN
 F 3 "~" H 12150 5900 50  0001 C CNN
@@ -2710,10 +2710,10 @@ F 3 "~" H 12150 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x08 J?
+L Connector_Generic:Conn_01x08 J13
 U 1 1 67865E8D
 P 15150 5950
-F 0 "J?" H 15230 5942 50  0000 L CNN
+F 0 "J13" H 15230 5942 50  0000 L CNN
 F 1 "Conn_01x08" H 15230 5851 50  0000 L CNN
 F 2 "Custom:SAMTEC_TSM-108-01-F-SV" H 15150 5950 50  0001 C CNN
 F 3 "~" H 15150 5950 50  0001 C CNN
@@ -2721,10 +2721,10 @@ F 3 "~" H 15150 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x08 J?
+L Connector_Generic:Conn_01x08 J16
 U 1 1 67866B5E
 P 18600 5850
-F 0 "J?" H 18680 5842 50  0000 L CNN
+F 0 "J16" H 18680 5842 50  0000 L CNN
 F 1 "Conn_01x08" H 18680 5751 50  0000 L CNN
 F 2 "Custom:SAMTEC_TSM-108-01-F-SV" H 18600 5850 50  0001 C CNN
 F 3 "~" H 18600 5850 50  0001 C CNN

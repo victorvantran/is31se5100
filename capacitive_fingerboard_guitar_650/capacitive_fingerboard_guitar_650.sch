@@ -2025,14 +2025,6 @@ Wire Wire Line
 	18650 3200 19150 3200
 Wire Wire Line
 	18150 3100 19150 3100
-NoConn ~ 1900 7250
-NoConn ~ 1900 7450
-NoConn ~ 1900 7600
-NoConn ~ 1900 7750
-NoConn ~ 1900 7900
-NoConn ~ 2900 8850
-NoConn ~ 2900 9000
-NoConn ~ 2900 9150
 Text Label 2600 2150 0    50   ~ 0
 Electrode_1
 Wire Wire Line
@@ -2077,540 +2069,6 @@ Text Label 2600 3950 0    50   ~ 0
 Electrode_19
 Text Label 2600 4050 0    50   ~ 0
 Electrode_20
-$Comp
-L Custom_Sensor_Touch:IS31SE5100-SALS2 U122
-U 1 1 62096AE1
-P 2400 9800
-F 0 "U122" H 2400 9765 50  0000 C CNN
-F 1 "IS31SE5100-SALS2" H 2400 9674 50  0000 C CNN
-F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 2400 9800 50  0001 C CNN
-F 3 "" H 2400 9800 50  0001 C CNN
-	1    2400 9800
-	1    0    0    -1  
-$EndComp
-NoConn ~ 1900 10100
-NoConn ~ 1900 10300
-NoConn ~ 1900 10450
-NoConn ~ 1900 10600
-NoConn ~ 1900 10750
-NoConn ~ 2900 11700
-NoConn ~ 2900 11850
-NoConn ~ 2900 12000
-NoConn ~ 2900 11150
-NoConn ~ 2900 11000
-NoConn ~ 2900 10850
-NoConn ~ 2900 10700
-NoConn ~ 2900 10550
-NoConn ~ 2900 10400
-NoConn ~ 2900 10250
-NoConn ~ 2900 10100
-$Comp
-L Custom_Sensor_Touch:IS31SE5100-SALS2 U123
-U 1 1 620B4611
-P 2400 12600
-F 0 "U123" H 2400 12565 50  0000 C CNN
-F 1 "IS31SE5100-SALS2" H 2400 12474 50  0000 C CNN
-F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 2400 12600 50  0001 C CNN
-F 3 "" H 2400 12600 50  0001 C CNN
-	1    2400 12600
-	1    0    0    -1  
-$EndComp
-NoConn ~ 1900 12900
-NoConn ~ 1900 13100
-NoConn ~ 1900 13250
-NoConn ~ 1900 13400
-NoConn ~ 1900 13550
-NoConn ~ 2900 14500
-NoConn ~ 2900 14650
-NoConn ~ 2900 14800
-NoConn ~ 2900 13950
-NoConn ~ 2900 13800
-NoConn ~ 2900 13650
-NoConn ~ 2900 13500
-NoConn ~ 2900 13350
-NoConn ~ 2900 13200
-NoConn ~ 2900 13050
-NoConn ~ 2900 12900
-NoConn ~ 1900 14350
-NoConn ~ 1900 14500
-NoConn ~ 1900 14650
-NoConn ~ 1900 14800
-$Comp
-L Custom_Sensor_Touch:IS31SE5100-SALS2 U124
-U 1 1 62144236
-P 6050 6850
-F 0 "U124" H 6050 6815 50  0000 C CNN
-F 1 "IS31SE5100-SALS2" H 6050 6724 50  0000 C CNN
-F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 6050 6850 50  0001 C CNN
-F 3 "" H 6050 6850 50  0001 C CNN
-	1    6050 6850
-	1    0    0    -1  
-$EndComp
-NoConn ~ 5550 7150
-NoConn ~ 5550 7350
-NoConn ~ 5550 7500
-NoConn ~ 5550 7650
-NoConn ~ 5550 7800
-NoConn ~ 6550 8750
-NoConn ~ 6550 8900
-NoConn ~ 6550 9050
-NoConn ~ 6550 8200
-NoConn ~ 6550 8050
-NoConn ~ 6550 7900
-NoConn ~ 6550 7750
-NoConn ~ 6550 7600
-NoConn ~ 6550 7450
-NoConn ~ 6550 7300
-NoConn ~ 6550 7150
-$Comp
-L Custom_Sensor_Touch:IS31SE5100-SALS2 U125
-U 1 1 62144254
-P 6050 9700
-F 0 "U125" H 6050 9665 50  0000 C CNN
-F 1 "IS31SE5100-SALS2" H 6050 9574 50  0000 C CNN
-F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 6050 9700 50  0001 C CNN
-F 3 "" H 6050 9700 50  0001 C CNN
-	1    6050 9700
-	1    0    0    -1  
-$EndComp
-NoConn ~ 5550 10000
-NoConn ~ 5550 10200
-NoConn ~ 5550 10350
-NoConn ~ 5550 10500
-NoConn ~ 5550 10650
-NoConn ~ 6550 11600
-NoConn ~ 6550 11750
-NoConn ~ 6550 11900
-NoConn ~ 6550 11050
-NoConn ~ 6550 10900
-NoConn ~ 6550 10750
-NoConn ~ 6550 10600
-NoConn ~ 6550 10450
-NoConn ~ 6550 10300
-NoConn ~ 6550 10150
-NoConn ~ 6550 10000
-$Comp
-L Custom_Sensor_Touch:IS31SE5100-SALS2 U126
-U 1 1 62144272
-P 6050 12500
-F 0 "U126" H 6050 12465 50  0000 C CNN
-F 1 "IS31SE5100-SALS2" H 6050 12374 50  0000 C CNN
-F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 6050 12500 50  0001 C CNN
-F 3 "" H 6050 12500 50  0001 C CNN
-	1    6050 12500
-	1    0    0    -1  
-$EndComp
-NoConn ~ 5550 12800
-NoConn ~ 5550 13000
-NoConn ~ 5550 13150
-NoConn ~ 5550 13300
-NoConn ~ 5550 13450
-NoConn ~ 6550 14400
-NoConn ~ 6550 14550
-NoConn ~ 6550 14700
-NoConn ~ 6550 13850
-NoConn ~ 6550 13700
-NoConn ~ 6550 13550
-NoConn ~ 6550 13400
-NoConn ~ 6550 13250
-NoConn ~ 6550 13100
-NoConn ~ 6550 12950
-NoConn ~ 6550 12800
-NoConn ~ 5550 14250
-NoConn ~ 5550 14400
-NoConn ~ 5550 14550
-NoConn ~ 5550 14700
-$Comp
-L Custom_Sensor_Touch:IS31SE5100-SALS2 U127
-U 1 1 6216BCB1
-P 9250 6950
-F 0 "U127" H 9250 6915 50  0000 C CNN
-F 1 "IS31SE5100-SALS2" H 9250 6824 50  0000 C CNN
-F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 9250 6950 50  0001 C CNN
-F 3 "" H 9250 6950 50  0001 C CNN
-	1    9250 6950
-	1    0    0    -1  
-$EndComp
-NoConn ~ 8750 7250
-NoConn ~ 8750 7450
-NoConn ~ 8750 7600
-NoConn ~ 8750 7750
-NoConn ~ 8750 7900
-NoConn ~ 9750 8850
-NoConn ~ 9750 9000
-NoConn ~ 9750 9150
-NoConn ~ 9750 8300
-NoConn ~ 9750 8150
-NoConn ~ 9750 8000
-NoConn ~ 9750 7850
-NoConn ~ 9750 7700
-NoConn ~ 9750 7550
-NoConn ~ 9750 7400
-NoConn ~ 9750 7250
-$Comp
-L Custom_Sensor_Touch:IS31SE5100-SALS2 U128
-U 1 1 6216BCCF
-P 9250 9800
-F 0 "U128" H 9250 9765 50  0000 C CNN
-F 1 "IS31SE5100-SALS2" H 9250 9674 50  0000 C CNN
-F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 9250 9800 50  0001 C CNN
-F 3 "" H 9250 9800 50  0001 C CNN
-	1    9250 9800
-	1    0    0    -1  
-$EndComp
-NoConn ~ 8750 10100
-NoConn ~ 8750 10300
-NoConn ~ 8750 10450
-NoConn ~ 8750 10600
-NoConn ~ 8750 10750
-NoConn ~ 9750 11700
-NoConn ~ 9750 11850
-NoConn ~ 9750 12000
-NoConn ~ 9750 11150
-NoConn ~ 9750 11000
-NoConn ~ 9750 10850
-NoConn ~ 9750 10700
-NoConn ~ 9750 10550
-NoConn ~ 9750 10400
-NoConn ~ 9750 10250
-NoConn ~ 9750 10100
-$Comp
-L Custom_Sensor_Touch:IS31SE5100-SALS2 U129
-U 1 1 6216BCED
-P 9250 12600
-F 0 "U129" H 9250 12565 50  0000 C CNN
-F 1 "IS31SE5100-SALS2" H 9250 12474 50  0000 C CNN
-F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 9250 12600 50  0001 C CNN
-F 3 "" H 9250 12600 50  0001 C CNN
-	1    9250 12600
-	1    0    0    -1  
-$EndComp
-NoConn ~ 8750 12900
-NoConn ~ 8750 13100
-NoConn ~ 8750 13250
-NoConn ~ 8750 13400
-NoConn ~ 8750 13550
-NoConn ~ 9750 14500
-NoConn ~ 9750 14650
-NoConn ~ 9750 14800
-NoConn ~ 9750 13950
-NoConn ~ 9750 13800
-NoConn ~ 9750 13650
-NoConn ~ 9750 13500
-NoConn ~ 9750 13350
-NoConn ~ 9750 13200
-NoConn ~ 9750 13050
-NoConn ~ 9750 12900
-NoConn ~ 8750 14350
-NoConn ~ 8750 14500
-NoConn ~ 8750 14650
-NoConn ~ 8750 14800
-$Comp
-L Custom_Sensor_Touch:IS31SE5100-SALS2 U130
-U 1 1 62189685
-P 12250 6950
-F 0 "U130" H 12250 6915 50  0000 C CNN
-F 1 "IS31SE5100-SALS2" H 12250 6824 50  0000 C CNN
-F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 12250 6950 50  0001 C CNN
-F 3 "" H 12250 6950 50  0001 C CNN
-	1    12250 6950
-	1    0    0    -1  
-$EndComp
-NoConn ~ 11750 7250
-NoConn ~ 11750 7450
-NoConn ~ 11750 7600
-NoConn ~ 11750 7750
-NoConn ~ 11750 7900
-NoConn ~ 12750 8850
-NoConn ~ 12750 9000
-NoConn ~ 12750 9150
-NoConn ~ 12750 8300
-NoConn ~ 12750 8150
-NoConn ~ 12750 8000
-NoConn ~ 12750 7850
-NoConn ~ 12750 7700
-NoConn ~ 12750 7550
-NoConn ~ 12750 7400
-NoConn ~ 12750 7250
-$Comp
-L Custom_Sensor_Touch:IS31SE5100-SALS2 U131
-U 1 1 621896A3
-P 12250 9800
-F 0 "U131" H 12250 9765 50  0000 C CNN
-F 1 "IS31SE5100-SALS2" H 12250 9674 50  0000 C CNN
-F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 12250 9800 50  0001 C CNN
-F 3 "" H 12250 9800 50  0001 C CNN
-	1    12250 9800
-	1    0    0    -1  
-$EndComp
-NoConn ~ 11750 10100
-NoConn ~ 11750 10300
-NoConn ~ 11750 10450
-NoConn ~ 11750 10600
-NoConn ~ 11750 10750
-NoConn ~ 12750 11700
-NoConn ~ 12750 11850
-NoConn ~ 12750 12000
-NoConn ~ 12750 11150
-NoConn ~ 12750 11000
-NoConn ~ 12750 10850
-NoConn ~ 12750 10700
-NoConn ~ 12750 10550
-NoConn ~ 12750 10400
-NoConn ~ 12750 10250
-NoConn ~ 12750 10100
-$Comp
-L Custom_Sensor_Touch:IS31SE5100-SALS2 U132
-U 1 1 621896C1
-P 12250 12600
-F 0 "U132" H 12250 12565 50  0000 C CNN
-F 1 "IS31SE5100-SALS2" H 12250 12474 50  0000 C CNN
-F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 12250 12600 50  0001 C CNN
-F 3 "" H 12250 12600 50  0001 C CNN
-	1    12250 12600
-	1    0    0    -1  
-$EndComp
-NoConn ~ 11750 12900
-NoConn ~ 11750 13100
-NoConn ~ 11750 13250
-NoConn ~ 11750 13400
-NoConn ~ 11750 13550
-NoConn ~ 12750 14500
-NoConn ~ 12750 14650
-NoConn ~ 12750 14800
-NoConn ~ 12750 13950
-NoConn ~ 12750 13800
-NoConn ~ 12750 13650
-NoConn ~ 12750 13500
-NoConn ~ 12750 13350
-NoConn ~ 12750 13200
-NoConn ~ 12750 13050
-NoConn ~ 12750 12900
-NoConn ~ 11750 14350
-NoConn ~ 11750 14500
-NoConn ~ 11750 14650
-NoConn ~ 11750 14800
-$Comp
-L Custom_Sensor_Touch:IS31SE5100-SALS2 U133
-U 1 1 621A70A4
-P 15400 6850
-F 0 "U133" H 15400 6815 50  0000 C CNN
-F 1 "IS31SE5100-SALS2" H 15400 6724 50  0000 C CNN
-F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 15400 6850 50  0001 C CNN
-F 3 "" H 15400 6850 50  0001 C CNN
-	1    15400 6850
-	1    0    0    -1  
-$EndComp
-NoConn ~ 14900 7150
-NoConn ~ 14900 7350
-NoConn ~ 14900 7500
-NoConn ~ 14900 7650
-NoConn ~ 14900 7800
-NoConn ~ 15900 8750
-NoConn ~ 15900 8900
-NoConn ~ 15900 9050
-NoConn ~ 15900 8200
-NoConn ~ 15900 8050
-NoConn ~ 15900 7900
-NoConn ~ 15900 7750
-NoConn ~ 15900 7600
-NoConn ~ 15900 7450
-NoConn ~ 15900 7300
-NoConn ~ 15900 7150
-$Comp
-L Custom_Sensor_Touch:IS31SE5100-SALS2 U134
-U 1 1 621A70C2
-P 15400 9700
-F 0 "U134" H 15400 9665 50  0000 C CNN
-F 1 "IS31SE5100-SALS2" H 15400 9574 50  0000 C CNN
-F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 15400 9700 50  0001 C CNN
-F 3 "" H 15400 9700 50  0001 C CNN
-	1    15400 9700
-	1    0    0    -1  
-$EndComp
-NoConn ~ 14900 10000
-NoConn ~ 14900 10200
-NoConn ~ 14900 10350
-NoConn ~ 14900 10500
-NoConn ~ 14900 10650
-NoConn ~ 15900 11600
-NoConn ~ 15900 11750
-NoConn ~ 15900 11900
-NoConn ~ 15900 11050
-NoConn ~ 15900 10900
-NoConn ~ 15900 10750
-NoConn ~ 15900 10600
-NoConn ~ 15900 10450
-NoConn ~ 15900 10300
-NoConn ~ 15900 10150
-NoConn ~ 15900 10000
-$Comp
-L Custom_Sensor_Touch:IS31SE5100-SALS2 U135
-U 1 1 621A70E0
-P 15400 12500
-F 0 "U135" H 15400 12465 50  0000 C CNN
-F 1 "IS31SE5100-SALS2" H 15400 12374 50  0000 C CNN
-F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 15400 12500 50  0001 C CNN
-F 3 "" H 15400 12500 50  0001 C CNN
-	1    15400 12500
-	1    0    0    -1  
-$EndComp
-NoConn ~ 14900 12800
-NoConn ~ 14900 13000
-NoConn ~ 14900 13150
-NoConn ~ 14900 13300
-NoConn ~ 14900 13450
-NoConn ~ 15900 14400
-NoConn ~ 15900 14550
-NoConn ~ 15900 14700
-NoConn ~ 15900 13850
-NoConn ~ 15900 13700
-NoConn ~ 15900 13550
-NoConn ~ 15900 13400
-NoConn ~ 15900 13250
-NoConn ~ 15900 13100
-NoConn ~ 15900 12950
-NoConn ~ 15900 12800
-NoConn ~ 14900 14250
-NoConn ~ 14900 14400
-NoConn ~ 14900 14550
-NoConn ~ 14900 14700
-$Comp
-L Custom_Sensor_Touch:IS31SE5100-SALS2 U136
-U 1 1 621C4DE4
-P 18750 6700
-F 0 "U136" H 18750 6665 50  0000 C CNN
-F 1 "IS31SE5100-SALS2" H 18750 6574 50  0000 C CNN
-F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 18750 6700 50  0001 C CNN
-F 3 "" H 18750 6700 50  0001 C CNN
-	1    18750 6700
-	1    0    0    -1  
-$EndComp
-NoConn ~ 18250 7000
-NoConn ~ 18250 7200
-NoConn ~ 18250 7350
-NoConn ~ 18250 7500
-NoConn ~ 18250 7650
-NoConn ~ 19250 8600
-NoConn ~ 19250 8750
-NoConn ~ 19250 8900
-NoConn ~ 19250 8050
-NoConn ~ 19250 7900
-NoConn ~ 19250 7750
-NoConn ~ 19250 7600
-NoConn ~ 19250 7450
-NoConn ~ 19250 7300
-NoConn ~ 19250 7150
-NoConn ~ 19250 7000
-$Comp
-L Custom_Sensor_Touch:IS31SE5100-SALS2 U137
-U 1 1 621C4E02
-P 18750 9550
-F 0 "U137" H 18750 9515 50  0000 C CNN
-F 1 "IS31SE5100-SALS2" H 18750 9424 50  0000 C CNN
-F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 18750 9550 50  0001 C CNN
-F 3 "" H 18750 9550 50  0001 C CNN
-	1    18750 9550
-	1    0    0    -1  
-$EndComp
-NoConn ~ 18250 9850
-NoConn ~ 18250 10050
-NoConn ~ 18250 10200
-NoConn ~ 18250 10350
-NoConn ~ 18250 10500
-NoConn ~ 19250 11450
-NoConn ~ 19250 11600
-NoConn ~ 19250 11750
-NoConn ~ 19250 10900
-NoConn ~ 19250 10750
-NoConn ~ 19250 10600
-NoConn ~ 19250 10450
-NoConn ~ 19250 10300
-NoConn ~ 19250 10150
-NoConn ~ 19250 10000
-NoConn ~ 19250 9850
-$Comp
-L Custom_Sensor_Touch:IS31SE5100-SALS2 U138
-U 1 1 621C4E20
-P 18750 12350
-F 0 "U138" H 18750 12315 50  0000 C CNN
-F 1 "IS31SE5100-SALS2" H 18750 12224 50  0000 C CNN
-F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 18750 12350 50  0001 C CNN
-F 3 "" H 18750 12350 50  0001 C CNN
-	1    18750 12350
-	1    0    0    -1  
-$EndComp
-NoConn ~ 18250 12650
-NoConn ~ 18250 12850
-NoConn ~ 18250 13000
-NoConn ~ 18250 13150
-NoConn ~ 18250 13300
-NoConn ~ 19250 14250
-NoConn ~ 19250 14400
-NoConn ~ 19250 14550
-NoConn ~ 19250 13700
-NoConn ~ 19250 13550
-NoConn ~ 19250 13400
-NoConn ~ 19250 13250
-NoConn ~ 19250 13100
-NoConn ~ 19250 12950
-NoConn ~ 19250 12800
-NoConn ~ 19250 12650
-NoConn ~ 18250 14100
-NoConn ~ 18250 14250
-NoConn ~ 18250 14400
-NoConn ~ 18250 14550
-$Comp
-L Custom_Sensor_Touch:IS31SE5100-SALS2 U121
-U 1 1 617EADF5
-P 2400 6950
-F 0 "U121" H 2400 6915 50  0000 C CNN
-F 1 "IS31SE5100-SALS2" H 2400 6824 50  0000 C CNN
-F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 2400 6950 50  0001 C CNN
-F 3 "" H 2400 6950 50  0001 C CNN
-	1    2400 6950
-	1    0    0    -1  
-$EndComp
-Text Label 1900 8100 2    50   ~ 0
-Electrode_1
-Text Label 1900 8250 2    50   ~ 0
-Electrode_2
-Text Label 1900 8400 2    50   ~ 0
-Electrode_3
-Text Label 1900 8550 2    50   ~ 0
-Electrode_4
-Text Label 1900 8700 2    50   ~ 0
-Electrode_5
-Text Label 1900 8850 2    50   ~ 0
-Electrode_6
-Text Label 1900 9000 2    50   ~ 0
-Electrode_7
-Text Label 1900 9150 2    50   ~ 0
-Electrode_8
-Text Label 1900 10950 2    50   ~ 0
-Electrode_9
-Text Label 1900 11100 2    50   ~ 0
-Electrode_10
-Text Label 1900 11250 2    50   ~ 0
-Electrode_11
-Text Label 1900 11400 2    50   ~ 0
-Electrode_12
-Text Label 1900 11550 2    50   ~ 0
-Electrode_13
-Text Label 1900 11700 2    50   ~ 0
-Electrode_14
-Text Label 1900 11850 2    50   ~ 0
-Electrode_15
-Text Label 1900 12000 2    50   ~ 0
-Electrode_16
-Text Label 1900 13750 2    50   ~ 0
-Electrode_17
-Text Label 1900 13900 2    50   ~ 0
-Electrode_18
-Text Label 1900 14050 2    50   ~ 0
-Electrode_19
-Text Label 1900 14200 2    50   ~ 0
-Electrode_20
 Text Label 6950 2150 0    50   ~ 0
 Electrode_21
 Text Label 6950 2250 0    50   ~ 0
@@ -2651,8 +2109,6 @@ Text Label 6950 3950 0    50   ~ 0
 Electrode_39
 Text Label 6950 4050 0    50   ~ 0
 Electrode_40
-Text Label 7750 6100 2    50   ~ 0
-Electrode_41
 Text Label 9950 2250 0    50   ~ 0
 Electrode_41
 Text Label 9950 2350 0    50   ~ 0
@@ -2813,294 +2269,466 @@ Text Label 19150 3900 0    50   ~ 0
 Electrode_119
 Text Label 19150 4000 0    50   ~ 0
 Electrode_120
-Text Label 5550 8000 2    50   ~ 0
+Text Label 1700 5800 2    50   ~ 0
+Electrode_1
+Text Label 1700 5700 2    50   ~ 0
+Electrode_2
+Text Label 1700 5600 2    50   ~ 0
+Electrode_3
+Text Label 1700 5500 2    50   ~ 0
+Electrode_4
+Text Label 1700 6200 2    50   ~ 0
+Electrode_5
+Text Label 1700 6100 2    50   ~ 0
+Electrode_6
+Text Label 1700 6000 2    50   ~ 0
+Electrode_7
+Text Label 1700 5900 2    50   ~ 0
+Electrode_8
+Text Label 1600 6850 2    50   ~ 0
+Electrode_9
+Text Label 1600 6950 2    50   ~ 0
+Electrode_10
+Text Label 1600 7050 2    50   ~ 0
+Electrode_11
+Text Label 1600 7150 2    50   ~ 0
+Electrode_12
+Text Label 2100 6850 0    50   ~ 0
+Electrode_13
+Text Label 2100 6950 0    50   ~ 0
+Electrode_14
+Text Label 2100 7050 0    50   ~ 0
+Electrode_15
+Text Label 2100 7150 0    50   ~ 0
+Electrode_16
+Text Label 1650 7650 2    50   ~ 0
+Electrode_17
+Text Label 1650 7750 2    50   ~ 0
+Electrode_18
+Text Label 1650 7850 2    50   ~ 0
+Electrode_19
+Text Label 1650 7950 2    50   ~ 0
+Electrode_20
+Text Label 6250 6050 2    50   ~ 0
 Electrode_21
-Text Label 5550 8150 2    50   ~ 0
+Text Label 6250 5950 2    50   ~ 0
 Electrode_22
-Text Label 5550 8300 2    50   ~ 0
+Text Label 6250 5850 2    50   ~ 0
 Electrode_23
-Text Label 5550 8450 2    50   ~ 0
+Text Label 6250 5750 2    50   ~ 0
 Electrode_24
-Text Label 5550 8600 2    50   ~ 0
+Text Label 6250 6450 2    50   ~ 0
 Electrode_25
-Text Label 5550 8750 2    50   ~ 0
+Text Label 6250 6350 2    50   ~ 0
 Electrode_26
-Text Label 5550 8900 2    50   ~ 0
+Text Label 6250 6250 2    50   ~ 0
 Electrode_27
-Text Label 5550 9050 2    50   ~ 0
+Text Label 6250 6150 2    50   ~ 0
 Electrode_28
-Text Label 5550 10850 2    50   ~ 0
+Text Label 6050 7150 2    50   ~ 0
 Electrode_29
-Text Label 5550 11000 2    50   ~ 0
+Text Label 6050 7250 2    50   ~ 0
 Electrode_30
-Text Label 5550 11150 2    50   ~ 0
+Text Label 6050 7350 2    50   ~ 0
 Electrode_31
-Text Label 5550 11300 2    50   ~ 0
+Text Label 6050 7450 2    50   ~ 0
 Electrode_32
-Text Label 5550 11450 2    50   ~ 0
+Text Label 6550 7150 0    50   ~ 0
 Electrode_33
-Text Label 5550 11600 2    50   ~ 0
+Text Label 6550 7250 0    50   ~ 0
 Electrode_34
-Text Label 5550 11750 2    50   ~ 0
+Text Label 6550 7350 0    50   ~ 0
 Electrode_35
-Text Label 5550 11900 2    50   ~ 0
+Text Label 6550 7450 0    50   ~ 0
 Electrode_36
-Text Label 5550 13650 2    50   ~ 0
+Text Label 6050 8000 2    50   ~ 0
 Electrode_37
-Text Label 5550 13800 2    50   ~ 0
+Text Label 6050 8100 2    50   ~ 0
 Electrode_38
-Text Label 5550 13950 2    50   ~ 0
+Text Label 6050 8200 2    50   ~ 0
 Electrode_39
-Text Label 5550 14100 2    50   ~ 0
+Text Label 6050 8300 2    50   ~ 0
 Electrode_40
-Text Label 8750 8100 2    50   ~ 0
+$Comp
+L Connector_Generic:Conn_02x04_Top_Bottom J2
+U 1 1 666C1A61
+P 1800 6950
+F 0 "J2" H 1850 7267 50  0000 C CNN
+F 1 "Conn_02x04_Top_Bottom" H 1850 7176 50  0000 C CNN
+F 2 "Connector_Harwin:Harwin_M20-7810445_2x04_P2.54mm_Vertical" H 1800 6950 50  0001 C CNN
+F 3 "~" H 1800 6950 50  0001 C CNN
+	1    1800 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Top_Bottom J3
+U 1 1 666FAEDA
+P 1850 7750
+F 0 "J3" H 1900 8067 50  0000 C CNN
+F 1 "Conn_02x04_Top_Bottom" H 1900 7976 50  0000 C CNN
+F 2 "Connector_Harwin:Harwin_M20-7810445_2x04_P2.54mm_Vertical" H 1850 7750 50  0001 C CNN
+F 3 "~" H 1850 7750 50  0001 C CNN
+	1    1850 7750
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2150 7650
+NoConn ~ 2150 7750
+NoConn ~ 2150 7850
+NoConn ~ 2150 7950
+$Comp
+L Connector_Generic:Conn_02x04_Top_Bottom J8
+U 1 1 667A2A38
+P 9300 7500
+F 0 "J8" H 9350 7817 50  0000 C CNN
+F 1 "Conn_02x04_Top_Bottom" H 9350 7726 50  0000 C CNN
+F 2 "Connector_Harwin:Harwin_M20-7810445_2x04_P2.54mm_Vertical" H 9300 7500 50  0001 C CNN
+F 3 "~" H 9300 7500 50  0001 C CNN
+	1    9300 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Top_Bottom J9
+U 1 1 667A319B
+P 9300 8350
+F 0 "J9" H 9350 8667 50  0000 C CNN
+F 1 "Conn_02x04_Top_Bottom" H 9350 8576 50  0000 C CNN
+F 2 "Connector_Harwin:Harwin_M20-7810445_2x04_P2.54mm_Vertical" H 9300 8350 50  0001 C CNN
+F 3 "~" H 9300 8350 50  0001 C CNN
+	1    9300 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Top_Bottom J11
+U 1 1 667A566F
+P 12100 7500
+F 0 "J11" H 12150 7817 50  0000 C CNN
+F 1 "Conn_02x04_Top_Bottom" H 12150 7726 50  0000 C CNN
+F 2 "Connector_Harwin:Harwin_M20-7810445_2x04_P2.54mm_Vertical" H 12100 7500 50  0001 C CNN
+F 3 "~" H 12100 7500 50  0001 C CNN
+	1    12100 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Top_Bottom J12
+U 1 1 667A5675
+P 12100 8350
+F 0 "J12" H 12150 8667 50  0000 C CNN
+F 1 "Conn_02x04_Top_Bottom" H 12150 8576 50  0000 C CNN
+F 2 "Connector_Harwin:Harwin_M20-7810445_2x04_P2.54mm_Vertical" H 12100 8350 50  0001 C CNN
+F 3 "~" H 12100 8350 50  0001 C CNN
+	1    12100 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Top_Bottom J14
+U 1 1 667C1DD6
+P 15100 7500
+F 0 "J14" H 15150 7817 50  0000 C CNN
+F 1 "Conn_02x04_Top_Bottom" H 15150 7726 50  0000 C CNN
+F 2 "Connector_Harwin:Harwin_M20-7810445_2x04_P2.54mm_Vertical" H 15100 7500 50  0001 C CNN
+F 3 "~" H 15100 7500 50  0001 C CNN
+	1    15100 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Top_Bottom J15
+U 1 1 667C1DDC
+P 15100 8350
+F 0 "J15" H 15150 8667 50  0000 C CNN
+F 1 "Conn_02x04_Top_Bottom" H 15150 8576 50  0000 C CNN
+F 2 "Connector_Harwin:Harwin_M20-7810445_2x04_P2.54mm_Vertical" H 15100 8350 50  0001 C CNN
+F 3 "~" H 15100 8350 50  0001 C CNN
+	1    15100 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Top_Bottom J17
+U 1 1 667DEEA5
+P 18550 7450
+F 0 "J17" H 18600 7767 50  0000 C CNN
+F 1 "Conn_02x04_Top_Bottom" H 18600 7676 50  0000 C CNN
+F 2 "Connector_Harwin:Harwin_M20-7810445_2x04_P2.54mm_Vertical" H 18550 7450 50  0001 C CNN
+F 3 "~" H 18550 7450 50  0001 C CNN
+	1    18550 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Top_Bottom J18
+U 1 1 667DEEAB
+P 18550 8300
+F 0 "J18" H 18600 8617 50  0000 C CNN
+F 1 "Conn_02x04_Top_Bottom" H 18600 8526 50  0000 C CNN
+F 2 "Connector_Harwin:Harwin_M20-7810445_2x04_P2.54mm_Vertical" H 18550 8300 50  0001 C CNN
+F 3 "~" H 18550 8300 50  0001 C CNN
+	1    18550 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Top_Bottom J5
+U 1 1 667FAD7A
+P 6250 7250
+F 0 "J5" H 6300 7567 50  0000 C CNN
+F 1 "Conn_02x04_Top_Bottom" H 6300 7476 50  0000 C CNN
+F 2 "Connector_Harwin:Harwin_M20-7810445_2x04_P2.54mm_Vertical" H 6250 7250 50  0001 C CNN
+F 3 "~" H 6250 7250 50  0001 C CNN
+	1    6250 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Top_Bottom J6
+U 1 1 667FAD80
+P 6250 8100
+F 0 "J6" H 6300 8417 50  0000 C CNN
+F 1 "Conn_02x04_Top_Bottom" H 6300 8326 50  0000 C CNN
+F 2 "Connector_Harwin:Harwin_M20-7810445_2x04_P2.54mm_Vertical" H 6250 8100 50  0001 C CNN
+F 3 "~" H 6250 8100 50  0001 C CNN
+	1    6250 8100
+	1    0    0    -1  
+$EndComp
+Text Label 9200 5900 2    50   ~ 0
 Electrode_41
-Text Label 8750 8250 2    50   ~ 0
+Text Label 9200 5800 2    50   ~ 0
 Electrode_42
-Text Label 8750 8400 2    50   ~ 0
+Text Label 9200 5700 2    50   ~ 0
 Electrode_43
-Text Label 8750 8550 2    50   ~ 0
+Text Label 9200 5600 2    50   ~ 0
 Electrode_44
-Text Label 8750 8700 2    50   ~ 0
+Text Label 9200 6300 2    50   ~ 0
 Electrode_45
-Text Label 8750 8850 2    50   ~ 0
+Text Label 9200 6200 2    50   ~ 0
 Electrode_46
-Text Label 8750 9000 2    50   ~ 0
+Text Label 9200 6100 2    50   ~ 0
 Electrode_47
-Text Label 8750 9150 2    50   ~ 0
+Text Label 9200 6000 2    50   ~ 0
 Electrode_48
-Text Label 8750 10950 2    50   ~ 0
+Text Label 9100 7400 2    50   ~ 0
 Electrode_49
-Text Label 8750 11100 2    50   ~ 0
+Text Label 9100 7500 2    50   ~ 0
 Electrode_50
-Text Label 8750 11250 2    50   ~ 0
+Text Label 9100 7600 2    50   ~ 0
 Electrode_51
-Text Label 8750 11400 2    50   ~ 0
+Text Label 9100 7700 2    50   ~ 0
 Electrode_52
-Text Label 8750 11550 2    50   ~ 0
+Text Label 9600 7400 0    50   ~ 0
 Electrode_53
-Text Label 8750 11700 2    50   ~ 0
+Text Label 9600 7500 0    50   ~ 0
 Electrode_54
-Text Label 8750 11850 2    50   ~ 0
+Text Label 9600 7600 0    50   ~ 0
 Electrode_55
-Text Label 8750 12000 2    50   ~ 0
+Text Label 9600 7700 0    50   ~ 0
 Electrode_56
-Text Label 8750 13750 2    50   ~ 0
+Text Label 9100 8250 2    50   ~ 0
 Electrode_57
-Text Label 8750 13900 2    50   ~ 0
+Text Label 9100 8350 2    50   ~ 0
 Electrode_58
-Text Label 8750 14050 2    50   ~ 0
+Text Label 9100 8450 2    50   ~ 0
 Electrode_59
-Text Label 8750 14200 2    50   ~ 0
+Text Label 9100 8550 2    50   ~ 0
 Electrode_60
-Text Label 11750 8100 2    50   ~ 0
+Text Label 11950 5900 2    50   ~ 0
 Electrode_61
-Text Label 11750 8250 2    50   ~ 0
+Text Label 11950 5800 2    50   ~ 0
 Electrode_62
-Text Label 11750 8400 2    50   ~ 0
+Text Label 11950 5700 2    50   ~ 0
 Electrode_63
-Text Label 11750 8550 2    50   ~ 0
+Text Label 11950 5600 2    50   ~ 0
 Electrode_64
-Text Label 11750 8700 2    50   ~ 0
+Text Label 11950 6300 2    50   ~ 0
 Electrode_65
-Text Label 11750 8850 2    50   ~ 0
+Text Label 11950 6200 2    50   ~ 0
 Electrode_66
-Text Label 11750 9000 2    50   ~ 0
+Text Label 11950 6100 2    50   ~ 0
 Electrode_67
-Text Label 11750 9150 2    50   ~ 0
+Text Label 11950 6000 2    50   ~ 0
 Electrode_68
-Text Label 11750 10950 2    50   ~ 0
+Text Label 11900 7400 2    50   ~ 0
 Electrode_69
-Text Label 11750 11100 2    50   ~ 0
+Text Label 11900 7500 2    50   ~ 0
 Electrode_70
-Text Label 11750 11250 2    50   ~ 0
+Text Label 11900 7600 2    50   ~ 0
 Electrode_71
-Text Label 11750 11400 2    50   ~ 0
+Text Label 11900 7700 2    50   ~ 0
 Electrode_72
-Text Label 11750 11550 2    50   ~ 0
+Text Label 12400 7400 0    50   ~ 0
 Electrode_73
-Text Label 11750 11700 2    50   ~ 0
+Text Label 12400 7500 0    50   ~ 0
 Electrode_74
-Text Label 11750 11850 2    50   ~ 0
+Text Label 12400 7600 0    50   ~ 0
 Electrode_75
-Text Label 11750 12000 2    50   ~ 0
+Text Label 12400 7700 0    50   ~ 0
 Electrode_76
-Text Label 11750 13750 2    50   ~ 0
+Text Label 11900 8250 2    50   ~ 0
 Electrode_77
-Text Label 11750 13900 2    50   ~ 0
+Text Label 11900 8350 2    50   ~ 0
 Electrode_78
-Text Label 11750 14050 2    50   ~ 0
+Text Label 11900 8450 2    50   ~ 0
 Electrode_79
-Text Label 11750 14200 2    50   ~ 0
+Text Label 11900 8550 2    50   ~ 0
 Electrode_80
-Text Label 14900 8000 2    50   ~ 0
-Electrode_81
-Text Label 14900 8150 2    50   ~ 0
-Electrode_82
-Text Label 14900 8300 2    50   ~ 0
-Electrode_83
-Text Label 14900 8450 2    50   ~ 0
-Electrode_84
-Text Label 14900 8600 2    50   ~ 0
-Electrode_85
-Text Label 14900 8750 2    50   ~ 0
+Text Label 14950 6250 2    50   ~ 0
 Electrode_86
-Text Label 14900 8900 2    50   ~ 0
+Text Label 14950 6150 2    50   ~ 0
 Electrode_87
-Text Label 14900 9050 2    50   ~ 0
+Text Label 14950 6050 2    50   ~ 0
 Electrode_88
-Text Label 14900 10850 2    50   ~ 0
+Text Label 14900 7400 2    50   ~ 0
 Electrode_89
-Text Label 14900 11000 2    50   ~ 0
+Text Label 14900 7500 2    50   ~ 0
 Electrode_90
-Text Label 14900 11150 2    50   ~ 0
+Text Label 14900 7600 2    50   ~ 0
 Electrode_91
-Text Label 14900 11300 2    50   ~ 0
+Text Label 14900 7700 2    50   ~ 0
 Electrode_92
-Text Label 14900 11450 2    50   ~ 0
+Text Label 15400 7400 0    50   ~ 0
 Electrode_93
-Text Label 14900 11600 2    50   ~ 0
+Text Label 15400 7500 0    50   ~ 0
 Electrode_94
-Text Label 14900 11750 2    50   ~ 0
+Text Label 15400 7600 0    50   ~ 0
 Electrode_95
-Text Label 14900 11900 2    50   ~ 0
+Text Label 15400 7700 0    50   ~ 0
 Electrode_96
-Text Label 14900 13650 2    50   ~ 0
+Text Label 14900 8250 2    50   ~ 0
 Electrode_97
-Text Label 14900 13800 2    50   ~ 0
+Text Label 14900 8350 2    50   ~ 0
 Electrode_98
-Text Label 14900 13950 2    50   ~ 0
+Text Label 14900 8450 2    50   ~ 0
 Electrode_99
-Text Label 14900 14100 2    50   ~ 0
+Text Label 14900 8550 2    50   ~ 0
 Electrode_100
-Text Label 18250 10850 2    50   ~ 0
-Electrode_110
-Text Label 18250 11000 2    50   ~ 0
-Electrode_111
-Text Label 18250 11150 2    50   ~ 0
-Electrode_112
-Text Label 18250 11300 2    50   ~ 0
-Electrode_113
-Text Label 18250 11450 2    50   ~ 0
-Electrode_114
-Text Label 18250 11600 2    50   ~ 0
-Electrode_115
-Text Label 18250 11750 2    50   ~ 0
-Electrode_116
-Text Label 18250 13500 2    50   ~ 0
-Electrode_117
-Text Label 18250 13650 2    50   ~ 0
-Electrode_118
-Text Label 18250 13800 2    50   ~ 0
-Electrode_119
-Text Label 18250 13950 2    50   ~ 0
-Electrode_120
-Text Label 18250 10700 2    50   ~ 0
-Electrode_109
-Text Label 18250 8900 2    50   ~ 0
-Electrode_108
-Text Label 18250 8750 2    50   ~ 0
-Electrode_107
-Text Label 18250 8600 2    50   ~ 0
-Electrode_106
-Text Label 18250 8450 2    50   ~ 0
-Electrode_105
-Text Label 18250 8300 2    50   ~ 0
-Electrode_104
-Text Label 18250 8150 2    50   ~ 0
-Electrode_103
-Text Label 18250 8000 2    50   ~ 0
-Electrode_102
-Text Label 18250 7850 2    50   ~ 0
+Text Label 18400 5850 2    50   ~ 0
 Electrode_101
-NoConn ~ 3750 9250
-NoConn ~ 3750 9400
-NoConn ~ 3750 9550
-NoConn ~ 3750 9850
-NoConn ~ 3750 10150
-NoConn ~ 3750 10300
-NoConn ~ 3750 10450
-NoConn ~ 3750 10600
-NoConn ~ 3750 11050
-NoConn ~ 3750 11200
-NoConn ~ 3750 11350
-NoConn ~ 3750 11500
-NoConn ~ 3750 11650
-NoConn ~ 3750 11800
-NoConn ~ 3750 11950
-NoConn ~ 3750 12100
-NoConn ~ 4550 12100
-NoConn ~ 4550 11950
-NoConn ~ 4550 11800
-NoConn ~ 4550 11650
-NoConn ~ 4550 11500
-NoConn ~ 4550 11350
-NoConn ~ 4550 11200
-NoConn ~ 4550 11050
-NoConn ~ 4550 10900
-NoConn ~ 4550 10750
-NoConn ~ 4550 10600
-NoConn ~ 4550 10450
+Text Label 18400 5750 2    50   ~ 0
+Electrode_102
+Text Label 18400 5650 2    50   ~ 0
+Electrode_103
+Text Label 18400 5550 2    50   ~ 0
+Electrode_104
+Text Label 18400 6250 2    50   ~ 0
+Electrode_105
+Text Label 18400 6150 2    50   ~ 0
+Electrode_106
+Text Label 18400 6050 2    50   ~ 0
+Electrode_107
+Text Label 18400 5950 2    50   ~ 0
+Electrode_108
+Text Label 18350 7350 2    50   ~ 0
+Electrode_109
+Text Label 18350 7450 2    50   ~ 0
+Electrode_110
+Text Label 18350 7550 2    50   ~ 0
+Electrode_111
+Text Label 18350 7650 2    50   ~ 0
+Electrode_112
+Text Label 18850 7350 0    50   ~ 0
+Electrode_113
+Text Label 18850 7450 0    50   ~ 0
+Electrode_114
+Text Label 18850 7550 0    50   ~ 0
+Electrode_115
+Text Label 18850 7650 0    50   ~ 0
+Electrode_116
+Text Label 18350 8200 2    50   ~ 0
+Electrode_117
+Text Label 18350 8300 2    50   ~ 0
+Electrode_118
+Text Label 18350 8400 2    50   ~ 0
+Electrode_119
+Text Label 18350 8500 2    50   ~ 0
+Electrode_120
+Text Label 14950 5850 2    50   ~ 0
+Electrode_82
+Text Label 14950 5950 2    50   ~ 0
+Electrode_81
+Text Label 14950 6350 2    50   ~ 0
+Electrode_85
+Text Label 14950 5650 2    50   ~ 0
+Electrode_84
+Text Label 14950 5750 2    50   ~ 0
+Electrode_83
+NoConn ~ 18850 8200
+NoConn ~ 18850 8300
+NoConn ~ 18850 8400
+NoConn ~ 18850 8500
+NoConn ~ 15400 8250
+NoConn ~ 15400 8350
+NoConn ~ 15400 8450
+NoConn ~ 15400 8550
+NoConn ~ 12400 8250
+NoConn ~ 12400 8350
+NoConn ~ 12400 8450
+NoConn ~ 12400 8550
+NoConn ~ 9600 8250
+NoConn ~ 9600 8350
+NoConn ~ 9600 8450
+NoConn ~ 9600 8550
+NoConn ~ 6550 8000
+NoConn ~ 6550 8100
+NoConn ~ 6550 8200
+NoConn ~ 6550 8300
 $Comp
-L Custom_Interface_Expansion:MAX7301 U139
-U 1 1 64E49696
-P 4150 9050
-F 0 "U139" H 4150 9115 50  0000 C CNN
-F 1 "MAX7301" H 4150 9024 50  0000 C CNN
-F 2 "Custom:MAX7301AAX" H 4150 9050 50  0001 C CNN
-F 3 "" H 4150 9050 50  0001 C CNN
-	1    4150 9050
+L Connector_Generic:Conn_01x08 J1
+U 1 1 676F5354
+P 1900 5800
+F 0 "J1" H 1980 5792 50  0000 L CNN
+F 1 "Conn_01x08" H 1980 5701 50  0000 L CNN
+F 2 "Custom:SAMTEC_TSM-108-01-F-SV" H 1900 5800 50  0001 C CNN
+F 3 "~" H 1900 5800 50  0001 C CNN
+	1    1900 5800
 	1    0    0    -1  
 $EndComp
-Text Label 2900 7250 0    50   ~ 0
-RELAY_1
-Text Label 2900 7400 0    50   ~ 0
-RELAY_2
-Text Label 2900 7550 0    50   ~ 0
-RELAY_3
-Text Label 2900 7700 0    50   ~ 0
-RELAY_4
-Text Label 2900 7850 0    50   ~ 0
-RELAY_5
-Text Label 2900 8000 0    50   ~ 0
-RELAY_6
-Text Label 2900 8150 0    50   ~ 0
-RELAY_7
-Text Label 2900 8300 0    50   ~ 0
-RELAY_8
-Text Label 4550 9250 0    50   ~ 0
-RELAY_1
-Text Label 4550 9400 0    50   ~ 0
-RELAY_2
-Text Label 4550 9550 0    50   ~ 0
-RELAY_3
-Text Label 4550 9700 0    50   ~ 0
-RELAY_4
-Text Label 4550 9850 0    50   ~ 0
-RELAY_5
-Text Label 4550 10000 0    50   ~ 0
-RELAY_6
-Text Label 4550 10150 0    50   ~ 0
-RELAY_7
-Text Label 4550 10300 0    50   ~ 0
-RELAY_8
 $Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J?
-U 1 1 65FCC94A
-P -3050 7900
-F 0 "J?" H -3000 8217 50  0000 C CNN
-F 1 "Conn_02x04_Top_Bottom" H -3000 8126 50  0000 C CNN
-F 2 "" H -3050 7900 50  0001 C CNN
-F 3 "~" H -3050 7900 50  0001 C CNN
-	1    -3050 7900
+L Connector_Generic:Conn_01x08 J?
+U 1 1 67821A9F
+P 6450 6050
+F 0 "J?" H 6530 6042 50  0000 L CNN
+F 1 "Conn_01x08" H 6530 5951 50  0000 L CNN
+F 2 "Custom:SAMTEC_TSM-108-01-F-SV" H 6450 6050 50  0001 C CNN
+F 3 "~" H 6450 6050 50  0001 C CNN
+	1    6450 6050
 	1    0    0    -1  
 $EndComp
-NoConn ~ -3250 7800
-NoConn ~ -3250 7900
-NoConn ~ -3250 8000
-NoConn ~ -3250 8100
-NoConn ~ -2750 8100
-NoConn ~ -2750 8000
-NoConn ~ -2750 7900
-NoConn ~ -2750 7800
+$Comp
+L Connector_Generic:Conn_01x08 J?
+U 1 1 678646F7
+P 9400 5900
+F 0 "J?" H 9480 5892 50  0000 L CNN
+F 1 "Conn_01x08" H 9480 5801 50  0000 L CNN
+F 2 "Custom:SAMTEC_TSM-108-01-F-SV" H 9400 5900 50  0001 C CNN
+F 3 "~" H 9400 5900 50  0001 C CNN
+	1    9400 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J?
+U 1 1 6786580B
+P 12150 5900
+F 0 "J?" H 12230 5892 50  0000 L CNN
+F 1 "Conn_01x08" H 12230 5801 50  0000 L CNN
+F 2 "Custom:SAMTEC_TSM-108-01-F-SV" H 12150 5900 50  0001 C CNN
+F 3 "~" H 12150 5900 50  0001 C CNN
+	1    12150 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J?
+U 1 1 67865E8D
+P 15150 5950
+F 0 "J?" H 15230 5942 50  0000 L CNN
+F 1 "Conn_01x08" H 15230 5851 50  0000 L CNN
+F 2 "Custom:SAMTEC_TSM-108-01-F-SV" H 15150 5950 50  0001 C CNN
+F 3 "~" H 15150 5950 50  0001 C CNN
+	1    15150 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J?
+U 1 1 67866B5E
+P 18600 5850
+F 0 "J?" H 18680 5842 50  0000 L CNN
+F 1 "Conn_01x08" H 18680 5751 50  0000 L CNN
+F 2 "Custom:SAMTEC_TSM-108-01-F-SV" H 18600 5850 50  0001 C CNN
+F 3 "~" H 18600 5850 50  0001 C CNN
+	1    18600 5850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
