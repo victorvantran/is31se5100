@@ -2285,206 +2285,62 @@ Text Label 1700 6000 2    50   ~ 0
 Electrode_7
 Text Label 1700 5900 2    50   ~ 0
 Electrode_8
-Text Label 1600 6850 2    50   ~ 0
-Electrode_9
-Text Label 1600 6950 2    50   ~ 0
-Electrode_10
-Text Label 1600 7050 2    50   ~ 0
-Electrode_11
-Text Label 1600 7150 2    50   ~ 0
-Electrode_12
-Text Label 2100 6850 0    50   ~ 0
+Text Label 1750 7450 2    50   ~ 0
 Electrode_13
-Text Label 2100 6950 0    50   ~ 0
+Text Label 1750 7350 2    50   ~ 0
 Electrode_14
-Text Label 2100 7050 0    50   ~ 0
+Text Label 1750 7250 2    50   ~ 0
 Electrode_15
-Text Label 2100 7150 0    50   ~ 0
+Text Label 1750 7150 2    50   ~ 0
 Electrode_16
-Text Label 1650 7650 2    50   ~ 0
+Text Label 1750 9500 2    50   ~ 0
 Electrode_17
-Text Label 1650 7750 2    50   ~ 0
+Text Label 1750 9400 2    50   ~ 0
 Electrode_18
-Text Label 1650 7850 2    50   ~ 0
+Text Label 1750 9300 2    50   ~ 0
 Electrode_19
-Text Label 1650 7950 2    50   ~ 0
+Text Label 1750 9200 2    50   ~ 0
 Electrode_20
-Text Label 6100 5750 2    50   ~ 0
+Text Label 6250 6050 2    50   ~ 0
 Electrode_21
-Text Label 6100 5650 2    50   ~ 0
+Text Label 6250 5950 2    50   ~ 0
 Electrode_22
-Text Label 6100 5550 2    50   ~ 0
+Text Label 6250 5850 2    50   ~ 0
 Electrode_23
-Text Label 6100 5450 2    50   ~ 0
+Text Label 6250 5750 2    50   ~ 0
 Electrode_24
-Text Label 6100 6150 2    50   ~ 0
+Text Label 6250 6450 2    50   ~ 0
 Electrode_25
-Text Label 6100 6050 2    50   ~ 0
+Text Label 6250 6350 2    50   ~ 0
 Electrode_26
-Text Label 6100 5950 2    50   ~ 0
+Text Label 6250 6250 2    50   ~ 0
 Electrode_27
-Text Label 6100 5850 2    50   ~ 0
+Text Label 6250 6150 2    50   ~ 0
 Electrode_28
-Text Label 6050 7150 2    50   ~ 0
+Text Label 6200 7850 2    50   ~ 0
 Electrode_29
-Text Label 6050 7250 2    50   ~ 0
+Text Label 6200 7750 2    50   ~ 0
 Electrode_30
-Text Label 6050 7350 2    50   ~ 0
+Text Label 6200 7650 2    50   ~ 0
 Electrode_31
-Text Label 6050 7450 2    50   ~ 0
+Text Label 6200 7550 2    50   ~ 0
 Electrode_32
-Text Label 6550 7150 0    50   ~ 0
+Text Label 6200 8250 2    50   ~ 0
 Electrode_33
-Text Label 6550 7250 0    50   ~ 0
+Text Label 6200 8150 2    50   ~ 0
 Electrode_34
-Text Label 6550 7350 0    50   ~ 0
+Text Label 6200 8050 2    50   ~ 0
 Electrode_35
-Text Label 6550 7450 0    50   ~ 0
+Text Label 6200 7950 2    50   ~ 0
 Electrode_36
-Text Label 6050 8000 2    50   ~ 0
+Text Label 5900 9300 2    50   ~ 0
 Electrode_37
-Text Label 6050 8100 2    50   ~ 0
+Text Label 5900 9200 2    50   ~ 0
 Electrode_38
-Text Label 6050 8200 2    50   ~ 0
+Text Label 5900 9100 2    50   ~ 0
 Electrode_39
-Text Label 6050 8300 2    50   ~ 0
+Text Label 5900 9000 2    50   ~ 0
 Electrode_40
-$Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J2
-U 1 1 666C1A61
-P 1800 6950
-F 0 "J2" H 1850 7267 50  0000 C CNN
-F 1 "Conn_02x04_Top_Bottom" H 1850 7176 50  0000 C CNN
-F 2 "Connector_Harwin:Harwin_M20-7810445_2x04_P2.54mm_Vertical" H 1800 6950 50  0001 C CNN
-F 3 "~" H 1800 6950 50  0001 C CNN
-	1    1800 6950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J3
-U 1 1 666FAEDA
-P 1850 7750
-F 0 "J3" H 1900 8067 50  0000 C CNN
-F 1 "Conn_02x04_Top_Bottom" H 1900 7976 50  0000 C CNN
-F 2 "Connector_Harwin:Harwin_M20-7810445_2x04_P2.54mm_Vertical" H 1850 7750 50  0001 C CNN
-F 3 "~" H 1850 7750 50  0001 C CNN
-	1    1850 7750
-	1    0    0    -1  
-$EndComp
-NoConn ~ 2150 7650
-NoConn ~ 2150 7750
-NoConn ~ 2150 7850
-NoConn ~ 2150 7950
-$Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J8
-U 1 1 667A2A38
-P 9300 7500
-F 0 "J8" H 9350 7817 50  0000 C CNN
-F 1 "Conn_02x04_Top_Bottom" H 9350 7726 50  0000 C CNN
-F 2 "Connector_Harwin:Harwin_M20-7810445_2x04_P2.54mm_Vertical" H 9300 7500 50  0001 C CNN
-F 3 "~" H 9300 7500 50  0001 C CNN
-	1    9300 7500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J9
-U 1 1 667A319B
-P 9300 8350
-F 0 "J9" H 9350 8667 50  0000 C CNN
-F 1 "Conn_02x04_Top_Bottom" H 9350 8576 50  0000 C CNN
-F 2 "Connector_Harwin:Harwin_M20-7810445_2x04_P2.54mm_Vertical" H 9300 8350 50  0001 C CNN
-F 3 "~" H 9300 8350 50  0001 C CNN
-	1    9300 8350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J11
-U 1 1 667A566F
-P 12100 7500
-F 0 "J11" H 12150 7817 50  0000 C CNN
-F 1 "Conn_02x04_Top_Bottom" H 12150 7726 50  0000 C CNN
-F 2 "Connector_Harwin:Harwin_M20-7810445_2x04_P2.54mm_Vertical" H 12100 7500 50  0001 C CNN
-F 3 "~" H 12100 7500 50  0001 C CNN
-	1    12100 7500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J12
-U 1 1 667A5675
-P 12100 8350
-F 0 "J12" H 12150 8667 50  0000 C CNN
-F 1 "Conn_02x04_Top_Bottom" H 12150 8576 50  0000 C CNN
-F 2 "Connector_Harwin:Harwin_M20-7810445_2x04_P2.54mm_Vertical" H 12100 8350 50  0001 C CNN
-F 3 "~" H 12100 8350 50  0001 C CNN
-	1    12100 8350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J14
-U 1 1 667C1DD6
-P 15100 7500
-F 0 "J14" H 15150 7817 50  0000 C CNN
-F 1 "Conn_02x04_Top_Bottom" H 15150 7726 50  0000 C CNN
-F 2 "Connector_Harwin:Harwin_M20-7810445_2x04_P2.54mm_Vertical" H 15100 7500 50  0001 C CNN
-F 3 "~" H 15100 7500 50  0001 C CNN
-	1    15100 7500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J15
-U 1 1 667C1DDC
-P 15100 8350
-F 0 "J15" H 15150 8667 50  0000 C CNN
-F 1 "Conn_02x04_Top_Bottom" H 15150 8576 50  0000 C CNN
-F 2 "Connector_Harwin:Harwin_M20-7810445_2x04_P2.54mm_Vertical" H 15100 8350 50  0001 C CNN
-F 3 "~" H 15100 8350 50  0001 C CNN
-	1    15100 8350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J17
-U 1 1 667DEEA5
-P 18550 7450
-F 0 "J17" H 18600 7767 50  0000 C CNN
-F 1 "Conn_02x04_Top_Bottom" H 18600 7676 50  0000 C CNN
-F 2 "Connector_Harwin:Harwin_M20-7810445_2x04_P2.54mm_Vertical" H 18550 7450 50  0001 C CNN
-F 3 "~" H 18550 7450 50  0001 C CNN
-	1    18550 7450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J18
-U 1 1 667DEEAB
-P 18550 8300
-F 0 "J18" H 18600 8617 50  0000 C CNN
-F 1 "Conn_02x04_Top_Bottom" H 18600 8526 50  0000 C CNN
-F 2 "Connector_Harwin:Harwin_M20-7810445_2x04_P2.54mm_Vertical" H 18550 8300 50  0001 C CNN
-F 3 "~" H 18550 8300 50  0001 C CNN
-	1    18550 8300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J5
-U 1 1 667FAD7A
-P 6250 7250
-F 0 "J5" H 6300 7567 50  0000 C CNN
-F 1 "Conn_02x04_Top_Bottom" H 6300 7476 50  0000 C CNN
-F 2 "Connector_Harwin:Harwin_M20-7810445_2x04_P2.54mm_Vertical" H 6250 7250 50  0001 C CNN
-F 3 "~" H 6250 7250 50  0001 C CNN
-	1    6250 7250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J6
-U 1 1 667FAD80
-P 6250 8100
-F 0 "J6" H 6300 8417 50  0000 C CNN
-F 1 "Conn_02x04_Top_Bottom" H 6300 8326 50  0000 C CNN
-F 2 "Connector_Harwin:Harwin_M20-7810445_2x04_P2.54mm_Vertical" H 6250 8100 50  0001 C CNN
-F 3 "~" H 6250 8100 50  0001 C CNN
-	1    6250 8100
-	1    0    0    -1  
-$EndComp
 Text Label 9200 5900 2    50   ~ 0
 Electrode_41
 Text Label 9200 5800 2    50   ~ 0
@@ -2501,29 +2357,29 @@ Text Label 9200 6100 2    50   ~ 0
 Electrode_47
 Text Label 9200 6000 2    50   ~ 0
 Electrode_48
-Text Label 9100 7400 2    50   ~ 0
+Text Label 9200 8100 2    50   ~ 0
 Electrode_49
-Text Label 9100 7500 2    50   ~ 0
+Text Label 9200 8000 2    50   ~ 0
 Electrode_50
-Text Label 9100 7600 2    50   ~ 0
+Text Label 9200 7900 2    50   ~ 0
 Electrode_51
-Text Label 9100 7700 2    50   ~ 0
+Text Label 9200 7800 2    50   ~ 0
 Electrode_52
-Text Label 9600 7400 0    50   ~ 0
+Text Label 9200 8500 2    50   ~ 0
 Electrode_53
-Text Label 9600 7500 0    50   ~ 0
+Text Label 9200 8400 2    50   ~ 0
 Electrode_54
-Text Label 9600 7600 0    50   ~ 0
+Text Label 9200 8300 2    50   ~ 0
 Electrode_55
-Text Label 9600 7700 0    50   ~ 0
+Text Label 9200 8200 2    50   ~ 0
 Electrode_56
-Text Label 9100 8250 2    50   ~ 0
+Text Label 9050 9600 2    50   ~ 0
 Electrode_57
-Text Label 9100 8350 2    50   ~ 0
+Text Label 9050 9500 2    50   ~ 0
 Electrode_58
-Text Label 9100 8450 2    50   ~ 0
+Text Label 9050 9400 2    50   ~ 0
 Electrode_59
-Text Label 9100 8550 2    50   ~ 0
+Text Label 9050 9300 2    50   ~ 0
 Electrode_60
 Text Label 11950 5900 2    50   ~ 0
 Electrode_61
@@ -2541,29 +2397,29 @@ Text Label 11950 6100 2    50   ~ 0
 Electrode_67
 Text Label 11950 6000 2    50   ~ 0
 Electrode_68
-Text Label 11900 7400 2    50   ~ 0
+Text Label 12050 7950 2    50   ~ 0
 Electrode_69
-Text Label 11900 7500 2    50   ~ 0
+Text Label 12050 8050 2    50   ~ 0
 Electrode_70
-Text Label 11900 7600 2    50   ~ 0
+Text Label 12050 8150 2    50   ~ 0
 Electrode_71
-Text Label 11900 7700 2    50   ~ 0
+Text Label 12050 8250 2    50   ~ 0
 Electrode_72
-Text Label 12400 7400 0    50   ~ 0
+Text Label 12050 8350 2    50   ~ 0
 Electrode_73
-Text Label 12400 7500 0    50   ~ 0
+Text Label 12050 8450 2    50   ~ 0
 Electrode_74
-Text Label 12400 7600 0    50   ~ 0
+Text Label 12050 8550 2    50   ~ 0
 Electrode_75
-Text Label 12400 7700 0    50   ~ 0
+Text Label 12050 8650 2    50   ~ 0
 Electrode_76
-Text Label 11900 8250 2    50   ~ 0
+Text Label 11850 9600 2    50   ~ 0
 Electrode_77
-Text Label 11900 8350 2    50   ~ 0
+Text Label 11850 9500 2    50   ~ 0
 Electrode_78
-Text Label 11900 8450 2    50   ~ 0
+Text Label 11850 9400 2    50   ~ 0
 Electrode_79
-Text Label 11900 8550 2    50   ~ 0
+Text Label 11850 9300 2    50   ~ 0
 Electrode_80
 Text Label 14950 6250 2    50   ~ 0
 Electrode_86
@@ -2571,29 +2427,29 @@ Text Label 14950 6150 2    50   ~ 0
 Electrode_87
 Text Label 14950 6050 2    50   ~ 0
 Electrode_88
-Text Label 14900 7400 2    50   ~ 0
+Text Label 14950 8100 2    50   ~ 0
 Electrode_89
-Text Label 14900 7500 2    50   ~ 0
+Text Label 14950 8000 2    50   ~ 0
 Electrode_90
-Text Label 14900 7600 2    50   ~ 0
+Text Label 14950 7900 2    50   ~ 0
 Electrode_91
-Text Label 14900 7700 2    50   ~ 0
+Text Label 14950 7800 2    50   ~ 0
 Electrode_92
-Text Label 15400 7400 0    50   ~ 0
+Text Label 14950 8500 2    50   ~ 0
 Electrode_93
-Text Label 15400 7500 0    50   ~ 0
+Text Label 14950 8400 2    50   ~ 0
 Electrode_94
-Text Label 15400 7600 0    50   ~ 0
+Text Label 14950 8300 2    50   ~ 0
 Electrode_95
-Text Label 15400 7700 0    50   ~ 0
+Text Label 14950 8200 2    50   ~ 0
 Electrode_96
-Text Label 14900 8250 2    50   ~ 0
+Text Label 15000 9650 2    50   ~ 0
 Electrode_97
-Text Label 14900 8350 2    50   ~ 0
+Text Label 15000 9550 2    50   ~ 0
 Electrode_98
-Text Label 14900 8450 2    50   ~ 0
+Text Label 15000 9450 2    50   ~ 0
 Electrode_99
-Text Label 14900 8550 2    50   ~ 0
+Text Label 15000 9350 2    50   ~ 0
 Electrode_100
 Text Label 18400 5850 2    50   ~ 0
 Electrode_101
@@ -2611,29 +2467,29 @@ Text Label 18400 6050 2    50   ~ 0
 Electrode_107
 Text Label 18400 5950 2    50   ~ 0
 Electrode_108
-Text Label 18350 7350 2    50   ~ 0
+Text Label 18500 8050 2    50   ~ 0
 Electrode_109
-Text Label 18350 7450 2    50   ~ 0
+Text Label 18500 7950 2    50   ~ 0
 Electrode_110
-Text Label 18350 7550 2    50   ~ 0
+Text Label 18500 7850 2    50   ~ 0
 Electrode_111
-Text Label 18350 7650 2    50   ~ 0
+Text Label 18500 7750 2    50   ~ 0
 Electrode_112
-Text Label 18850 7350 0    50   ~ 0
+Text Label 18500 8450 2    50   ~ 0
 Electrode_113
-Text Label 18850 7450 0    50   ~ 0
+Text Label 18500 8350 2    50   ~ 0
 Electrode_114
-Text Label 18850 7550 0    50   ~ 0
+Text Label 18500 8250 2    50   ~ 0
 Electrode_115
-Text Label 18850 7650 0    50   ~ 0
+Text Label 18500 8150 2    50   ~ 0
 Electrode_116
-Text Label 18350 8200 2    50   ~ 0
+Text Label 18400 9500 2    50   ~ 0
 Electrode_117
-Text Label 18350 8300 2    50   ~ 0
+Text Label 18400 9400 2    50   ~ 0
 Electrode_118
-Text Label 18350 8400 2    50   ~ 0
+Text Label 18400 9300 2    50   ~ 0
 Electrode_119
-Text Label 18350 8500 2    50   ~ 0
+Text Label 18400 9200 2    50   ~ 0
 Electrode_120
 Text Label 14950 5850 2    50   ~ 0
 Electrode_82
@@ -2645,26 +2501,6 @@ Text Label 14950 5650 2    50   ~ 0
 Electrode_84
 Text Label 14950 5750 2    50   ~ 0
 Electrode_83
-NoConn ~ 18850 8200
-NoConn ~ 18850 8300
-NoConn ~ 18850 8400
-NoConn ~ 18850 8500
-NoConn ~ 15400 8250
-NoConn ~ 15400 8350
-NoConn ~ 15400 8450
-NoConn ~ 15400 8550
-NoConn ~ 12400 8250
-NoConn ~ 12400 8350
-NoConn ~ 12400 8450
-NoConn ~ 12400 8550
-NoConn ~ 9600 8250
-NoConn ~ 9600 8350
-NoConn ~ 9600 8450
-NoConn ~ 9600 8550
-NoConn ~ 6550 8000
-NoConn ~ 6550 8100
-NoConn ~ 6550 8200
-NoConn ~ 6550 8300
 $Comp
 L Connector_Generic:Conn_01x08 J1
 U 1 1 676F5354
@@ -2677,21 +2513,21 @@ F 3 "~" H 1900 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x08 J?
+L Connector_Generic:Conn_01x08 J4
 U 1 1 67821A9F
-P 6300 5750
-F 0 "J?" H 6380 5742 50  0000 L CNN
-F 1 "Conn_01x08" H 6380 5651 50  0000 L CNN
-F 2 "Custom:SAMTEC_TSM-108-01-F-SV" H 6300 5750 50  0001 C CNN
-F 3 "~" H 6300 5750 50  0001 C CNN
-	1    6300 5750
+P 6450 6050
+F 0 "J4" H 6530 6042 50  0000 L CNN
+F 1 "Conn_01x08" H 6530 5951 50  0000 L CNN
+F 2 "Custom:SAMTEC_TSM-108-01-F-SV" H 6450 6050 50  0001 C CNN
+F 3 "~" H 6450 6050 50  0001 C CNN
+	1    6450 6050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x08 J?
+L Connector_Generic:Conn_01x08 J7
 U 1 1 678646F7
 P 9400 5900
-F 0 "J?" H 9480 5892 50  0000 L CNN
+F 0 "J7" H 9480 5892 50  0000 L CNN
 F 1 "Conn_01x08" H 9480 5801 50  0000 L CNN
 F 2 "Custom:SAMTEC_TSM-108-01-F-SV" H 9400 5900 50  0001 C CNN
 F 3 "~" H 9400 5900 50  0001 C CNN
@@ -2699,10 +2535,10 @@ F 3 "~" H 9400 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x08 J?
+L Connector_Generic:Conn_01x08 J10
 U 1 1 6786580B
 P 12150 5900
-F 0 "J?" H 12230 5892 50  0000 L CNN
+F 0 "J10" H 12230 5892 50  0000 L CNN
 F 1 "Conn_01x08" H 12230 5801 50  0000 L CNN
 F 2 "Custom:SAMTEC_TSM-108-01-F-SV" H 12150 5900 50  0001 C CNN
 F 3 "~" H 12150 5900 50  0001 C CNN
@@ -2710,10 +2546,10 @@ F 3 "~" H 12150 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x08 J?
+L Connector_Generic:Conn_01x08 J13
 U 1 1 67865E8D
 P 15150 5950
-F 0 "J?" H 15230 5942 50  0000 L CNN
+F 0 "J13" H 15230 5942 50  0000 L CNN
 F 1 "Conn_01x08" H 15230 5851 50  0000 L CNN
 F 2 "Custom:SAMTEC_TSM-108-01-F-SV" H 15150 5950 50  0001 C CNN
 F 3 "~" H 15150 5950 50  0001 C CNN
@@ -2721,14 +2557,178 @@ F 3 "~" H 15150 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x08 J?
+L Connector_Generic:Conn_01x08 J16
 U 1 1 67866B5E
 P 18600 5850
-F 0 "J?" H 18680 5842 50  0000 L CNN
+F 0 "J16" H 18680 5842 50  0000 L CNN
 F 1 "Conn_01x08" H 18680 5751 50  0000 L CNN
 F 2 "Custom:SAMTEC_TSM-108-01-F-SV" H 18600 5850 50  0001 C CNN
 F 3 "~" H 18600 5850 50  0001 C CNN
 	1    18600 5850
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J2
+U 1 1 67DE738C
+P 1950 7050
+F 0 "J2" H 2030 7042 50  0000 L CNN
+F 1 "Conn_01x08" H 2030 6951 50  0000 L CNN
+F 2 "Custom:SAMTEC_TSM-108-01-F-SV" H 1950 7050 50  0001 C CNN
+F 3 "~" H 1950 7050 50  0001 C CNN
+	1    1950 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J6
+U 1 1 67DE7D35
+P 6400 7850
+F 0 "J6" H 6480 7842 50  0000 L CNN
+F 1 "Conn_01x08" H 6480 7751 50  0000 L CNN
+F 2 "Custom:SAMTEC_TSM-108-01-F-SV" H 6400 7850 50  0001 C CNN
+F 3 "~" H 6400 7850 50  0001 C CNN
+	1    6400 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J9
+U 1 1 67DE84BB
+P 9400 8100
+F 0 "J9" H 9480 8092 50  0000 L CNN
+F 1 "Conn_01x08" H 9480 8001 50  0000 L CNN
+F 2 "Custom:SAMTEC_TSM-108-01-F-SV" H 9400 8100 50  0001 C CNN
+F 3 "~" H 9400 8100 50  0001 C CNN
+	1    9400 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J12
+U 1 1 67DE8C32
+P 12250 8250
+F 0 "J12" H 12330 8242 50  0000 L CNN
+F 1 "Conn_01x08" H 12330 8151 50  0000 L CNN
+F 2 "Custom:SAMTEC_TSM-108-01-F-SV" H 12250 8250 50  0001 C CNN
+F 3 "~" H 12250 8250 50  0001 C CNN
+	1    12250 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J14
+U 1 1 67DE9238
+P 15150 8100
+F 0 "J14" H 15230 8092 50  0000 L CNN
+F 1 "Conn_01x08" H 15230 8001 50  0000 L CNN
+F 2 "Custom:SAMTEC_TSM-108-01-F-SV" H 15150 8100 50  0001 C CNN
+F 3 "~" H 15150 8100 50  0001 C CNN
+	1    15150 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J18
+U 1 1 67DE98AB
+P 18700 8050
+F 0 "J18" H 18780 8042 50  0000 L CNN
+F 1 "Conn_01x08" H 18780 7951 50  0000 L CNN
+F 2 "Custom:SAMTEC_TSM-108-01-F-SV" H 18700 8050 50  0001 C CNN
+F 3 "~" H 18700 8050 50  0001 C CNN
+	1    18700 8050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J3
+U 1 1 67F5181C
+P 1950 9500
+F 0 "J3" H 2030 9492 50  0000 L CNN
+F 1 "Conn_01x08" H 2030 9401 50  0000 L CNN
+F 2 "Custom:SAMTEC_TSM-108-01-F-SV" H 1950 9500 50  0001 C CNN
+F 3 "~" H 1950 9500 50  0001 C CNN
+	1    1950 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J5
+U 1 1 67F52210
+P 6100 9300
+F 0 "J5" H 6180 9292 50  0000 L CNN
+F 1 "Conn_01x08" H 6180 9201 50  0000 L CNN
+F 2 "Custom:SAMTEC_TSM-108-01-F-SV" H 6100 9300 50  0001 C CNN
+F 3 "~" H 6100 9300 50  0001 C CNN
+	1    6100 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J8
+U 1 1 67F52E43
+P 9250 9600
+F 0 "J8" H 9330 9592 50  0000 L CNN
+F 1 "Conn_01x08" H 9330 9501 50  0000 L CNN
+F 2 "Custom:SAMTEC_TSM-108-01-F-SV" H 9250 9600 50  0001 C CNN
+F 3 "~" H 9250 9600 50  0001 C CNN
+	1    9250 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J11
+U 1 1 67F5398A
+P 12050 9600
+F 0 "J11" H 12130 9592 50  0000 L CNN
+F 1 "Conn_01x08" H 12130 9501 50  0000 L CNN
+F 2 "Custom:SAMTEC_TSM-108-01-F-SV" H 12050 9600 50  0001 C CNN
+F 3 "~" H 12050 9600 50  0001 C CNN
+	1    12050 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J15
+U 1 1 67F54074
+P 15200 9650
+F 0 "J15" H 15280 9642 50  0000 L CNN
+F 1 "Conn_01x08" H 15280 9551 50  0000 L CNN
+F 2 "Custom:SAMTEC_TSM-108-01-F-SV" H 15200 9650 50  0001 C CNN
+F 3 "~" H 15200 9650 50  0001 C CNN
+	1    15200 9650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J17
+U 1 1 67F545E7
+P 18600 9500
+F 0 "J17" H 18680 9492 50  0000 L CNN
+F 1 "Conn_01x08" H 18680 9401 50  0000 L CNN
+F 2 "Custom:SAMTEC_TSM-108-01-F-SV" H 18600 9500 50  0001 C CNN
+F 3 "~" H 18600 9500 50  0001 C CNN
+	1    18600 9500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 18400 9600
+NoConn ~ 18400 9700
+NoConn ~ 18400 9800
+NoConn ~ 18400 9900
+NoConn ~ 15000 9750
+NoConn ~ 15000 9850
+NoConn ~ 15000 9950
+NoConn ~ 15000 10050
+NoConn ~ 11850 9700
+NoConn ~ 11850 9800
+NoConn ~ 11850 9900
+NoConn ~ 11850 10000
+NoConn ~ 9050 9700
+NoConn ~ 9050 9800
+NoConn ~ 9050 9900
+NoConn ~ 9050 10000
+NoConn ~ 1750 9600
+NoConn ~ 1750 9700
+NoConn ~ 1750 9800
+NoConn ~ 1750 9900
+NoConn ~ 5900 9400
+NoConn ~ 5900 9500
+NoConn ~ 5900 9600
+NoConn ~ 5900 9700
+Text Label 1750 6750 2    50   ~ 0
+Electrode_12
+Text Label 1750 6850 2    50   ~ 0
+Electrode_11
+Text Label 1750 6950 2    50   ~ 0
+Electrode_10
+Text Label 1750 7050 2    50   ~ 0
+Electrode_9
 $EndSCHEMATC
